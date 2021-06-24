@@ -1,5 +1,8 @@
 {
-  "sort_categories": [],
+  "sort_categories": [
+    "categoria/assadeiras-formas-e-moldes",
+    "categoria/cortadores/biscoito-e-pasta-americana/"
+  ],
   "phone_wpp": true,
   "socials": true
 }
