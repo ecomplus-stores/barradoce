@@ -1,5 +1,5 @@
 {
-  "css": "",
+  "css": "#account-form-birth,\nlabel[for=\"account-form-birth\"] {\ndisplay: none\n}",
   "html_head": "",
   "html_body": ""
 }
