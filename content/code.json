@@ -1,5 +1,5 @@
 {
-  "css": "#account-form-birth,\nlabel[for=\"account-form-birth\"] {\ndisplay: none\n}",
+  "css": "/* RETIRA DATA DE NASCIMENTO DO FORMULARIO DE CASDTRO DE CLIENTE */\n#account-form-birth,\nlabel[for=\"account-form-birth\"] {\ndisplay: none\n}\n\n/* RETIRA OPCAO DE CANCELAR COMPRA NA PAGINA DE CONFIRMACAO DE PEDIDO */\n.order-info__toggle {\n    display: none !important;\n}",
   "html_head": "",
   "html_body": ""
 }
