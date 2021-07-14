@@ -1,5 +1,5 @@
 {
-  "css": "/*  RETIRA OPCOES DE PAGAMENTO DA PAGINA DE PRODUTO */\n.product__payment.card.mb-3 {\n   display: none\n}\n\n\n/*  RETIRA DATA DE NASCIMENTO DO FORMULARIO DE CASDTRO DE CLIENTE */\n#account-form-birth,\nlabel[for=\"account-form-birth\"] {\ndisplay: none\n}\n\n/* RETIRA OPCAO DE CANCELAR COMPRA NA PAGINA DE CONFIRMACAO DE PEDIDO */\n.order-info__toggle {\n    display: none !important;\n}\n\n/* BOTAO COMPRAR SEMPRE VISIVEL NO MOBILE */\n@media screen and (max-width: 480px) {\n.products-carousel__item  .product-card__buy.fade {\n  opacity: 1 !important;\n}}",
+  "css": "/*  RETIRA OPCOES DE PAGAMENTO DA PAGINA DE PRODUTO */\n.product__payment.card.mb-3 {\n   display: none\n}\n\n/*  RETIRA A QUANTIDADE EM ESTOQUE DA PAGINA DE PRODUTO */\n.product__short-stock {\ndisplay: none !important;}\n\n\n/*  RETIRA DATA DE NASCIMENTO DO FORMULARIO DE CASDTRO DE CLIENTE */\n#account-form-birth,\nlabel[for=\"account-form-birth\"] {\ndisplay: none\n}\n\n/* RETIRA OPCAO DE CANCELAR COMPRA NA PAGINA DE CONFIRMACAO DE PEDIDO */\n.order-info__toggle {\n    display: none !important;\n}\n\n/* BOTAO COMPRAR SEMPRE VISIVEL NO MOBILE */\n@media screen and (max-width: 480px) {\n.products-carousel__item  .product-card__buy.fade {\n  opacity: 1 !important;\n}}",
   "html_head": "",
   "html_body": ""
 }
