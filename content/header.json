@@ -2,7 +2,8 @@
   "marketing_stripe": {
     "text": "Frete grátis nas compras acima de R$ 250 para todo o estado de São Paulo",
     "link": "",
-    "background": "#ffffff"
+    "background": "#ffffff",
+    "color": "#1c1c1c"
   },
   "contacts_stripe": {
     "pages": [],
