@@ -1,24 +1,24 @@
 {
-  "store_id": 3967,
-  "name": "barradoce",
   "domain": "barradoce.netlify.app",
-  "short_name": "barradoce",
-  "description": "barradoce",
+  "currency_symbol": "R$",
   "primary_color": "#222831",
-  "secondary_color": "#393e46",
-  "bg_color": "#ffffff",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
   },
-  "logo": "/img/uploads/logo.png",
-  "mini_logo": "",
-  "icon": "/img/icon.png",
-  "large_icon": "/img/large-icon.png",
-  "favicon": "/img/uploads/favicon.png",
+  "bg_color": "#ffffff",
+  "repository": "ecomplus-stores/barradoce",
+  "logo": "/img/uploads/logo-barradoce.png",
+  "name": "BarraDoce",
+  "short_name": "BarraDoce",
   "lang": "pt_br",
   "currency": "BRL",
-  "currency_symbol": "R$",
+  "mini_logo": "",
+  "favicon": "/img/uploads/logo-bd.png",
   "country_code": "BR",
-  "repository": "ecomplus-stores/barradoce"
+  "secondary_color": "#393e46",
+  "icon": "/img/uploads/logo-bd.png",
+  "store_id": 3967,
+  "description": "Loja de utensílios de confeitaria e acessórios de festa. Tudo o que precisa para fazer bolos, chocolates, biscoitos e muito mais.",
+  "large_icon": "/img/uploads/logo-bd.png"
 }
