@@ -1,26 +1,24 @@
 {
   "marketing_stripe": {
-    "text": "Aproveite nossos descontos de até 40%!",
-    "link": "/promotion"
+    "text": "Frete grátis nas compras acima de R$ 250 para todo o estado de São Paulo",
+    "link": "",
+    "background": "#ffffff"
   },
   "contacts_stripe": {
-    "pages": [
-      {
-        "title": "Sobre nós",
-        "link": "/pages/sobre-nos"
-      },
-      {
-        "title": "Esta loja é um PWA",
-        "link": "/posts/esta-loja-e-um-pwa"
-      }
-    ],
-    "phone_wpp": true,
-    "socials": true
+    "pages": [],
+    "phone_wpp": false,
+    "socials": false
   },
   "categories_list": {
-    "featured": [],
-    "random": 6,
-    "full_width": false
+    "featured": [
+      "/categoria/assadeiras-formas-e-moldes?Assadeiras e Formas",
+      "/categoria/cortadores/biscoito-e-pasta-americana/?Cortadores",
+      "/categoria/forminhas-embalagens-e-enfeites?Forminhas e Embalagens",
+      "/categoria/ingredientes?Ingredientes e Transfers",
+      "/categoria/utensilios-de-confeitaria?Utensílios e Bicos"
+    ],
+    "random": 0,
+    "full_width": true
   },
   "search_input": true
 }
