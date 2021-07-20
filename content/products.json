@@ -5,6 +5,10 @@
       "enabled": true
     },
     {
+      "type": "product-block",
+      "enabled": false
+    },
+    {
       "type": "product-description",
       "enabled": true
     },
