@@ -1,1 +1,7 @@
 // Add your custom CSS here.
+.product-card .prices {
+  display: flex;
+  .prices__value + span {
+    order: -1
+  }
+}
