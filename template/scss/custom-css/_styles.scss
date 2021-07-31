@@ -5,3 +5,8 @@
     order: -1
   }
 }
+@media(max-width: 480px) {
+  #search-bar.d-none {
+    display: block !important;
+  }
+}
