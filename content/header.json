@@ -12,11 +12,12 @@
   },
   "categories_list": {
     "featured": [
-      "/categoria/assadeiras-formas-e-moldes?Assadeiras e Formas",
-      "/categoria/cortadores/biscoito-e-pasta-americana/?Cortadores",
-      "/categoria/forminhas-embalagens-e-enfeites?Forminhas e Embalagens",
-      "/categoria/ingredientes?Ingredientes e Transfers",
-      "/categoria/utensilios-de-confeitaria?Utensílios e Bicos"
+      "/nova/bicos-de-confeitar?Bicos de Confeitar",
+      "/categoria/formas-de-chocolate?Formas de Chocolate",
+      "/nova/formas-de-bolo-e-panificacao?Formas de Bolo e Panificação",
+      "/nova/cortadores-e-modelagem?Cortadores e modelagem",
+      "/nova/ingredientes?Ingredientes",
+      "/categoria/utensilios-de-confeitaria/ferramentas?Ferramentas"
     ],
     "random": 0,
     "full_width": true
