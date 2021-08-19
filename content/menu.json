@@ -5,7 +5,8 @@
     "nova/bicos-de-confeitar",
     "nova/cortadores-e-modelagem",
     "nova/ingredientes",
-    "nova/embalagens"
+    "nova/embalagens",
+    "categoria/utensilios-de-confeitaria/ferramentas"
   ],
   "phone_wpp": true,
   "socials": true,
