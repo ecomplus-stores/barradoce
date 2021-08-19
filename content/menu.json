@@ -1,8 +1,13 @@
 {
   "sort_categories": [
-    "categoria-1a",
-    "categoria-2a"
+    "categoria/forma-de-bolo",
+    "categoria/formas-de-chocolate",
+    "nova/bicos-de-confeitar",
+    "nova/cortadores-e-modelagem",
+    "nova/ingredientes",
+    "nova/embalagens"
   ],
   "phone_wpp": true,
-  "socials": true
+  "socials": true,
+  "alphabetical_order": false
 }
