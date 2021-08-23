@@ -6,6 +6,7 @@
       data-to-render="true"
       data-product-id="<%= _.state._id %>"
       data-sku="<%= _.state.sku %>"
+      data-gtin="<%= _.state.gtin[0] %>"
     >
       <div id="product-dock">
         <!--
@@ -67,9 +68,18 @@
           <h1 class="product__name">
             <%= _.ecomUtils.name(_.state) %>
           </h1>
-          <p class="product__sku">
-            COD: <%= _.state.sku %>
-          </p>
+          <div class="codes">
+            <span class="product__sku">
+              COD: <%= _.state.sku %>
+            </span>
+            <% if (_.state.gtin[0]) { %>
+              <span
+                class="product__ean"
+                >
+                    EAN: <%= _.state.gtin[0] %>
+              </span>
+            <% } %>
+          </div>
 
           <div id="product-actions">
             <div id="product-loading">
