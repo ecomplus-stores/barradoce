@@ -3,18 +3,11 @@
   "meta_description": "Produtos para quem trabalha com confeitaria e festas. Tudo que você precisa para fazer bolos, biscoitos, chocolates e muito mais.",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/velas-de-aniversario-para-bolos.png",
-          "link": "https://barradoce.netlify.app/categoria/enfeites/velas-de-bolo?",
-          "alt": "Compre velas para bolos de aniversário",
-          "mobile_img": "/img/uploads/velas-de-aniversario-para-bolos-mob.png"
-        }
-      ]
+      "type": "responsive-banner",
+      "img": "/img/uploads/velas-de-aniversario-para-bolos.png",
+      "mobile_img": "/img/uploads/velas-de-aniversario-para-bolos-mob.png",
+      "link": "https://barradoce.netlify.app/categoria/enfeites/velas-de-bolo?",
+      "alt": "Compre velas de bolo nos mais variados modelos"
     },
     {
       "type": "info-bar",
@@ -42,13 +35,13 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
-      "collection_id": "611eb605cfbcd97059834fb0:categories:Bicos de Confeitar:/nova/bicos-de-confeitar",
+      "shuffle": false,
       "limit": 12,
       "page": 1,
+      "collection_id": "611eb605cfbcd97059834fb0:categories:Bicos de Confeitar:/nova/bicos-de-confeitar",
       "sort": "views",
-      "title": "Bicos de confeitar",
-      "link": "https://barradoce.netlify.app/nova/bicos-de-confeitar"
+      "link": "https://barradoce.netlify.app/nova/bicos-de-confeitar",
+      "title": "Bicos de confeitar"
     },
     {
       "type": "page-title",
