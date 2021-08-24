@@ -31,11 +31,6 @@
       "link": "https://barradoce.netlify.app/nova/bicos-de-confeitar"
     },
     {
-      "type": "page-title",
-      "title": "Loja BarraDoce - Utensílios de confeitaria e acessórios de festa",
-      "description": ""
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
@@ -54,6 +49,11 @@
       "sort": "views",
       "title": "Corantes",
       "link": "https://barradoce.netlify.app/nova/corantes-e-anilinas"
+    },
+    {
+      "type": "page-title",
+      "title": "Loja BarraDoce - Utensílios de confeitaria e acessórios de festa",
+      "description": ""
     }
   ]
 }
