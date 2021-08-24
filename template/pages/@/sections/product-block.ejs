@@ -72,7 +72,7 @@
             <span class="product__sku">
               COD: <%= _.state.sku %>
             </span>
-            <% if (_.state.gtin[0]) { %>
+            <% if (_.state.gtin && _.state.gtin[0]) { %>
               <span
                 class="product__ean"
                 >
