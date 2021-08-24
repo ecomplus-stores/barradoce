@@ -30,6 +30,11 @@
       "title": "Produtos imperdíveis"
     },
     {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "views"
+    },
+    {
       "type": "page-title",
       "title": "Loja BarraDoce - Utensílios de confeitaria e acessórios de festa",
       "description": ""
