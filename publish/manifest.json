@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.f6a65c1bbe3c1bb7287f0475dbd7e2d0.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.546a897f4229c44400e6a4eef80c4097.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.a10011882493fe6b2c1465590b01fdd1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.f2f064336293897e2ea42e5d9c35b390.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.c50b52eb1ac7138ab933b35f52200e70.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "BarraDoce",
+  "short_name": "BarraDoce",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "Loja de utensílios de confeitaria e acessórios de festa. Tudo o que precisa para fazer bolos, chocolates, biscoitos e muito mais.",
+  "background_color": "#ffffff",
+  "theme_color": "#222831"
+}
