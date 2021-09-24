@@ -6,7 +6,12 @@
   "links_1": {
     "list_pages": true,
     "title": "Institucional",
-    "list": []
+    "list": [
+      {
+        "text": "Blog",
+        "url": "https://barra-doce.web.app/blog"
+      }
+    ]
   },
   "links_2": {
     "list_categories": true,
