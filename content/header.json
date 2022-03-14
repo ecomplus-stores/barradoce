@@ -12,12 +12,12 @@
   },
   "categories_list": {
     "featured": [
-      "/nova/bicos-de-confeitar?Bicos de Confeitar",
+      "/categoria/bicos-de-confeitar?Bicos de Confeitar",
       "/categoria/formas-de-chocolate?Formas de Chocolate",
-      "/nova/formas-de-bolo-e-panificacao?Formas de Bolo e Panificação",
-      "/nova/cortadores-e-modelagem?Cortadores e modelagem",
-      "/nova/ingredientes?Ingredientes",
-      "/categoria/utensilios-de-confeitaria/ferramentas?Ferramentas"
+      "/categoria/formas-de-bolo-e-panificacao?Formas de Bolo e Panificação",
+      "/categoria/cortadores-e-modelagem-para-confeitaria?Cortadores e modelagem",
+      "/categoria/ingredientes-para-bolo-e-confeitaria?Ingredientes",
+      "/categoria/ferramentas-de-confeitaria?Ferramentas"
     ],
     "random": 0,
     "full_width": true
