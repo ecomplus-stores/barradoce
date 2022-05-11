@@ -69,3 +69,6 @@
 .search-engine__info {
   display: none !important;
 }
+.product-card__name {
+    --max-lines: 3 !important;
+}
