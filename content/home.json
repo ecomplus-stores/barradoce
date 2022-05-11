@@ -3,20 +3,6 @@
   "meta_description": "Produtos para quem trabalha com confeitaria e festas. Tudo que você precisa para fazer bolos, biscoitos, chocolates e muito mais.",
   "sections": [
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "slides": [
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/velas-de-aniversario-para-bolos.png",
-          "link": "https://barra-doce.web.app/categoria/velas-de-bolo",
-          "alt": "Velas de bolo em diversos modelos, compre agora",
-          "mobile_img": "/img/uploads/velas-de-aniversario-para-bolos-mob.png"
-        }
-      ]
-    },
-    {
       "type": "info-bar",
       "enabled": true
     },
@@ -51,6 +37,15 @@
       "type": "page-title",
       "title": "Loja BarraDoce - Utensílios de confeitaria e acessórios de festa",
       "description": ""
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 24,
+      "page": 1,
+      "collection_id": "627bc6953da6d37bc22df2f8:collections:Natal:/colecao/natal",
+      "title": "Uma seleção completa de produtos para o seu Natal",
+      "link": "https://barra-doce.web.app/colecao/natal"
     }
   ]
 }
