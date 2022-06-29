@@ -75,3 +75,8 @@
 .discount-applier.checkout__discount, .checkout__notes {
   display: none !important;
 }
+.cart-item__out-of-stock {
+  padding: 10px;
+    background: red;
+    color: #fff;
+}
