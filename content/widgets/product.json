@@ -6,6 +6,7 @@
     "buyText": "Adicionar",
     "buy": "",
     "strHasQuantitySelector": "_",
+    "strHasPromotionTimer": "_",
     "lowQuantityToWarn": 3,
     "maxVariationOptionsBtns": 6
   }
