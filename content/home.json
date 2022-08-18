@@ -74,11 +74,6 @@
       "img": "/img/uploads/clique-e-retire-em-nossa-loja-fi-sica.webp"
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "views"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 18,
