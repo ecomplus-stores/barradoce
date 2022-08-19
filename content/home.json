@@ -10,9 +10,9 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/velas-de-aniversario-para-bolos.png",
-          "link": "https://barra-doce.web.app/categoria/velas-para-bolo",
-          "alt": "As velas para bolo de aniversário mais divertidas e bonitas que você já viu"
+          "img": "/img/uploads/promoc-a-o-de-bicos-de-confeitar.jpeg",
+          "link": "https://barra-doce.web.app/categoria/bicos-de-confeitar",
+          "alt": "Bicos de confeitar em promoção: Wilton, Mago e Cake Brasil"
         }
       ]
     },
@@ -71,7 +71,9 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/clique-e-retire-em-nossa-loja-fi-sica.webp"
+      "img": "/img/uploads/emulsa-o-mago-para-confeitaria.jpeg",
+      "link": "https://barra-doce.web.app/categoria/essencias-e-aromas",
+      "alt": "Emulsão para confeitaria Mago"
     },
     {
       "type": "collection-shelf",
@@ -82,6 +84,12 @@
       "sort": "views",
       "title": "Moldes de silicone para decoração de bolos e doces",
       "link": "https://barra-doce.web.app/categoria/rolos-de-massa-e-carretilhas"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/formas-de-chocolate-em-policabonato.jpeg",
+      "link": "https://barra-doce.web.app/categoria/formas-de-bombons-e-trufas",
+      "alt": "Lançamento: forma para tablete de chocolate cacau, Gramado Injetados"
     },
     {
       "type": "page-title",
