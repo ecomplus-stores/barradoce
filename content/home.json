@@ -43,13 +43,6 @@
       ]
     },
     {
-      "type": "brands-carousel",
-      "limit": 48,
-      "offset": 0,
-      "sort": null,
-      "autoplay": 0
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 18,
@@ -58,6 +51,13 @@
       "sort": "sales",
       "title": "Formas de bolo",
       "link": "https://barra-doce.web.app/categoria/formas-de-bolo"
+    },
+    {
+      "type": "brands-carousel",
+      "limit": 48,
+      "offset": 0,
+      "sort": null,
+      "autoplay": 0
     },
     {
       "type": "collection-shelf",
