@@ -21,10 +21,10 @@
       "shuffle": true,
       "limit": 24,
       "page": 1,
-      "collection_id": "6241d0ac2e405e04ff04a198:categories:Bico estrela e pitanga:/categoria/bicos-de-confeitar-estrela-e-pitanga",
-      "sort": "views",
-      "title": "Linha completa de bicos de confeitar",
-      "link": "https://barra-doce.web.app/categoria/bicos-de-confeitar"
+      "collection_id": null,
+      "sort": "offers",
+      "title": "Promoções",
+      "link": "https://barra-doce.web.app/pages/promocoes"
     },
     {
       "type": "banners-grid",
