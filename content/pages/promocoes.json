@@ -3,7 +3,7 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 12,
+      "limit": 20,
       "page": 1,
       "sort": "offers",
       "title": "Promoções"
