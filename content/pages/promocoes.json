@@ -1,0 +1,16 @@
+{
+  "sections": [
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "sort": "offers",
+      "title": "Promoções"
+    }
+  ],
+  "title": "Promoções",
+  "meta_title": "Produtos para confeitaria em promoção",
+  "meta_description": "Aqui na BarraDoce você sempre encontra excelentes produtos com descontos imperdíveis! Toda semana uma nova promoção para você aproveitar!",
+  "body": "Confira esta super seleção de produtos em promoção."
+}
