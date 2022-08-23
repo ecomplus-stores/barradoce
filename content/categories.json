@@ -10,6 +10,11 @@
       "sort": "offers"
     },
     {
+      "type": "dynamic-showcase",
+      "load_more": false,
+      "sort": "news"
+    },
+    {
       "type": "page-title"
     },
     {
