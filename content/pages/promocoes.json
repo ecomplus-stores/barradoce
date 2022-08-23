@@ -1,16 +1,8 @@
 {
   "sections": [
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 20,
-      "page": 1,
-      "sort": "offers",
-      "title": "Promoções"
-    },
-    {
       "type": "dynamic-showcase",
-      "load_more": true,
+      "load_more": false,
       "sort": "offers"
     }
   ],
