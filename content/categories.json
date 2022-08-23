@@ -5,6 +5,11 @@
       "enabled": true
     },
     {
+      "type": "dynamic-showcase",
+      "load_more": false,
+      "sort": "offers"
+    },
+    {
       "type": "page-title"
     },
     {
