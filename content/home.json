@@ -12,7 +12,8 @@
           "end": "",
           "img": "/img/uploads/promoc-a-o-de-bicos-de-confeitar.jpeg",
           "link": "https://barra-doce.web.app/categoria/bicos-de-confeitar",
-          "alt": "Bicos de confeitar em promoção: Wilton, Mago e Cake Brasil"
+          "alt": "Bicos de confeitar em promoção: Wilton, Mago e Cake Brasil",
+          "mobile_img": "/img/uploads/20220819_promoc-a-o-bicos-15off_mobile.jpg"
         }
       ]
     },
@@ -21,10 +22,10 @@
       "shuffle": true,
       "limit": 24,
       "page": 1,
-      "collection_id": null,
+      "collection_id": "6241cf482e405e04ff049dc4:categories:Bicos de confeitar:/categoria/bicos-de-confeitar",
       "sort": "offers",
-      "title": "Promoções",
-      "link": "https://barra-doce.web.app/pages/promocoes"
+      "title": "Bicos de confeitar",
+      "link": "https://barra-doce.web.app/categoria/bicos-de-confeitar"
     },
     {
       "type": "banners-grid",
@@ -73,7 +74,8 @@
       "type": "responsive-banner",
       "img": "/img/uploads/emulsa-o-mago-para-confeitaria.jpeg",
       "link": "https://barra-doce.web.app/categoria/essencias-e-aromas",
-      "alt": "Emulsão para confeitaria Mago"
+      "alt": "Emulsão para confeitaria Mago",
+      "mobile_img": "/img/uploads/20220819_emulsao-saborizante_mobile.jpg"
     },
     {
       "type": "collection-shelf",
@@ -89,7 +91,27 @@
       "type": "responsive-banner",
       "img": "/img/uploads/formas-de-chocolate-em-policabonato.jpeg",
       "link": "https://barra-doce.web.app/categoria/formas-de-bombons-e-trufas",
-      "alt": "Lançamento: forma para tablete de chocolate cacau, Gramado Injetados"
+      "alt": "Lançamento: forma para tablete de chocolate cacau, Gramado Injetados",
+      "mobile_img": "/img/uploads/20220819_formas-de-policarbonato_mobile.jpg"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 24,
+      "page": 1,
+      "collection_id": "6242025e2e405e04ff055ba6:categories:Formas de barra de e tablete de chocolate:/categoria/formas-de-barra-e-tablete-de-chocolate",
+      "sort": "sales",
+      "title": "Formas de chocolate para tabletes e barras",
+      "link": "https://barra-doce.web.app/categoria/formas-de-barra-e-tablete-de-chocolate"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 24,
+      "page": 1,
+      "collection_id": "6242020b2e405e04ff055a3c:categories:Formas de bombons e trufas:/categoria/formas-de-bombons-e-trufas",
+      "sort": "sales",
+      "title": "Formas de chocolate para trufas e bombons"
     },
     {
       "type": "page-title",
