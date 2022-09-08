@@ -2,6 +2,43 @@ import * as merge from 'lodash.merge'
 import query from '@ecomplus/search-engine/src/lib/dsl'
 
 export default (self, term) => {
+  const words = (term || '').split(' ').map(word => {
+    switch (word) {
+      case 'cortador':
+        return 'cortadores'
+      default:
+        return word
+    }
+  })
+  const changeWord = (term) => {
+    const arr = (term || '').split(' ')
+    if (arr.length > 1) {
+      const newArr = arr.map(word => {
+        const lower = word.toLowerCase()
+        switch (lower) {
+          case 'cortador':
+          case 'cortadore':
+            return 'cortadores'
+          case 'formas':
+            return 'forma'
+          case 'bicos':
+            return 'bico'
+          case 'açucar':
+            return 'açúcar'
+          case 'bailarina':
+            return 'bailarina para'
+          case 'chocolates':
+            return 'chocolate'
+          default:
+            return lower
+        }
+      })
+      return newArr.join(' ')
+    } else {
+      return arr[0].replace(/(es)|s$/g, '')
+    }
+
+  }
   // match name and/or keyword with term
   // https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-multi-match-query.html
   if (term) {
@@ -11,17 +48,18 @@ export default (self, term) => {
     self.dsl.sort = sort
   }
   console.log(self)
+  const modifiedTerm = changeWord(term)
   self.mergeFilter({
     multi_match: {
-      query: term,
+      query: (modifiedTerm || term),
       type: 'phrase_prefix',
       fields: [
         'name',
         'keywords'
       ]
     }
-  }, 'must') 
-
+  }, 'must')
+  
   merge(self.dsl, {
     // handle terms suggestion
     // 'did you mean?'
