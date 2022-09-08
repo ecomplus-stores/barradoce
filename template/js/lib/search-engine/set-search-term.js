@@ -2,16 +2,8 @@ import * as merge from 'lodash.merge'
 import query from '@ecomplus/search-engine/src/lib/dsl'
 
 export default (self, term) => {
-  const words = (term || '').split(' ').map(word => {
-    switch (word) {
-      case 'cortador':
-        return 'cortadores'
-      default:
-        return word
-    }
-  })
-  const changeWord = (term) => {
-    const arr = (term || '').split(' ')
+  const arr = (term || '').split(' ')
+  const changeWord = (arr) => { 
     if (arr.length > 1) {
       const newArr = arr.map(word => {
         const lower = word.toLowerCase()
@@ -48,17 +40,29 @@ export default (self, term) => {
     self.dsl.sort = sort
   }
   console.log(self)
-  const modifiedTerm = changeWord(term)
-  self.mergeFilter({
-    multi_match: {
-      query: (modifiedTerm || term),
-      type: 'phrase_prefix',
-      fields: [
-        'name',
-        'keywords'
-      ]
-    }
-  }, 'must')
+  const modifiedTerm = changeWord(arr)
+  if (arr.length > 1) {
+    self.mergeFilter({
+      multi_match: {
+        query: (modifiedTerm || term),
+        fields: [
+          'name',
+          'keywords'
+        ]
+      }
+    }, 'must')
+  } else {
+    self.mergeFilter({
+      multi_match: {
+        query: (modifiedTerm || term),
+        type: 'phrase_prefix',
+        fields: [
+          'name',
+          'keywords'
+        ]
+      }
+    }, 'must')
+  }
   
   merge(self.dsl, {
     // handle terms suggestion
