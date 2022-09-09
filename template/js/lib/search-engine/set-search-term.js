@@ -41,28 +41,16 @@ export default (self, term) => {
   }
   console.log(self)
   const modifiedTerm = changeWord(arr)
-  if (arr.length > 1) {
-    self.mergeFilter({
-      multi_match: {
-        query: (modifiedTerm || term),
-        fields: [
-          'name',
-          'keywords'
-        ]
-      }
-    }, 'must')
-  } else {
-    self.mergeFilter({
-      multi_match: {
-        query: (modifiedTerm || term),
-        type: 'phrase_prefix',
-        fields: [
-          'name',
-          'keywords'
-        ]
-      }
-    }, 'must')
-  }
+  self.mergeFilter({
+    multi_match: {
+      query: (modifiedTerm || term),
+      type: arr.length > 1 ? 'best_fields' : 'phrase_prefix',
+      fields: [
+        'name',
+        'keywords'
+      ]
+    }
+  }, 'must')
   
   merge(self.dsl, {
     // handle terms suggestion
