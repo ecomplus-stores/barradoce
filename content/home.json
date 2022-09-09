@@ -23,25 +23,9 @@
       "limit": 24,
       "page": 1,
       "collection_id": "6241cf482e405e04ff049dc4:categories:Bicos de confeitar:/categoria/bicos-de-confeitar",
-      "sort": "offers",
+      "sort": "views",
       "title": "Bicos de confeitar",
       "link": "https://barra-doce.web.app/categoria/bicos-de-confeitar"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/enrolador-de-brigadeiros.webp",
-          "link": "https://barra-doce.web.app/search?term=enrolador",
-          "alt": "Compre enrolador de brigadeiros BlueStar",
-          "mobile_img": ""
-        },
-        {
-          "img": "/img/uploads/formas-popit.webp",
-          "link": "https://barra-doce.web.app/search?term=pop+it",
-          "alt": "Formas de chocolate para Pop It"
-        }
-      ]
     },
     {
       "type": "collection-shelf",
@@ -59,6 +43,22 @@
       "offset": 0,
       "sort": null,
       "autoplay": 0
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/enrolador-de-brigadeiros.webp",
+          "link": "https://barra-doce.web.app/search?term=enrolador",
+          "alt": "Compre enrolador de brigadeiros BlueStar",
+          "mobile_img": ""
+        },
+        {
+          "img": "/img/uploads/formas-popit.webp",
+          "link": "https://barra-doce.web.app/search?term=pop+it",
+          "alt": "Formas de chocolate para Pop It"
+        }
+      ]
     },
     {
       "type": "collection-shelf",
