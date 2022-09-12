@@ -10,17 +10,15 @@ export default (self, term) => {
         switch (lower) {
           case 'cortador':
           case 'cortadore':
-            return 'cortadores'
+            return 'corta'
           case 'formas':
             return 'forma'
           case 'bicos':
             return 'bico'
           case 'açucar':
             return 'açúcar'
-          case 'bailarina':
-            return 'bailarina para'
           case 'chocolates':
-            return 'chocolate'
+            return 'chocol'
           default:
             return lower
         }
@@ -41,10 +39,11 @@ export default (self, term) => {
   }
   console.log(self)
   const modifiedTerm = changeWord(arr)
+  const finalTerm = modifiedTerm || term
   self.mergeFilter({
     multi_match: {
-      query: (modifiedTerm || term),
-      type: arr.length > 1 ? 'best_fields' : 'phrase_prefix',
+      query: finalTerm,
+      type: finalTerm.length > 6 ? 'best_fields' : 'phrase_prefix',
       fields: [
         'name',
         'keywords'
