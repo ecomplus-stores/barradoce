@@ -29,10 +29,10 @@
     },
     {
       "type": "brands-carousel",
-      "limit": 48,
+      "limit": 46,
       "offset": 0,
-      "sort": null,
-      "autoplay": 0
+      "sort": "name",
+      "autoplay": 1000
     },
     {
       "type": "collection-shelf",
