@@ -19,6 +19,16 @@ export default (self, term) => {
             return 'açúcar'
           case 'chocolates':
             return 'chocol'
+          case 'termômetro':
+            return 'termometro'
+          case 'espátula':
+            return 'espatula'
+          case 'folha chumbo':
+            return 'papel chumbo'
+          case 'páscoa':
+            return 'pascoa'
+          case 'color bits':
+            return 'colorbits'
           default:
             return lower
         }
