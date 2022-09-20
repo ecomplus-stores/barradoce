@@ -11,7 +11,9 @@
   "links_2": {
     "list_categories": true,
     "title": "Categorias",
-    "list": []
+    "list": [
+      {}
+    ]
   },
   "contacts": {
     "title": "Contatos",
@@ -22,8 +24,13 @@
   },
   "stamps": [
     {
-      "src": "",
-      "alt": ""
+      "src": "/img/uploads/google-safe-browsing-site-seguro.png",
+      "alt": "Comprar na BarraDoce é totalmente seguro",
+      "link": "https://transparencyreport.google.com/safe-browsing/search?url=www.barradoce.com.br"
+    },
+    {
+      "src": "/img/uploads/lets-encrypt-site-seguro.png",
+      "alt": "Compre com segurança e tranquilidade na BarraDoce"
     }
   ],
   "payment_methods": {
