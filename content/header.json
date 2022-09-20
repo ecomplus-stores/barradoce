@@ -6,9 +6,14 @@
     "color": "#1c1c1c"
   },
   "contacts_stripe": {
-    "pages": [],
-    "phone_wpp": false,
-    "socials": false
+    "pages": [
+      {
+        "title": "Fale conosco",
+        "link": "https://barra-doce.web.app/pages/contato"
+      }
+    ],
+    "phone_wpp": true,
+    "socials": true
   },
   "categories_list": {
     "featured": [
@@ -23,5 +28,7 @@
     "full_width": true
   },
   "search_input": true,
-  "desktop_megamenu": false
+  "desktop_megamenu": false,
+  "alphabetical_order_submenu": true,
+  "full_width_submenu": true
 }
