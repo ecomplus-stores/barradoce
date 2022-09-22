@@ -13,9 +13,9 @@ import {
   } from '@ecomplus/utils'
   
   import { modules } from '@ecomplus/client'
-  import sortApps from './helpers/sort-apps'
+  import sortApps from '@ecomplus/storefront-components/src/js/helpers/sort-apps'
   import CleaveInput from 'vue-cleave-component'
-  import ShippingLine from '../ShippingLine.vue'
+  import ShippingLine from '@ecomplus/storefront-components/src/ShippingLine.vue'
   
   const localStorage = typeof window === 'object' && window.localStorage
   const zipStorageKey = 'shipping-to-zip'

@@ -25,20 +25,20 @@
       "collection_id": "6241fc852e405e04ff0541da:categories:Formas de bolo:/categoria/formas-de-bolo",
       "sort": "sales",
       "title": "Formas de bolo",
-      "link": "https://barra-doce.web.app/categoria/formas-de-bolo"
+      "link": "/categoria/formas-de-bolo"
     },
     {
       "type": "banners-grid",
       "banners": [
         {
           "img": "/img/uploads/bicos-de-confeitar.jpg",
-          "link": "https://barra-doce.web.app/categoria/bicos-de-confeitar",
+          "link": "/categoria/bicos-de-confeitar",
           "alt": "Bicos de confeitar originais da Wilton, Cake Brasil e Mago",
           "mobile_img": ""
         },
         {
           "img": "/img/uploads/batedores-fouet-de-cozinha.jpg",
-          "link": "https://barra-doce.web.app/categoria/batedores-e-fouet",
+          "link": "/categoria/batedores-e-fouet",
           "alt": "Batedores fouet para cozinha"
         }
       ]
@@ -58,20 +58,20 @@
       "collection_id": "6241d0ac2e405e04ff04a198:categories:Bicos estrela e pitanga:/categoria/bicos-de-confeitar-estrela-e-pitanga",
       "sort": "views",
       "title": "Bicos de confeitar pitanga",
-      "link": "https://barra-doce.web.app/categoria/bicos-de-confeitar-estrela-e-pitanga"
+      "link": "/categoria/bicos-de-confeitar-estrela-e-pitanga"
     },
     {
       "type": "banners-grid",
       "banners": [
         {
           "img": "/img/uploads/enrolador-de-brigadeiros.webp",
-          "link": "https://barra-doce.web.app/search?term=enrolador",
+          "link": "/search?term=enrolador",
           "alt": "Compre enrolador de brigadeiros BlueStar",
           "mobile_img": ""
         },
         {
           "img": "/img/uploads/formas-popit.webp",
-          "link": "https://barra-doce.web.app/search?term=pop+it",
+          "link": "/search?term=pop+it",
           "alt": "Formas de chocolate para Pop It"
         }
       ]
@@ -84,12 +84,12 @@
       "collection_id": "6241d37e2e405e04ff04a9bc:categories:Cortadores de biscoito e pasta americana:/categoria/cortadores-de-biscoito-e-pasta-americana",
       "sort": "views",
       "title": "Cortadores de biscoito",
-      "link": "https://barra-doce.web.app/categoria/cortadores-de-biscoito-e-pasta-americana"
+      "link": "/categoria/cortadores-de-biscoito-e-pasta-americana"
     },
     {
       "type": "responsive-banner",
       "img": "/img/uploads/emulsa-o-mago-para-confeitaria.jpeg",
-      "link": "https://barra-doce.web.app/categoria/essencias-e-aromas",
+      "link": "/categoria/essencias-e-aromas",
       "alt": "Emulsão para confeitaria Mago",
       "mobile_img": "/img/uploads/20220819_emulsao-saborizante_mobile.jpg"
     },
@@ -101,12 +101,12 @@
       "collection_id": "6241d4d62e405e04ff04acc5:categories:Moldes de silicone:/categoria/moldes-de-silicone",
       "sort": "views",
       "title": "Moldes de silicone para decoração de bolos e doces",
-      "link": "https://barra-doce.web.app/categoria/rolos-de-massa-e-carretilhas"
+      "link": "/categoria/rolos-de-massa-e-carretilhas"
     },
     {
       "type": "responsive-banner",
       "img": "/img/uploads/formas-de-chocolate-em-policabonato.jpeg",
-      "link": "https://barra-doce.web.app/categoria/formas-de-bombons-e-trufas",
+      "link": "/categoria/formas-de-bombons-e-trufas",
       "alt": "Lançamento: forma para tablete de chocolate cacau, Gramado Injetados",
       "mobile_img": "/img/uploads/20220819_formas-de-policarbonato_mobile.jpg"
     },
@@ -118,19 +118,19 @@
       "collection_id": "6242025e2e405e04ff055ba6:categories:Formas de barra de e tablete de chocolate:/categoria/formas-de-barra-e-tablete-de-chocolate",
       "sort": "sales",
       "title": "Formas de chocolate para tabletes e barras",
-      "link": "https://barra-doce.web.app/categoria/formas-de-barra-e-tablete-de-chocolate"
+      "link": "/categoria/formas-de-barra-e-tablete-de-chocolate"
     },
     {
       "type": "banners-grid",
       "banners": [
         {
           "img": "/img/uploads/desmoldante-para-forma.jpg",
-          "link": "https://barra-doce.web.app/categoria/desmoldantes-de-formas",
+          "link": "/categoria/desmoldantes-de-formas",
           "alt": "Os melhores desmoldantes para formas"
         },
         {
           "img": "/img/uploads/grade-de-resfriamento.jpg",
-          "link": "https://barra-doce.web.app/categoria/grade-de-bolo-e-resfriamento",
+          "link": "/categoria/grade-de-bolo-e-resfriamento",
           "alt": "Grades de confeiteiro"
         }
       ]
@@ -149,12 +149,12 @@
       "banners": [
         {
           "img": "/img/uploads/termo-metro-de-cozinha.jpg",
-          "link": "https://barra-doce.web.app/categoria/termometros",
+          "link": "/categoria/termometros",
           "alt": "Termômetro culinário"
         },
         {
           "img": "/img/uploads/tapete-antiaderente.jpg",
-          "link": "https://barra-doce.web.app/categoria/tapetes-antiaderentes",
+          "link": "/categoria/tapetes-antiaderentes",
           "alt": "Tapetes antiaderentes"
         }
       ]
@@ -167,7 +167,7 @@
       "sort": "views",
       "collection_id": "6241fc692e405e04ff05416a:categories:AROS PARA BOLOS E TORTAS:/categoria/aro-para-bolos-e-tortas",
       "title": "Aros para bolos e tortas",
-      "link": "https://barra-doce.web.app/categoria/aro-para-bolos-e-tortas"
+      "link": "/categoria/aro-para-bolos-e-tortas"
     },
     {
       "type": "page-title",
