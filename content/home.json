@@ -89,8 +89,8 @@
     {
       "type": "responsive-banner",
       "img": "/img/uploads/emulsa-o-mago-para-confeitaria.jpeg",
-      "link": "/categoria/essencias-e-aromas",
-      "alt": "Emulsão para confeitaria Mago",
+      "link": "https://barra-doce.web.app/search?term=emuls%C3%A3o+saborizante+mago",
+      "alt": "Emulsão saborizante para confeitaria Mago",
       "mobile_img": "/img/uploads/20220819_emulsao-saborizante_mobile.jpg"
     },
     {
@@ -106,7 +106,7 @@
     {
       "type": "responsive-banner",
       "img": "/img/uploads/formas-de-chocolate-em-policabonato.jpeg",
-      "link": "/categoria/formas-de-bombons-e-trufas",
+      "link": "https://barra-doce.web.app/marcas/gramado-injetados",
       "alt": "Lançamento: forma para tablete de chocolate cacau, Gramado Injetados",
       "mobile_img": "/img/uploads/20220819_formas-de-policarbonato_mobile.jpg"
     },
