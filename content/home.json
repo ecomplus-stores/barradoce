@@ -28,6 +28,22 @@
       "link": "https://barra-doce.web.app/categoria/formas-de-bolo"
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/bicos-de-confeitar.jpg",
+          "link": "https://barra-doce.web.app/categoria/bicos-de-confeitar",
+          "alt": "Bicos de confeitar originais da Wilton, Cake Brasil e Mago",
+          "mobile_img": ""
+        },
+        {
+          "img": "/img/uploads/batedores-fouet-de-cozinha.jpg",
+          "link": "https://barra-doce.web.app/categoria/batedores-e-fouet",
+          "alt": "Batedores fouet para cozinha"
+        }
+      ]
+    },
+    {
       "type": "brands-carousel",
       "limit": 46,
       "offset": 0,
