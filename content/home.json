@@ -121,6 +121,21 @@
       "link": "https://barra-doce.web.app/categoria/formas-de-barra-e-tablete-de-chocolate"
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/desmoldante-para-forma.jpg",
+          "link": "https://barra-doce.web.app/categoria/desmoldantes-de-formas",
+          "alt": "Os melhores desmoldantes para formas"
+        },
+        {
+          "img": "/img/uploads/grade-de-resfriamento.jpg",
+          "link": "https://barra-doce.web.app/categoria/grade-de-bolo-e-resfriamento",
+          "alt": "Grades de confeiteiro"
+        }
+      ]
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 24,
@@ -128,6 +143,31 @@
       "collection_id": "6242020b2e405e04ff055a3c:categories:Formas de bombons e trufas:/categoria/formas-de-bombons-e-trufas",
       "sort": "sales",
       "title": "Formas de chocolate para trufas e bombons"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/termo-metro-de-cozinha.jpg",
+          "link": "https://barra-doce.web.app/categoria/termometros",
+          "alt": "Termômetro culinário"
+        },
+        {
+          "img": "/img/uploads/tapete-antiaderente.jpg",
+          "link": "https://barra-doce.web.app/categoria/tapetes-antiaderentes",
+          "alt": "Tapetes antiaderentes"
+        }
+      ]
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "sort": "views",
+      "collection_id": "6241fc692e405e04ff05416a:categories:AROS PARA BOLOS E TORTAS:/categoria/aro-para-bolos-e-tortas",
+      "title": "Aros para bolos e tortas",
+      "link": "https://barra-doce.web.app/categoria/aro-para-bolos-e-tortas"
     },
     {
       "type": "page-title",
