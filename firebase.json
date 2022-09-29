@@ -50995,7 +50995,7 @@
         "regex": "/busca*",
         "destination": "/search",
         "type": 301
-      },
+      }
     ],
     "public": "dist",
     "ignore": [
