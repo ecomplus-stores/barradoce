@@ -35147,17 +35147,12 @@
         "type": 301
       },
       {
-        "source": "/404?url=/checkout/payment",
+        "regex": "/checkout/payment*",
         "destination": "/",
         "type": 301
       },
       {
-        "source": "/checkout/payment",
-        "destination": "/",
-        "type": 301
-      },
-      {
-        "source": "/404?url=/â€Ž",
+        "regex": "/404?url=/â*",
         "destination": "/",
         "type": 301
       },
@@ -35167,27 +35162,12 @@
         "type": 301
       },
       {
-        "source": "/?gclid=CO3xzcOA59ACFYWBkQodZ2YE3g",
+        "regex": "/?gclid*",
         "destination": "/",
         "type": 301
       },
       {
-        "source": "/?gclid=EAIaIQobChMI9-TkqKqM1wIVCLjACh0HxgfxEAAYAiAAEgIITPD_BwE",
-        "destination": "/",
-        "type": 301
-      },
-      {
-        "source": "/?origem=B_10",
-        "destination": "/",
-        "type": 301
-      },
-      {
-        "source": "/?origem=B_17",
-        "destination": "/",
-        "type": 301
-      },
-      {
-        "source": "/?origem=B_171/",
+        "regex": "/?origem*",
         "destination": "/",
         "type": 301
       },
