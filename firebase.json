@@ -7,11 +7,6 @@
         "type": 301
       },
       {
-        "source": "/busca",
-        "destination": "/search",
-        "type": 301
-      },
-      {
         "source": "/20-pc-beginning-buttercream-decorating-wilton",
         "destination": "/categoria/bicos-de-confeitar",
         "type": 301
@@ -35147,12 +35142,12 @@
         "type": 301
       },
       {
-        "regex": "/checkout/payment*",
+        "regex": "/checkout/payment",
         "destination": "/",
         "type": 301
       },
       {
-        "regex": "/404?url=/â*",
+        "source": "/404?url=/â€Ž",
         "destination": "/",
         "type": 301
       },
@@ -35162,12 +35157,22 @@
         "type": 301
       },
       {
-        "regex": "/?gclid*",
+        "regex": "/?gclid=*",
         "destination": "/",
         "type": 301
       },
       {
-        "regex": "/?origem*",
+        "regex": "/?origem=*",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/?origem=B_17",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/?origem=B_171/",
         "destination": "/",
         "type": 301
       },
@@ -36303,21 +36308,6 @@
       },
       {
         "source": "/marcas",
-        "destination": "/",
-        "type": 301
-      },
-      {
-        "source": "/marcas/decora",
-        "destination": "/",
-        "type": 301
-      },
-      {
-        "source": "/marcas/deglon",
-        "destination": "/",
-        "type": 301
-      },
-      {
-        "source": "/marcas/demarle",
         "destination": "/",
         "type": 301
       },
@@ -44182,11 +44172,6 @@
         "type": 301
       },
       {
-        "source": "/categoria/formas-de-chocolate",
-        "destination": "/categoria/formas-de-chocolate",
-        "type": 301
-      },
-      {
         "source": "/dessert-accent-candy-mold-wilton",
         "destination": "/categoria/formas-de-chocolate",
         "type": 301
@@ -50482,7 +50467,7 @@
         "type": 301
       },
       {
-        "source": "/mycryo-manteiga-de-cacau-callebaut-temperar-chocolate",
+        "source": "/404?url=/mycryo-manteiga-de-cacau-callebaut-temperar-chocolate",
         "destination": "/produto/manteiga-de-cacau-500g-tradal",
         "type": 301
       },
