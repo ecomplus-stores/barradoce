@@ -14,7 +14,6 @@ try {
     }
   })
   brands = data.result
-  console.log(brands)
 } catch (err) {
   console.error(err)
 }
@@ -44,10 +43,11 @@ if (brands && brands.length) {
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides brands-carousel__list">
           <% brands.forEach(({ name, slug, logo }) => { %>
+            <% const [width, height] = (logo && logo.size || '').split('x').map(px => parseInt(px, 10)) %>
             <li class="glide__slide brands-carousel__item">
               <a href="<%= slug ? `/${slug}` : '#' %>">
                 <% if (logo) { %>
-                  <img data-src="<%= logo.url %>" alt="<%= name %>" class="lozad fade img-fluid">
+                  <img width="<%= width %>" height="<%= height %>" data-src="<%= logo.url %>" alt="<%= name %>" class="lozad fade img-fluid">
                 <% } else { %>
                   <h4><%= name %></h4>
                 <% } %>
