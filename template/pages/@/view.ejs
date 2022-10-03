@@ -38,18 +38,14 @@
       </div> 
     </div>
     <script type="text/javascript"> 
-      const cookieconsent = document.getElementById('cookieconsent');
-      document.addEventListener('scroll', () => {
+        const cookieconsent = document.getElementById('cookieconsent');
         if (!localStorage.getItem('cookieconsent')) {
             cookieconsent.classList.remove("d-none");
         }
-      }, {
-        once: true
-      })
-      document.getElementById('cookieconsent-btn').onclick = () => {
-        localStorage.setItem('cookieconsent', true);
-        cookieconsent.classList.add('d-none');
-      };
+        document.getElementById('cookieconsent-btn').onclick = function() {
+            localStorage.setItem('cookieconsent', true);
+            cookieconsent.classList.add('d-none');
+        };
     </script>
   </main>
 
