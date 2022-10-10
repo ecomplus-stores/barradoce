@@ -21,7 +21,7 @@
     <%- await include('@/layout/header') %>
     <%- await include('@/layout/sections') %>
     <%- await include('@/layout/footer') %>
-    <div id="cookieconsent" class="cookieconsent d-none">
+    <div id="cookieconsent" class="cookieconsent">
       <div class="container"> 
         <div class="row align-items-center justify-content-center"> 
           <div class="col-12 col-md text-center"> 
@@ -39,9 +39,6 @@
     </div>
     <script type="text/javascript"> 
         const cookieconsent = document.getElementById('cookieconsent');
-        if (!localStorage.getItem('cookieconsent')) {
-            cookieconsent.classList.remove("d-none");
-        }
         document.getElementById('cookieconsent-btn').onclick = function() {
             localStorage.setItem('cookieconsent', true);
             cookieconsent.classList.add('d-none');
