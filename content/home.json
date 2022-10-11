@@ -13,7 +13,7 @@
           "img": "/img/uploads/compre-no-site-e-retire-hoje-em-nossa-loja.webp",
           "link": "",
           "alt": "Compre no site e retira hoje em nossa loja*",
-          "mobile_img": "/img/uploads/202103-feed-clique-e-retire-drive-thru.png"
+          "mobile_img": "/img/uploads/202103-feed-clique-e-retire-drive-thru.webp"
         }
       ]
     },
@@ -31,13 +31,13 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/bicos-de-confeitar.jpg",
+          "img": "/img/uploads/bicos-de-confeitar.webp",
           "link": "/categoria/bicos-de-confeitar",
           "alt": "Bicos de confeitar originais da Wilton, Cake Brasil e Mago",
           "mobile_img": ""
         },
         {
-          "img": "/img/uploads/batedores-fouet-de-cozinha.jpg",
+          "img": "/img/uploads/batedores-fouet-de-cozinha.webp",
           "link": "/categoria/batedores-e-fouet",
           "alt": "Batedores fouet para cozinha"
         }
