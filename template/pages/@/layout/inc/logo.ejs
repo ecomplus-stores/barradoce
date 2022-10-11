@@ -6,13 +6,14 @@ const logo = _.settings.logo
   
 if (logo && logo.url) {
   const { width, height } = _.tryImageSize(logo.url)
+  console.log(width, height)
   %>
   <img
     id="logo"
     class="header__logo lozad fade img-fluid"
     src="<%= logo.url %>"
     alt="<%= logo.alt %>"
-    <% if (width) { %>
+    <% if (width) { console.log('estou dentro') %>
       width="<%= width %>"
       height="<%= height %>"
     <% } %>
