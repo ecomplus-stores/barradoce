@@ -73,7 +73,7 @@ if (pathname) {
 <meta name="description" content="<%= description %>">
 <meta name="author" content="<%= _.settings.name %>">
 <meta name="generator" content="E-Com Plus Storefront">
-<% if (url) { %>
+<% if (url && path.indexOf('search') === -1) { %>
   <link rel="canonical" href="<%= url %>">
 <% } %>
 
