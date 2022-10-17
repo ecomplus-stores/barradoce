@@ -47962,23 +47962,8 @@
         "type": 301
       },
       {
-        "source": "/produto/espatula-angulada-com-ponta-10-0cm-barradoce",
-        "destination": "/produto/espatula-angulada-com-ponta-10-0cm-barradoce",
-        "type": 301
-      },
-      {
         "source": "/produto/espatula-dobrada-barradoce",
         "destination": "/espatula-dobrada-barradoce",
-        "type": 301
-      },
-      {
-        "source": "/produto/espatula-reta-15-0cm-barradoce",
-        "destination": "/produto/espatula-reta-15-0cm-barradoce",
-        "type": 301
-      },
-      {
-        "source": "/produto/espatula-serrilhada-35-0cm-barradoce",
-        "destination": "/produto/espatula-serrilhada-35-0cm-barradoce",
         "type": 301
       },
       {
@@ -48022,18 +48007,8 @@
         "type": 301
       },
       {
-        "source": "/produto/forma-italiana-forneavel-de-papel-para-bolo-com-tampa-plummy-10-uni-15-8x5-5cm-ecopack",
-        "destination": "/produto/forma-italiana-forneavel-de-papel-para-bolo-com-tampa-plummy-10-uni-15-8x5-5cm-ecopack",
-        "type": 301
-      },
-      {
         "source": "/produto/forma-de-chocolate-acetato-com-silicone-coelho-reto-250g-bwb",
         "destination": "/forma-de-chocolate-acetato-com-silicone-coelho-reto-2-240g-bwb",
-        "type": 301
-      },
-      {
-        "source": "/produto/forma-de-chocolate-em-acetato-tabletebarra-feliz-pascoa-10uni-bwb",
-        "destination": "/produto/forma-de-chocolate-em-acetato-tabletebarra-feliz-pascoa-10uni-bwb",
         "type": 301
       },
       {
@@ -48672,11 +48647,6 @@
         "type": 301
       },
       {
-        "source": "/produto/blister-bola-de-natal-de-chocolate-7cm-8uni-feliz-natal",
-        "destination": "/produto/blister-bola-de-natal-de-chocolate-7cm-8uni-feliz-natal",
-        "type": 301
-      },
-      {
         "source": "/produto/464447-blister-ovo-de-pascoa-350g---coelho",
         "destination": "/produto/blister-ovo-de-pascoa-350g-coelho",
         "type": 301
@@ -48734,11 +48704,6 @@
       {
         "source": "/produto/678010-colher-dosadora-para-brigadeiros---doupan",
         "destination": "/produto/colher-dosadora-para-brigadeiros-3-3cm-doupan",
-        "type": 301
-      },
-      {
-        "source": "/produto/confeito-de-acucar-folhas-8pcs-jady-confeitos",
-        "destination": "/produto/confeito-de-acucar-folhas-8pcs-jady-confeitos",
         "type": 301
       },
       {
@@ -48897,11 +48862,6 @@
         "type": 301
       },
       {
-        "source": "/produto/kit-cortadores-animais-pecas-wilton",
-        "destination": "/produto/cortadores-de-biscoito-e-pasta-americana-animais-rm",
-        "type": 301
-      },
-      {
         "source": "/busca?term=boneco+de+gengibre&from=0&size=24",
         "destination": "/produto/cortadores-de-biscoito-e-pasta-americana-boneco-de-gengibre",
         "type": 301
@@ -48957,11 +48917,6 @@
         "type": 301
       },
       {
-        "source": "/produto/couche-de-padeiro-tecido-linho-1m-banneton-brasil",
-        "destination": "/produto/couche-de-padeiro-tecido-linho-1m-banneton-brasil",
-        "type": 301
-      },
-      {
         "source": "/busca.php?pesquisa=cremor&bto_busca.x=0&bto_busca.y=0&bto_busca=Ok",
         "destination": "/produto/cremor-tartaro-40g-arcolor",
         "type": 301
@@ -48992,38 +48947,8 @@
         "type": 301
       },
       {
-        "source": "/produto/enfeite-de-natal-em-acucar-gorro-de-papai-noel-5uni-jady-confeitos",
-        "destination": "/produto/enfeite-de-natal-em-acucar-gorro-de-papai-noel-5uni-jady-confeitos",
-        "type": 301
-      },
-      {
-        "source": "/produto/enfeite-de-natal-em-acucar-papai-noel-10uni-jady-confeitos",
-        "destination": "/produto/enfeite-de-natal-em-acucar-papai-noel-10uni-jady-confeitos",
-        "type": 301
-      },
-      {
         "source": "/produto/277643-escova-para-bicos---wilton",
         "destination": "/produto/escova-para-bicos-wilton",
-        "type": 301
-      },
-      {
-        "source": "/produto/espatula-angulada-35-0cm-barradoce",
-        "destination": "/produto/espatula-angulada-35-0cm-barradoce",
-        "type": 301
-      },
-      {
-        "source": "/produto/espatula-angular-15-0cm-barradoce",
-        "destination": "/produto/espatula-angular-15-0cm-barradoce",
-        "type": 301
-      },
-      {
-        "source": "/produto/espatula-reta-10-0cm-barradoce",
-        "destination": "/produto/espatula-reta-10-0cm-barradoce",
-        "type": 301
-      },
-      {
-        "source": "/produto/espatula-reta-35-0cm-barradoce",
-        "destination": "/produto/espatula-reta-35-0cm-barradoce",
         "type": 301
       },
       {
@@ -49164,11 +49089,6 @@
       {
         "source": "/produto/fita-cetim-decorada-feliz-pascoa-vermelho-22cm-x-10m-progresso",
         "destination": "/produto/fita-cetim-decorada-feliz-natal-vermelho-22mmx10m-progresso",
-        "type": 301
-      },
-      {
-        "source": "/produto/fita-cetim-decorada-flores-de-natal-22mmx10m-progresso",
-        "destination": "/produto/fita-cetim-decorada-flores-de-natal-22mmx10m-progresso",
         "type": 301
       },
       {
@@ -49347,11 +49267,6 @@
         "type": 301
       },
       {
-        "source": "/produto/forma-de-chocolate-em-policarbonato-tablete-papai-noel-gramado-injetados",
-        "destination": "/produto/forma-de-chocolate-em-policarbonato-tablete-papai-noel-gramado-injetados",
-        "type": 301
-      },
-      {
         "source": "/produto/277679-forma-bwb---ovo-100g/",
         "destination": "/produto/forma-de-chocolate-ovo-de-pascoa-acetato-e-silicone-100g-bwb-premium",
         "type": 301
@@ -49437,11 +49352,6 @@
         "type": 301
       },
       {
-        "source": "/produto/forma-italiana-forneavel-de-papel-para-bolo-com-tampa-plummy-15-uni-8-0x4-0cm-ecopack",
-        "destination": "/produto/forma-italiana-forneavel-de-papel-para-bolo-com-tampa-plummy-15-uni-8-0x4-0cm-ecopack",
-        "type": 301
-      },
-      {
         "source": "/12-cavity-bar-pan-wilton",
         "destination": "/produto/forma-multipla-para-brownie-pao-de-mel-36uni-caparroz",
         "type": 301
@@ -49452,22 +49362,7 @@
         "type": 301
       },
       {
-        "source": "/produto/forma-para-bolo-caseirinho-retangular-grande-marrom-em-papel-forneavel-com-tampa-5uni-sulformas",
-        "destination": "/produto/forma-para-bolo-caseirinho-retangular-grande-marrom-em-papel-forneavel-com-tampa-5uni-sulformas",
-        "type": 301
-      },
-      {
-        "source": "/produto/forma-para-bolo-caseirinho-retangular-pequeno-sem-impressao-em-papel-forneavel-com-tampa-5uni-sulformas",
-        "destination": "/produto/forma-para-bolo-caseirinho-retangular-pequeno-sem-impressao-em-papel-forneavel-com-tampa-5uni-sulformas",
-        "type": 301
-      },
-      {
         "source": "/produto/forma-chocolate-acetato-com-silicone-gorro-do-papei-noel-bwb",
-        "destination": "/produto/forma-pvc-com-silicone-gorro-do-papai-noel-bwb",
-        "type": 301
-      },
-      {
-        "source": "/produto/forma-pvc-com-silicone-gorro-do-papai-noel-bwb",
         "destination": "/produto/forma-pvc-com-silicone-gorro-do-papai-noel-bwb",
         "type": 301
       },
@@ -49757,28 +49652,13 @@
         "type": 301
       },
       {
-        "source": "/produto/mini-papai-noel-2-gummies",
-        "destination": "/produto/mini-papai-noel-2-gummies",
-        "type": 301
-      },
-      {
         "source": "/mistura-neutra-a-e-para-sorvetes-a-base-de-leite-150g-fiume-freddo",
         "destination": "/produto/mistura-neutra-e-para-sorvetes-base-de-leite-150g-fiume-freddo",
         "type": 301
       },
       {
-        "source": "/produto/molde-de-silicone-para-pasta-americana-azevinho-gummies",
-        "destination": "/produto/molde-de-silicone-para-pasta-americana-azevinho-gummies",
-        "type": 301
-      },
-      {
         "source": "/letters-numbers-fondant-and-gum-paste-molds-wilton",
         "destination": "/produto/molde-de-silicone-para-pasta-americana-letras-pequenas-gummies",
-        "type": 301
-      },
-      {
-        "source": "/produto/molde-de-silicone-para-pasta-americana-presepio-gummies",
-        "destination": "/produto/molde-de-silicone-para-pasta-americana-presepio-gummies",
         "type": 301
       },
       {
@@ -49794,11 +49674,6 @@
       {
         "source": "/uniflex-rose-silikomart",
         "destination": "/produto/molde-de-silicone-para-pasta-americana-rosa-12-gummies",
-        "type": 301
-      },
-      {
-        "source": "/produto/molde-de-silicone-pinheiro-de-natal-gummies",
-        "destination": "/produto/molde-de-silicone-pinheiro-de-natal-gummies",
         "type": 301
       },
       {
@@ -49824,11 +49699,6 @@
       {
         "source": "/our-day-wilton",
         "destination": "/produto/noivinho-para-topo-de-bolo-with-this-ring-wilton",
-        "type": 301
-      },
-      {
-        "source": "/produto/noivinhos-para-topo-de-bolo-the-tiff-figurine-wilton",
-        "destination": "/produto/noivinhos-para-topo-de-bolo-the-tiff-figurine-wilton",
         "type": 301
       },
       {
@@ -50194,11 +50064,6 @@
       {
         "source": "/produto/kit-de-estecas-2uni-bricoflex",
         "destination": "/produtos/kit-de-estecas-2uni-bricoflex",
-        "type": 301
-      },
-      {
-        "source": "/produto/vela-vulcao-cha-revelacao-chama-azul-12cm-silver-chef",
-        "destination": "/produto/vela-vulcao-cha-revelacao-chama-azul-12cm-silver-chef",
         "type": 301
       },
       {
@@ -55187,11 +55052,6 @@
         "type": 301
       },
       {
-        "source": "/produto/espatula-raspadeira-para-chocolate-22-0cm-barradoce",
-        "destination": "/produto/espatula-raspadeira-para-chocolate-22-0cm-barradoce",
-        "type": 301
-      },
-      {
         "source": "/produto/fita-cetim-decorada-arvore-de-natal-15mm-x-10m-progresso",
         "destination": "/produto/fita-cetim-decorada-papai-noel-vintage-22cm-x-10m-progresso",
         "type": 301
@@ -55387,11 +55247,6 @@
         "type": 301
       },
       {
-        "source": "/produto/forma-de-chocolate-em-policarbonato-tablete-barra-circulos-decora",
-        "destination": "/produto/forma-de-chocolate-em-policarbonato-tablete-barra-circulos-decora",
-        "type": 301
-      },
-      {
         "source": "/produto/forma-de-chocolate-ovo-de-pascoa-acetato-silicone-textura-listras-250g-bwb",
         "destination": "/categoria/formas-de-ovo-de-pascoa",
         "type": 301
@@ -55417,11 +55272,6 @@
         "type": 301
       },
       {
-        "source": "/produto/kit-cortadores-anjos-2uni-kafstar",
-        "destination": "/produto/kit-cortadores-anjos-2uni-kafstar",
-        "type": 301
-      },
-      {
         "source": "/produto/mini-coelho-menina-xadrez-gales-verde-8cm-cromus",
         "destination": "/categoria/adesivos-etiquetas-e-enfeites",
         "type": 301
@@ -55444,11 +55294,6 @@
       {
         "source": "/produto/mini-guirlanda-8cm-cromus",
         "destination": "/categoria/adesivos-etiquetas-e-enfeites",
-        "type": 301
-      },
-      {
-        "source": "/produto/molde-de-silicone-para-pasta-americana-mini-borboleta-gummies",
-        "destination": "/produto/molde-de-silicone-para-pasta-americana-mini-borboleta-gummies",
         "type": 301
       },
       {
