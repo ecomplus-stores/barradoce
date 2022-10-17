@@ -51,7 +51,7 @@
   search.setSortOrder('offers')
   await search.fetch()
   const allItems = await search.getItems().filter(item => _.ecomUtils.onPromotion(item))
-  search.setPageSize(allItems.length)
+  search.setPageSize(allItems.length > 100 ? 1000 : allItems.length)
   search.setSortOrder('offers')
   const items = await search.getItems().filter(item => _.ecomUtils.onPromotion(item))
 %>
