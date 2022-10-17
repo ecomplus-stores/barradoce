@@ -7,11 +7,6 @@
         "type": 301
       },
       {
-        "regex": "/busca*",
-        "destination": "/search",
-        "type": 301
-      },
-      {
         "source": "/20-pc-beginning-buttercream-decorating-wilton",
         "destination": "/categoria/bicos-de-confeitar",
         "type": 301
@@ -55839,6 +55834,11 @@
       {
         "source": "https://www.barradoce.com.br/produto/fita-cetim-decorada-flocos-de-neve-15mmx10m-progresso",
         "destination": "/produto/fita-cetim-decorada-merry-christmas-vermelho-15cm-x-10m-progresso",
+        "type": 301
+      },
+      {
+        "regex": "/busca*",
+        "destination": "/search",
         "type": 301
       }
     ],
