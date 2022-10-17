@@ -46,32 +46,32 @@
 
   </div>
 
-    <%
-      const search = new _.EcomSearch()
-      search.setSortOrder('offers')
-      await search.fetch()
-      const allItems = await search.getItems().filter(item => _.ecomUtils.onPromotion(item))
-      search.setPageSize(allItems.length)
-      search.setSortOrder('offers')
-      const items = await search.getItems().filter(item => _.ecomUtils.onPromotion(item))
-    %>
-    <div class="grid-retail">
-      <div class="container">
-        <% if (items.length) { %>
-          <article class="search-engine__retail">
-            <div class="row">
-              <% for (let i = 0; i < items.length; i++) { %>
-                <div class="col-6 col-md-4 col-lg-3">
-                  <%- await include('@/sections/inc/product-item', {
-                    _, opt: { item: items[i] }
-                  }) %>
-                </div>
-              <% } %>
+  <%
+  const search = new _.EcomSearch()
+  search.setSortOrder('offers')
+  await search.fetch()
+  const allItems = await search.getItems().filter(item => _.ecomUtils.onPromotion(item))
+  search.setPageSize(allItems.length)
+  search.setSortOrder('offers')
+  const items = await search.getItems().filter(item => _.ecomUtils.onPromotion(item))
+%>
+<div class="grid-retail">
+  <div class="container">
+    <% if (items.length) { %>
+      <article class="search-engine__retail">
+        <div class="row">
+          <% for (let i = 0; i < items.length; i++) { %>
+            <div class="col-6 col-md-4 col-lg-3">
+              <%- await include('@/sections/inc/product-item', {
+                _, opt: { item: items[i] }
+              }) %>
             </div>
-          </article>
-        <% } %>
-      </div>
-    </div>
+          <% } %>
+        </div>
+      </article>
+    <% } %>
+  </div>
+</div>
   </div>
 </article>
     <%- await include('@/layout/footer') %>
