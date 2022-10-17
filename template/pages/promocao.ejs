@@ -49,6 +49,7 @@
   <%
   const search = new _.EcomSearch()
   search.setSortOrder('offers')
+  search.setPageSize(3500)
   await search.fetch()
   const allItems = await search.getItems().filter(item => _.ecomUtils.onPromotion(item))
   search.setPageSize(allItems.length > 100 ? 1000 : allItems.length)
