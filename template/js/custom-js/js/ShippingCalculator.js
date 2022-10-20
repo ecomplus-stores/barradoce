@@ -121,6 +121,12 @@ import {
           ? Math.round(this.amountSubtotal * 100 / this.freeFromValue)
           : null
       },
+
+      isToCalculate () {
+        if (this.localZipCode) {
+          return this.localZipCode.replace(/\D/g, '').length === 8
+        }
+      },
   
       productionDeadline () {
         let maxDeadline = 0
@@ -205,7 +211,7 @@ import {
       },
   
       fetchShippingServices (isRetry) {
-        if (!this.isScheduled) {
+        if (!this.isScheduled && this.isToCalculate) {
           this.isScheduled = true
           setTimeout(() => {
             this.isScheduled = false

@@ -33,7 +33,9 @@
     <div v-if="typeof(selectedService) === undefined || selectedService === null" class="alert alert-danger" role="alert">
       Por favor, escolha uma forma de envio
     </div>
-  
+    <div v-if="!isToCalculate" class="alert alert-danger" role="alert">
+      Necessário inserir o cep completo (8 dígitos) para cálculo
+    </div>
     <div class="shipping-calculator__services">
       <transition-group
         enter-active-class="animated fadeInDown"
