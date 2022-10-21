@@ -8,10 +8,13 @@ storefront.on('widget:@ecomplus/widget-tag-manager', function () {
     console.log(searchInputValue)
     $searchInput.addEventListener('keyup', e => {
         searchInputValue = e.target.value
+        console.log($searchInput.classList)
+        $searchInput.classList.remove('focus-input')
     })
     $searchButton.addEventListener('click', e => {
         if (!searchInputValue) {
-            $searchInput.focus()
+            $searchInput.focus({focusVisible: true})
+            $searchInput.classList.add('focus-input')
             e.preventDefault()
         }
     })
