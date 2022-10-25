@@ -61,22 +61,6 @@
       "link": "/categoria/bicos-de-confeitar-estrela-e-pitanga"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/enrolador-de-brigadeiros.webp",
-          "link": "/search?term=enrolador",
-          "alt": "Compre enrolador de brigadeiros BlueStar",
-          "mobile_img": ""
-        },
-        {
-          "img": "/img/uploads/formas-popit.webp",
-          "link": "/search?term=pop+it",
-          "alt": "Formas de chocolate para Pop It"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
