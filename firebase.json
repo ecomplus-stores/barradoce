@@ -47022,16 +47022,6 @@
         "type": 301
       },
       {
-        "source": "/produto/saco-de-confeiteiro-em-poliester-30-0cm-wilton",
-        "destination": "/categoria/sacos-e-mangas-de-confeitar",
-        "type": 301
-      },
-      {
-        "source": "/produto/saco-de-confeiteiro-em-poliester-40-0cm-wilton",
-        "destination": "/categoria/sacos-e-mangas-de-confeitar",
-        "type": 301
-      },
-      {
         "source": "/categoria/1458-saquinhos/1",
         "destination": "/categoria/saquinhos-e-sacolas",
         "type": 301
@@ -49774,11 +49764,6 @@
       {
         "source": "/produto/papel-antiaderente-para-cozinhar-40cmx3m-dover-kit-3",
         "destination": "/produto/papel-antiaderente-para-cozinhar-40cmx3m-dover",
-        "type": 301
-      },
-      {
-        "source": "/produto/papel-siliconizado-60x40cm-20uni-prodipani",
-        "destination": "/produto/papel-de-seda-branco-49x69cm-3uni-cromus",
         "type": 301
       },
       {
@@ -55677,8 +55662,568 @@
         "type": 301
       },
       {
-        "source": "https://www.barradoce.com.br/produto/fita-cetim-decorada-flocos-de-neve-15mmx10m-progresso",
+        "source": "/produto/fita-cetim-decorada-flocos-de-neve-15mmx10m-progresso",
         "destination": "/produto/fita-cetim-decorada-merry-christmas-vermelho-15cm-x-10m-progresso",
+        "type": 301
+      },
+      {
+        "source": "/100-animal-cookies-lisa-snyder",
+        "destination": "/categoria/cortadores-de-biscoito-e-pasta-americana",
+        "type": 301
+      },
+      {
+        "source": "/a-arte-de-fazer-macarons-lafonte",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/alan-dunn-s-ultimate-collection-of-cake-decorating-alan-dunn",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/assadeira-para-rocambole-biscoitos-43-0-x-31-0-x-1-8cm",
+        "destination": "/produto/assadeira-para-rocambole-biscoitos-43-0x31-0x1-8cm",
+        "type": 301
+      },
+      {
+        "source": "/assadeira-para-torta-e-bolo-ballerine-26cm-caparroz",
+        "destination": "/produto/forma-ballerine-para-bolo-piscina-26cm-caparroz",
+        "type": 301
+      },
+      {
+        "source": "/bico-de-confeitar/pitanga/wilton/13",
+        "destination": "/produto/bico-de-confeitar-pitanga-13-wilton",
+        "type": 301
+      },
+      {
+        "source": "/bico-de-confeitar/pitanga/wilton/22",
+        "destination": "/produto/bico-de-confeitar-pitanga-22-wilton",
+        "type": 301
+      },
+      {
+        "source": "/blister-bola-natal-chocolate-3cm-decoradas",
+        "destination": "/produto/forma-decorativa-blister-bola-de-natal-3cm-doce-natal-21-cavidades",
+        "type": 301
+      },
+      {
+        "source": "/busca.php?pesquisa=wrappers&bto_busca.x=0&bto_busca.y=0&bto_busca=Ok/?origem%3DB_177&utm_source=blog.barradoce.com.br&utm_medium=referral&utm_content=dica&utm_campaign=B_177",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/cat/enfeites/2715.html",
+        "destination": "/categoria/adesivos-etiquetas-e-enfeites",
+        "type": 301
+      },
+      {
+        "source": "/cat/livros/1639.html",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/cat/rolos_e_marcadores_de_pasta/2503.html",
+        "destination": "/categoria/carimbos-e-marcadores",
+        "type": 301
+      },
+      {
+        "source": "/cat/suportes_e_pratos/2141.html",
+        "destination": "/categoria/bases-laminadas-e-pratos",
+        "type": 301
+      },
+      {
+        "source": "/categoria/1490-livros-de-bombons/1",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/champagne-bottles-candle-set-wilton",
+        "destination": "/categoria/velas-para-bolo",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/1137",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/1300",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/1364",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/1605",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/1635",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/1939",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/2267",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/2462",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/2645",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/2732",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/2919",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/2964",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/2999",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/3058",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/308",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/3286",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/3379",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/3687",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/3739",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/3793",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/3812",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/3852",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/3899",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/392",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/4147",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/4155",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/4245",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/4474",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/503",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/508",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/6666",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/6675",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/678",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/7012",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/7058",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/732",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/7389",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/7589",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/7707",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/7960",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/7990",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/8022",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/8072",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/8133",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/8136",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/8268",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/8298",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/8412",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/8508",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/8515",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/8516",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/867",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/8995",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/9059",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/9072",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/9203",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/9239",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/9277",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/9356",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/9404",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/9480",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/9488",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/9489",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/9557",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/checkout/cart/item/add/9697",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "regex": "/checkout/cart/item/add*",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/confeitaria/embalagens/papeis-e-adesivos/papel-de-trufa-e-bombom/trufa-vermelho-15x16cm-cromus",
+        "destination": "/produto/papel-para-embrulhar-trufas-15x16cm-100uni-vermelho-cromus",
+        "type": 301
+      },
+      {
+        "source": "/confeitaria/ingredientes/pasta-americana-e-glaces/pasta-americana/violeta-lilas-500g-arcolor",
+        "destination": "/produto/pasta-americana-violeta-lilas-500g-arcolor",
+        "type": 301
+      },
+      {
+        "source": "/confeitaria/utensilios/suporte-bailarina-para-bolo",
+        "destination": "/categoria/bailarina-e-suportes-para-bolo",
+        "type": 301
+      },
+      {
+        "source": "/corante-em-po-aveludado-fosco-3g-mix-marrom?cmp_id=1633258987&adg_id=61110059223&kwd=&device=c&gclid=EAIaIQobChMIyO_orYCH4gIVRYGRCh3VdwceEAkYASABEgLt9vD_BwE",
+        "destination": "/produto/corante-aveludado-em-po-fosco-3g-mix-marrom",
+        "type": 301
+      },
+      {
+        "source": "/delipaste-250g-vaniglia-super-baunilha-fabbri",
+        "destination": "/produto/pasta-saborizante-french-vanilla-220g-gustosia-premium",
+        "type": 301
+      },
+      {
+        "source": "/forma-bolo-chiffon-18-0cm/assadeiras",
+        "destination": "/produto/forma-bolo-chiffon-18-0cm",
+        "type": 301
+      },
+      {
+        "source": "/forma-de-bolo/decorada/caveira-3d-nordic-ware",
+        "destination": "/produto/forma-de-bolo-caveira-3d-nordic-ware",
+        "type": 301
+      },
+      {
+        "source": "/forma-de-bolo/decorada/charlotte-nordic-ware",
+        "destination": "/produto/forma-de-bolo-charlotte-nordic-ware",
+        "type": 301
+      },
+      {
+        "source": "/forma-de-bolo/decorada/forma-de-mini-bolo-suica-aniversario-caparroz",
+        "destination": "/produto/forma-de-mini-bolo-suica-aniversario-caparroz",
+        "type": 301
+      },
+      {
+        "source": "/forma-em-polipropileno-bolinha-10g",
+        "destination": "/produto/forma-de-chocolate-polipropileno-bolinha-10g-cristal-formas",
+        "type": 301
+      },
+      {
+        "source": "/forma-em-pvc-pirulito-lua-5-uni",
+        "destination": "/categoria/formas-de-pirulito",
+        "type": 301
+      },
+      {
+        "source": "/forma-policarbonato-barra-20g",
+        "destination": "/produto/forma-de-chocolate-em-policarbonato-barra-20g-gramado-injetados",
+        "type": 301
+      },
+      {
+        "source": "/formas-de-chocolate/acetato-e-silicone/pao-mel-grande-premium",
+        "destination": "/produto/forma-de-chocolate-acetato-com-silicone-pao-de-mel-grande-bwb-premium",
+        "type": 301
+      },
+      {
+        "source": "/forminha-4-petalas-bailarina-24uni-papel-confeito",
+        "destination": "/categoria/forminhas-para-doces-finos-e-brigadeiros",
+        "type": 301
+      },
+      {
+        "source": "/forminha-4-petalas-cha-de-bebe-menina-24uni-papel-confeito",
+        "destination": "/categoria/forminhas-para-doces-finos-e-brigadeiros",
+        "type": 301
+      },
+      {
+        "source": "/forminha-4-petalas-lego-24uni-papel-confeito",
+        "destination": "/categoria/forminhas-para-doces-finos-e-brigadeiros",
+        "type": 301
+      },
+      {
+        "source": "/forminha-4-petalas-love-24uni-papel-confeito",
+        "destination": "/categoria/forminhas-para-doces-finos-e-brigadeiros",
+        "type": 301
+      },
+      {
+        "source": "/forminha-4-petalas-natal-papai-noel-24uni-papel-confeito",
+        "destination": "/categoria/forminhas-para-doces-finos-e-brigadeiros",
+        "type": 301
+      },
+      {
+        "source": "/forminha-4-petalas-princesa-e-castelo-24uni-papel-confeito",
+        "destination": "/categoria/forminhas-para-doces-finos-e-brigadeiros",
+        "type": 301
+      },
+      {
+        "source": "/forminha-4-petalas-scrap-transportes-24uni-papel-confeito",
+        "destination": "/categoria/forminhas-para-doces-finos-e-brigadeiros",
+        "type": 301
+      },
+      {
+        "source": "/forminha-4-petalas-sexy-24uni-papel-confeito",
+        "destination": "/categoria/forminhas-para-doces-finos-e-brigadeiros",
+        "type": 301
+      },
+      {
+        "source": "/forminha-4-petalas-ursinho-rosa-24uni-papel-confeito",
+        "destination": "/categoria/forminhas-para-doces-finos-e-brigadeiros",
+        "type": 301
+      },
+      {
+        "source": "/molde-de-silicone-alianca-dupla-gummies",
+        "destination": "/produto/molde-de-silicone-para-pasta-americana-alianca-dupla-gummies",
+        "type": 301
+      },
+      {
+        "source": "/molde-de-silicone-tabua-de-carne-gummies",
+        "destination": "/categoria/moldes-de-silicone",
+        "type": 301
+      },
+      {
+        "source": "/molde-para-chocolate-em-policarbonato-barra-1kg?how-to-recover-password=1",
+        "destination": "/produto/forma-de-chocolate-em-policarbonato-barra-1kg-gramado-injetados",
+        "type": 301
+      },
+      {
+        "source": "/molde-para-chocolate-em-policarbonato-gota",
+        "destination": "/produto/forma-de-chocolate-em-policarbonato-gota-gramado-injetados",
+        "type": 301
+      },
+      {
+        "source": "/molde-para-chocolate-em-policarbonato-po-de-mel-presente",
+        "destination": "/produto/forma-de-chocolate-em-policarbonato-pao-de-mel-presente-gramado-injetados",
+        "type": 301
+      },
+      {
+        "source": "/novo/404",
+        "destination": "/index",
+        "type": 301
+      },
+      {
+        "source": "/produto/enfeite-mini-pregador-papai-noel-bracos-abertos-6uni-cromus",
+        "destination": "/categoria/adesivos-etiquetas-e-enfeites",
+        "type": 301
+      },
+      {
+        "source": "/sacos-de-confeiteiro/saco-para-confeitar-em-silicone-silikomart",
+        "destination": "/produto/saco-para-confeitar-em-silicone-silikomart",
+        "type": 301
+      },
+      {
+        "source": "/tortaflex-insert-buche-silikomart/injetada",
+        "destination": "/index",
         "type": 301
       },
       {
