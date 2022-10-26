@@ -89,8 +89,8 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/formas-de-chocolate-em-policabonato.jpeg",
-      "link": "https://barra-doce.web.app/marcas/gramado-injetados",
+      "img": "/img/uploads/formas-de-chocolate-em-policabonato.webp",
+      "link": "/marcas/gramado-injetados",
       "alt": "Lançamento: forma para tablete de chocolate cacau, Gramado Injetados",
       "mobile_img": "/img/uploads/20220819_formas-de-policarbonato_mobile.jpg"
     },
@@ -108,7 +108,7 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/desmoldante-para-forma.jpg",
+          "img": "/img/uploads/desmoldante-para-forma-1.webp",
           "link": "/categoria/desmoldantes-de-formas",
           "alt": "Os melhores desmoldantes para formas"
         },
