@@ -73,7 +73,7 @@
     {
       "type": "responsive-banner",
       "img": "/img/uploads/emulsa-o-mago-para-confeitaria.jpeg",
-      "link": "https://barra-doce.web.app/search?term=emuls%C3%A3o+saborizante+mago",
+      "link": "/search?term=emuls%C3%A3o+saborizante+mago",
       "alt": "Emulsão saborizante para confeitaria Mago",
       "mobile_img": "/img/uploads/20220819_emulsao-saborizante_mobile.jpg"
     },
