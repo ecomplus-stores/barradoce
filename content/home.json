@@ -59,6 +59,16 @@
       "sort": null
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "6126ca06cfbcd97059898115:brands:Gramado Injetados:/marcas/gramado-injetados",
+      "sort": "views",
+      "title": "Formas de chocolate em policarbonato",
+      "link": "/marcas/gramado-injetados"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
