@@ -19,139 +19,28 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 18,
-      "page": 1,
-      "collection_id": "63483e4173321213f8aa385e:collections:Halloween:/colecao/halloween",
-      "sort": "sales",
-      "title": "Halloween",
-      "link": "colecao/halloween"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/bicos-de-confeitar.jpg",
-          "link": "/categoria/bicos-de-confeitar",
-          "alt": "Bicos de confeitar originais da Wilton, Cake Brasil e Mago",
-          "mobile_img": ""
-        },
-        {
-          "img": "/img/uploads/batedores-fouet-de-cozinha.webp",
-          "link": "/categoria/batedores-e-fouet",
-          "alt": "Batedores fouet para cozinha"
-        }
-      ]
-    },
-    {
-      "type": "brands-carousel",
-      "limit": 24,
-      "offset": 0,
-      "sort": "name",
-      "autoplay": 5000
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "6241d0ac2e405e04ff04a198:categories:Bicos estrela e pitanga:/categoria/bicos-de-confeitar-estrela-e-pitanga",
-      "sort": "views",
-      "title": "Bicos de confeitar pitanga",
-      "link": "/categoria/bicos-de-confeitar-estrela-e-pitanga"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "6241d37e2e405e04ff04a9bc:categories:Cortadores de biscoito e pasta americana:/categoria/cortadores-de-biscoito-e-pasta-americana",
-      "sort": "views",
-      "title": "Cortadores de biscoito",
-      "link": "/categoria/cortadores-de-biscoito-e-pasta-americana"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/emulsa-o-mago-para-confeitaria.jpeg",
-      "link": "/search?term=emuls%C3%A3o+saborizante+mago",
-      "alt": "Emulsão saborizante para confeitaria Mago",
-      "mobile_img": "/img/uploads/20220819_emulsao-saborizante_mobile.jpg"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "6241d4d62e405e04ff04acc5:categories:Moldes de silicone:/categoria/moldes-de-silicone",
-      "sort": "views",
-      "title": "Moldes de silicone para decoração de bolos e doces",
-      "link": "/categoria/rolos-de-massa-e-carretilhas"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/formas-de-chocolate-em-policabonato.webp",
-      "link": "/marcas/gramado-injetados",
-      "alt": "Lançamento: forma para tablete de chocolate cacau, Gramado Injetados",
-      "mobile_img": "/img/uploads/20220819_formas-de-policarbonato_mobile.jpg"
-    },
-    {
-      "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "6242025e2e405e04ff055ba6:categories:Formas de barra de e tablete de chocolate:/categoria/formas-de-barra-e-tablete-de-chocolate",
-      "sort": "sales",
-      "title": "Formas de chocolate para tabletes e barras",
-      "link": "/categoria/formas-de-barra-e-tablete-de-chocolate"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/desmoldante-para-forma-1.webp",
-          "link": "/categoria/desmoldantes-de-formas",
-          "alt": "Os melhores desmoldantes para formas"
-        },
-        {
-          "img": "/img/uploads/grade-de-resfriamento.jpg",
-          "link": "/categoria/grade-de-bolo-e-resfriamento",
-          "alt": "Grades de confeiteiro"
-        }
-      ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "6242020b2e405e04ff055a3c:categories:Formas de bombons e trufas:/categoria/formas-de-bombons-e-trufas",
-      "sort": "sales",
-      "title": "Formas de chocolate para trufas e bombons"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/termo-metro-de-cozinha.jpg",
-          "link": "/categoria/termometros",
-          "alt": "Termômetro culinário"
-        },
-        {
-          "img": "/img/uploads/tapete-antiaderente.jpg",
-          "link": "/categoria/tapetes-antiaderentes",
-          "alt": "Tapetes antiaderentes"
-        }
-      ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
-      "page": 1,
+      "collection_id": "63594db573321213f8bdde63:categories:NATAL:/categoria/natal",
       "sort": "views",
-      "collection_id": "6241fc692e405e04ff05416a:categories:AROS PARA BOLOS E TORTAS:/categoria/aro-para-bolos-e-tortas",
-      "title": "Aros para bolos e tortas",
-      "link": "/categoria/aro-para-bolos-e-tortas"
+      "title": "NATAL",
+      "link": "/categoria/natal"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/oti_formas-de-bolo-de-natal.jpeg",
+          "link": "/categoria/natal",
+          "alt": "Formas de bolo de Natal"
+        },
+        {
+          "img": "/img/uploads/oti_cortadores-de-natal.jpeg",
+          "link": "/categoria/natal",
+          "alt": "Cortadores de biscoito de Natal"
+        }
+      ]
     },
     {
       "type": "page-title",
