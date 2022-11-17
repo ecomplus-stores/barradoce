@@ -76,6 +76,10 @@ if (pathname) {
 <% if (url && path.indexOf('search') === -1) { %>
   <link rel="canonical" href="<%= url %>">
 <% } %>
+<% if (url && path.indexOf('colec') === 1) { %>
+  <meta name="robots" content="noindex">
+<% } %>
+
 
 <% if (!path.startsWith('/admin/')) { %>
   <link rel="preload" href="/storefront.css" as="style">
