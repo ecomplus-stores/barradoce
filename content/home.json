@@ -11,7 +11,7 @@
           "start": "",
           "end": "",
           "img": "/img/uploads/desk_oti_formas-para-chocolate-de-natal.jpeg",
-          "link": "https://www.barradoce.com.br/categoria/natal",
+          "link": "https://www.barradoce.com.br/colecao/formas-de-chocolate-para-natal",
           "alt": "Produtos de confeitaria para Natal",
           "mobile_img": "/img/uploads/mob_oti_formas-de-chocolate.jpeg"
         }
@@ -32,7 +32,7 @@
       "banners": [
         {
           "img": "/img/uploads/oti_formas-de-chocolate-de-natal.jpeg",
-          "link": "/categoria/natal",
+          "link": "https://www.barradoce.com.br/colecao/formas-de-chocolate-para-natal",
           "alt": "Formas de chocolate para Natal"
         },
         {
@@ -47,10 +47,10 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "6126c33ecfbcd97059897a82:brands:BWB:/marcas/formas-bwb-embalagens",
+      "collection_id": "637653e173321213f8e02f49:collections:FITAS DECORATIVAS DE NATAL:/colecao/fitas-decorativas-natal",
       "sort": "views",
-      "title": "Formas de chocolate BWB",
-      "link": "/marcas/formas-bwb-embalagens"
+      "title": "Fitas para embalagens de Natal",
+      "link": "https://www.barradoce.com.br/colecao/fitas-decorativas-natal"
     },
     {
       "type": "brands-carousel",
@@ -63,9 +63,9 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "6126ca06cfbcd97059898115:brands:Gramado Injetados:/marcas/gramado-injetados",
+      "collection_id": "627bc6953da6d37bc22df2f8:collections:NATAL:/colecao/natal",
       "sort": "views",
-      "title": "Formas de chocolate em policarbonato",
+      "title": "Tudo para o Natal do confeiteiro",
       "link": "/marcas/gramado-injetados"
     },
     {
@@ -88,9 +88,10 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "6241cf482e405e04ff049dc4:categories:BICOS DE CONFEITAR:/categoria/bicos-de-confeitar",
+      "collection_id": "634d8a0e73321213f8af639a:collections:FORMAS DE BOLO DECORADOS:/colecao/formas-de-bolo-decoradas",
       "sort": "views",
-      "title": "Bicos de confeitar"
+      "title": "Formas de bolo decorados",
+      "link": "https://www.barradoce.com.br/colecao/formas-de-bolo-decoradas"
     },
     {
       "type": "page-title",
