@@ -23,8 +23,8 @@
       "limit": 12,
       "page": 1,
       "collection_id": "63594db573321213f8bdde63:categories:NATAL:/categoria/natal",
-      "sort": "views",
-      "title": "NATAL",
+      "sort": "sales",
+      "title": "Tudo para o Natal do confeiteiro",
       "link": "/categoria/natal"
     },
     {
@@ -48,7 +48,7 @@
       "limit": 12,
       "page": 1,
       "collection_id": "637653e173321213f8e02f49:collections:FITAS DECORATIVAS DE NATAL:/colecao/fitas-decorativas-natal",
-      "sort": "views",
+      "sort": "sales",
       "title": "Fitas para embalagens de Natal",
       "link": "https://www.barradoce.com.br/colecao/fitas-decorativas-natal"
     },
@@ -63,10 +63,10 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "627bc6953da6d37bc22df2f8:collections:NATAL:/colecao/natal",
-      "sort": "views",
-      "title": "Tudo para o Natal do confeiteiro",
-      "link": "/marcas/gramado-injetados"
+      "collection_id": "6241d4d62e405e04ff04acc5:categories:MOLDES DE SILICONE:/categoria/moldes-de-silicone",
+      "sort": "sales",
+      "title": "Moldes de silicone para decoração",
+      "link": "https://www.barradoce.com.br/categoria/moldes-de-silicone"
     },
     {
       "type": "banners-grid",
@@ -89,7 +89,7 @@
       "limit": 12,
       "page": 1,
       "collection_id": "634d8a0e73321213f8af639a:collections:FORMAS DE BOLO DECORADOS:/colecao/formas-de-bolo-decoradas",
-      "sort": "views",
+      "sort": "sales",
       "title": "Formas de bolo decorados",
       "link": "https://www.barradoce.com.br/colecao/formas-de-bolo-decoradas"
     },
