@@ -34,38 +34,23 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "limit": 12,
       "page": 1,
-      "collection_id": "63594db573321213f8bdde63:categories:NATAL:/categoria/natal",
+      "collection_id": "63a9a0934834634f731f34f9:categories:CORTADORES DE PÁSCOA:/categorias/cortadores-de-pascoa",
       "sort": "sales",
-      "title": "Tudo para o Natal do confeiteiro",
-      "link": "/categoria/natal"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/oti_formas-de-chocolate-de-natal.jpeg",
-          "link": "https://www.barradoce.com.br/colecao/formas-de-chocolate-para-natal",
-          "alt": "Formas de chocolate para Natal"
-        },
-        {
-          "img": "/img/uploads/oti_transfers-para-chocolates-decorados-de-natal.jpeg",
-          "link": "/categoria/natal",
-          "alt": "Blisters e transfers para chocolates decoradosd e Natal"
-        }
-      ]
+      "title": "CORTADORES DE PÁSCOA",
+      "link": "https://www.barradoce.com.br/categorias/cortadores-de-pascoa"
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "limit": 12,
       "page": 1,
-      "collection_id": "637653e173321213f8e02f49:collections:FITAS DECORATIVAS DE NATAL:/colecao/fitas-decorativas-natal",
+      "collection_id": "63a99f7e4834634f731f3276:categories:MOLDES DE SILICONE PARA PÁSCOA:/categorias/moldes-de-silicone-para-pascoa",
       "sort": "sales",
-      "title": "Fitas para embalagens de Natal",
-      "link": "https://www.barradoce.com.br/colecao/fitas-decorativas-natal"
+      "title": "MOLDES DE SILICONE PARA PÁSCOA",
+      "link": "https://www.barradoce.com.br/categorias/moldes-de-silicone-para-pascoa"
     },
     {
       "type": "brands-carousel",
@@ -75,38 +60,13 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "limit": 12,
       "page": 1,
-      "collection_id": "6241d4d62e405e04ff04acc5:categories:MOLDES DE SILICONE:/categoria/moldes-de-silicone",
+      "collection_id": "63a9a3604834634f731f391a:categories:SACOLAS E SAQUINHOS PARA PÁSCOA:/categorias/sacolas-e-saquinhos-para-pascoa",
       "sort": "sales",
-      "title": "Moldes de silicone para decoração",
-      "link": "https://www.barradoce.com.br/categoria/moldes-de-silicone"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/oti_formas-de-bolo-de-natal.jpeg",
-          "link": "/categoria/natal",
-          "alt": "Formas de bolo de Natal"
-        },
-        {
-          "img": "/img/uploads/oti_cortadores-de-natal.jpeg",
-          "link": "/categoria/natal",
-          "alt": "Cortadores de biscoito de Natal"
-        }
-      ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "634d8a0e73321213f8af639a:collections:FORMAS DE BOLO DECORADOS:/colecao/formas-de-bolo-decoradas",
-      "sort": "sales",
-      "title": "Formas de bolo decorados",
-      "link": "https://www.barradoce.com.br/colecao/formas-de-bolo-decoradas"
+      "title": "SACOLAS E SQUINHOS PARA PÁSCOA",
+      "link": "https://www.barradoce.com.br/categorias/sacolas-e-saquinhos-para-pascoa"
     },
     {
       "type": "page-title",
