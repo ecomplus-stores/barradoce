@@ -96,3 +96,7 @@ body, * {
 .focus-input {
   border: 3px solid #f97a00 !important;
 }
+
+#page-products .shipping-calculator .alert.alert-danger {
+  display: none !important;
+}
