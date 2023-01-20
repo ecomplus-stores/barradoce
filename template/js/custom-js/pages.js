@@ -19,5 +19,5 @@ storefront.on('widget:@ecomplus/widget-tag-manager', function () {
         }
     })
 
-
+    ecomCart.on('change', ({ data }) => { console.log(data.items) })
 })
