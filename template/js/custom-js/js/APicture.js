@@ -10,7 +10,6 @@ import {
     for (const thumb in containerBreakpoints) {
       const thumbBreakpoint = containerBreakpoints[thumb]
       if (thumbBreakpoint !== undefined && picture[thumb]) {
-        console.log('Best fit', bestFitBreakpoint)
         if (bestFitBreakpoint !== undefined) {
           if (thumbBreakpoint === null) {
             if (bestFitBreakpoint >= containerWidth) {
@@ -115,12 +114,14 @@ import {
         let srcset
         if (typeof this.src === 'object') {
           const { clientWidth, clientHeight } = this.$el
-          console.log(clientWidth, this.$el)
           const thumb = getBestFitThumb(this.src, clientWidth, clientHeight, this.containerBreakpoints)
           const imgObj = this.src[thumb]
-          const { url, size } = (imgObj || this.defaultImgObj)
+          let { url, size } = (imgObj || this.defaultImgObj)
           srcset = url
-          console.log(url, size)
+          if (!size) {
+            size = '430x430'
+          }
+          console.log(size)
           if (size) {
             [this.imgWidth, this.imgHeight] = size.split('x').map(px => parseInt(px, 10))
             if (clientWidth && this.imgHeight && this.canCalcHeight) {
@@ -165,6 +166,9 @@ import {
             if (this.imgHeight) {
               $img.height = this.imgHeight
               $img.width = this.imgWidth
+            } else {
+              $img.height = 430
+              $img.width = 430
             }
             $img.onerror = function () {
               console.error(new Error('Image load error'), this)

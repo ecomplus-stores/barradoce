@@ -35,7 +35,7 @@
               :current-slide.sync="currentGalleyImg"
               :is-s-s-r="isSSR"
             >
-              <slot name="first-picture"/>
+              <slot :imgWidth="430" :imgHeight="430" name="first-picture"/>
             </product-gallery>
             <slot name="gallery-footer"/>
           </component>
