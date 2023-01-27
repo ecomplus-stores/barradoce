@@ -92,7 +92,7 @@ if (pathname) {
   if (_.widgets.length) {
     %>
     <script>
-      partytown = { forward: [] };
+      partytown = { forward: ['datalayer'] };
     </script>
     <%- await include('@/helpers/widgets-append', {
       _, opt: {}, field: 'headAppend'
@@ -100,7 +100,7 @@ if (pathname) {
     <% if (
       Array.isArray(_.widgets) &&
       _.widgets.find(({ usePartytown, options }) => {
-        return (usePartytown || (options && options.partytown))
+        return (options && options.partytown || usePartytown)
       })
     ) { %>
       <script>
