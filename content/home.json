@@ -22,19 +22,44 @@
       "shuffle": true,
       "limit": 12,
       "page": 1,
-      "collection_id": "63a9a0934834634f731f34f9:categories:CORTADORES DE PÁSCOA:/categorias/cortadores-de-pascoa",
-      "sort": "sales",
-      "title": "CORTADORES DE PÁSCOA",
-      "link": "https://www.barradoce.com.br/categorias/cortadores-de-pascoa"
+      "collection_id": "63a99cbb4834634f731f2f0d:categories:CONFEITOS E GRANULADOS DE PÁSCOA:/categorias/confeitos-e-granulados-de-pascoa",
+      "title": "Confeitos de açúcar para Páscoa",
+      "link": "https://www.barradoce.com.br/categorias/confeitos-e-granulados-de-pascoa"
     },
     {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
       "page": 1,
-      "collection_id": "63a99cbb4834634f731f2f0d:categories:CONFEITOS E GRANULADOS DE PÁSCOA:/categorias/confeitos-e-granulados-de-pascoa",
-      "title": "Confeitos de açúcar para Páscoa",
-      "link": "https://www.barradoce.com.br/categorias/confeitos-e-granulados-de-pascoa"
+      "collection_id": "63a9ab6d4834634f731f41df:categories:TRANSFERS E FORMAS DECORADAS DE PÁSCOA:/categorias/transfers-e-formas-decoradas-de-pascoa",
+      "link": "https://www.barradoce.com.br/categorias/transfers-e-formas-decoradas-de-pascoa",
+      "title": "Transfers e formas decoradas para Páscoa"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/bd_bs_promo2201_forma-coracao-diamantado.jpg",
+          "mobile_img": "",
+          "link": "https://www.barradoce.com.br/produto/forma-de-chocolate-em-acetato-com-silicone-coracao-diamantado-plano-em-barra-grande-artcrystal",
+          "alt": "Forma de chocolate tablete de coração diamantado"
+        },
+        {
+          "link": "https://www.barradoce.com.br/categoria/bicos-de-confeitar",
+          "img": "/img/uploads/bd_bs_promo2201_bicos-wilton.jpg",
+          "alt": "Bicos de confeitar Wilton em promoção"
+        }
+      ]
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "63a9a0934834634f731f34f9:categories:CORTADORES DE PÁSCOA:/categorias/cortadores-de-pascoa",
+      "sort": "sales",
+      "title": "CORTADORES DE PÁSCOA",
+      "link": "https://www.barradoce.com.br/categorias/cortadores-de-pascoa"
     },
     {
       "type": "collection-shelf",
@@ -46,13 +71,19 @@
       "title": "Papel para Ovos de Páscoa e doces"
     },
     {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "63a9ab6d4834634f731f41df:categories:TRANSFERS E FORMAS DECORADAS DE PÁSCOA:/categorias/transfers-e-formas-decoradas-de-pascoa",
-      "link": "https://www.barradoce.com.br/categorias/transfers-e-formas-decoradas-de-pascoa",
-      "title": "Transfers e formas decoradas para Páscoa"
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/bd_bs_promo2201_corante-easy-gel-gran-chef.jpg",
+          "link": "https://www.barradoce.com.br/categoria/corantes-e-anilinas",
+          "alt": "Corantes Easygel GranChef em promoção"
+        },
+        {
+          "img": "/img/uploads/bd_bs_promo2201_pasta-de-amendoa.jpg",
+          "alt": "Pasta pura de amêndoa em promoção",
+          "link": "https://www.barradoce.com.br/produto/pasta-de-amendoa-pura-120g-gastronomia-chiappetta"
+        }
+      ]
     },
     {
       "type": "collection-shelf",
