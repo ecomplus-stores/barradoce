@@ -63,6 +63,15 @@
     },
     {
       "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "63a996bc4834634f731f27f2:categories:FITAS DECORATIVAS PÁSCOA:/categorias/fitas-decorativas-de-pascoa",
+      "title": "Fitas decorativas para Páscoa",
+      "link": "https://www.barradoce.com.br/categorias/fitas-decorativas-de-pascoa"
+    },
+    {
+      "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
       "page": 1,
