@@ -94,10 +94,12 @@ if (pathname) {
     <script>
       partytown = { 
         resolveUrl: function (url, location) {
-          if (url.hostname !== 'www.google-analytics.com' && url.hostname !== 'analytics.tiktok.com') {
-            const proxyUrl = new URL(location.href + 'reverse-proxy/');
-            proxyUrl.searchParams.append('url', url.href);
-            return proxyUrl;
+          if (url.hostname !== location.hostname) {
+            if (url.hostname !== 'www.google-analytics.com' && url.hostname !== 'analytics.tiktok.com') {
+              const proxyUrl = new URL(location.href + 'reverse-proxy/');
+              proxyUrl.searchParams.append('url', url.href);
+              return proxyUrl;
+            }
           }
         },
         forward: [] 
