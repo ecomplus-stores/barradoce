@@ -36,22 +36,6 @@
       "title": "Transfers e formas decoradas para Páscoa"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/bd_bs_promo2201_forma-coracao-diamantado.jpg",
-          "mobile_img": "",
-          "link": "https://www.barradoce.com.br/produto/forma-de-chocolate-em-acetato-com-silicone-coracao-diamantado-plano-em-barra-grande-artcrystal",
-          "alt": "Forma de chocolate tablete de coração diamantado"
-        },
-        {
-          "link": "https://www.barradoce.com.br/categoria/bicos-de-confeitar",
-          "img": "/img/uploads/bd_bs_promo2201_bicos-wilton.jpg",
-          "alt": "Bicos de confeitar Wilton em promoção"
-        }
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
@@ -78,21 +62,6 @@
       "collection_id": "63a9a2334834634f731f3718:categories:PAPEL EMBRULHO PARA PÁSCOA:/categorias/papel-embrulho-para-pascoa",
       "link": "https://www.barradoce.com.br/categorias/papel-embrulho-para-pascoa",
       "title": "Papel para Ovos de Páscoa e doces"
-    },
-    {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/bd_bs_promo2201_corante-easy-gel-gran-chef.jpg",
-          "link": "https://www.barradoce.com.br/categoria/corantes-e-anilinas",
-          "alt": "Corantes Easygel GranChef em promoção"
-        },
-        {
-          "img": "/img/uploads/bd_bs_promo2201_pasta-de-amendoa.jpg",
-          "alt": "Pasta pura de amêndoa em promoção",
-          "link": "https://www.barradoce.com.br/produto/pasta-de-amendoa-pura-120g-gastronomia-chiappetta"
-        }
-      ]
     },
     {
       "type": "collection-shelf",
