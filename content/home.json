@@ -25,7 +25,7 @@
       "collection_id": "6242025e2e405e04ff055ba6:categories:FORMAS DE BARRA DE E TABLETE DE CHOCOLATE:/categoria/formas-de-barra-e-tablete-de-chocolate",
       "title": "Formas para tabletes e barras",
       "link": "https://www.barradoce.com.br/categoria/formas-de-barra-e-tablete-de-chocolate",
-      "autoplay": 500
+      "autoplay": 3000
     },
     {
       "type": "collection-shelf",
@@ -35,7 +35,7 @@
       "collection_id": "6242020b2e405e04ff055a3c:categories:FORMAS DE BOMBONS E TRUFAS:/categoria/formas-de-bombons-e-trufas",
       "title": "Formas para trufas e bombons",
       "link": "https://www.barradoce.com.br/categoria/formas-de-bombons-e-trufas",
-      "autoplay": 500
+      "autoplay": 3000
     },
     {
       "type": "brands-carousel",
@@ -50,7 +50,7 @@
       "page": 1,
       "collection_id": "6126c2decfbcd97059897a09:brands:Banneton Brasil:/marcas/banneton-brasil",
       "title": "Bannetons e acessórios para pães",
-      "autoplay": 500,
+      "autoplay": 3000,
       "link": "https://www.barradoce.com.br/marcas/banneton-brasil"
     },
     {
@@ -61,7 +61,7 @@
       "collection_id": "6126c603cfbcd97059897d2b:brands:Vanilla Brasil:/marcas/vanilla-brasil",
       "title": "Os melhores produtos de baunilha",
       "link": "https://www.barradoce.com.br/marcas/vanilla-brasil",
-      "autoplay": 500
+      "autoplay": 3000
     },
     {
       "type": "page-title",
