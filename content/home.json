@@ -19,68 +19,23 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
+      "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "63a99cbb4834634f731f2f0d:categories:CONFEITOS E GRANULADOS DE PÁSCOA:/categorias/confeitos-e-granulados-de-pascoa",
-      "title": "Confeitos de açúcar para Páscoa",
-      "link": "https://www.barradoce.com.br/categorias/confeitos-e-granulados-de-pascoa"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "63a9ab6d4834634f731f41df:categories:TRANSFERS E FORMAS DECORADAS DE PÁSCOA:/categorias/transfers-e-formas-decoradas-de-pascoa",
-      "link": "https://www.barradoce.com.br/categorias/transfers-e-formas-decoradas-de-pascoa",
-      "title": "Transfers e formas decoradas para Páscoa"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "63a9a0934834634f731f34f9:categories:CORTADORES DE PÁSCOA:/categorias/cortadores-de-pascoa",
-      "sort": "sales",
-      "title": "CORTADORES DE PÁSCOA",
-      "link": "https://www.barradoce.com.br/categorias/cortadores-de-pascoa"
+      "collection_id": "6242025e2e405e04ff055ba6:categories:FORMAS DE BARRA DE E TABLETE DE CHOCOLATE:/categoria/formas-de-barra-e-tablete-de-chocolate",
+      "title": "Formas para tabletes e barras",
+      "link": "https://www.barradoce.com.br/categoria/formas-de-barra-e-tablete-de-chocolate",
+      "autoplay": 500
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "63a996bc4834634f731f27f2:categories:FITAS DECORATIVAS PÁSCOA:/categorias/fitas-decorativas-de-pascoa",
-      "title": "Fitas decorativas para Páscoa",
-      "link": "https://www.barradoce.com.br/categorias/fitas-decorativas-de-pascoa"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "63a9a2334834634f731f3718:categories:PAPEL EMBRULHO PARA PÁSCOA:/categorias/papel-embrulho-para-pascoa",
-      "link": "https://www.barradoce.com.br/categorias/papel-embrulho-para-pascoa",
-      "title": "Papel para Ovos de Páscoa e doces"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "63a99da44834634f731f2fcd:categories:CAIXAS E LATAS DE PÁSCOA:/categorias/caixas-e-latas-de-pascoa",
-      "title": "Caixas e latas para Páscoa",
-      "link": "https://www.barradoce.com.br/categorias/caixas-e-latas-de-pascoa"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "63a99f7e4834634f731f3276:categories:MOLDES DE SILICONE PARA PÁSCOA:/categorias/moldes-de-silicone-para-pascoa",
-      "sort": "sales",
-      "title": "MOLDES DE SILICONE PARA PÁSCOA",
-      "link": "https://www.barradoce.com.br/categorias/moldes-de-silicone-para-pascoa"
+      "collection_id": "6242020b2e405e04ff055a3c:categories:FORMAS DE BOMBONS E TRUFAS:/categoria/formas-de-bombons-e-trufas",
+      "title": "Formas para trufas e bombons",
+      "link": "https://www.barradoce.com.br/categoria/formas-de-bombons-e-trufas",
+      "autoplay": 500
     },
     {
       "type": "brands-carousel",
@@ -90,13 +45,23 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
+      "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "63a9a3604834634f731f391a:categories:SACOLAS E SAQUINHOS PARA PÁSCOA:/categorias/sacolas-e-saquinhos-para-pascoa",
-      "sort": "sales",
-      "title": "SACOLAS E SQUINHOS PARA PÁSCOA",
-      "link": "https://www.barradoce.com.br/categorias/sacolas-e-saquinhos-para-pascoa"
+      "collection_id": "6126c2decfbcd97059897a09:brands:Banneton Brasil:/marcas/banneton-brasil",
+      "title": "Bannetons e acessórios para pães",
+      "autoplay": 500,
+      "link": "https://www.barradoce.com.br/marcas/banneton-brasil"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "6126c603cfbcd97059897d2b:brands:Vanilla Brasil:/marcas/vanilla-brasil",
+      "title": "Os melhores produtos de baunilha",
+      "link": "https://www.barradoce.com.br/marcas/vanilla-brasil",
+      "autoplay": 500
     },
     {
       "type": "page-title",
