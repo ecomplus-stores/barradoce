@@ -50,7 +50,7 @@
       "page": 1,
       "collection_id": "6126c2decfbcd97059897a09:brands:Banneton Brasil:/marcas/banneton-brasil",
       "title": "Bannetons e acessórios para pães",
-      "autoplay": 0,
+      "autoplay": "",
       "link": "https://www.barradoce.com.br/marcas/banneton-brasil"
     },
     {
@@ -61,7 +61,7 @@
       "collection_id": "6126c603cfbcd97059897d2b:brands:Vanilla Brasil:/marcas/vanilla-brasil",
       "title": "Os melhores produtos de baunilha",
       "link": "https://www.barradoce.com.br/marcas/vanilla-brasil",
-      "autoplay": 0
+      "autoplay": ""
     },
     {
       "type": "page-title",
