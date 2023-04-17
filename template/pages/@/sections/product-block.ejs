@@ -48,6 +48,8 @@
                     <img
                       src="<%= imgObj.url.replace(/\.webp$/, '') %>"
                       alt="<%= imgObj.alt || _.state.name %>"
+                      width="430px"
+                      height="430px"
                       <% if (imgObj.url.startsWith('https://ecoms1.com/')) { %>
                         crossorigin="anonymous"
                       <% } %>
