@@ -9,11 +9,11 @@
       "enabled": true
     },
     {
-      "type": "buy-together",
+      "type": "product-description",
       "enabled": true
     },
     {
-      "type": "product-description",
+      "type": "buy-together",
       "enabled": true
     },
     {
