@@ -116,8 +116,15 @@ export default {
         const { clientWidth, clientHeight } = this.$el
         const thumb = getBestFitThumb(this.src, clientWidth, clientHeight, this.containerBreakpoints)
         const imgObj = this.src[thumb]
-        const { url, size } = (imgObj || this.defaultImgObj)
+        let { url, size } = (imgObj || this.defaultImgObj)
         srcset = url
+        if (!size) {
+          if (url.includes('/imgs/normal/@v3/')) {
+            size = '350x350'
+          } else if (url.includes('/imgs/big/@v3/')) {
+            size = '700x700'
+          }
+        }
         if (size) {
           [this.imgWidth, this.imgHeight] = size.split('x').map(px => parseInt(px, 10))
           if (clientWidth && this.imgHeight && this.canCalcHeight) {
