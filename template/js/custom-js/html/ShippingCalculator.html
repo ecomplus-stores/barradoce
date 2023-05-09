@@ -1,4 +1,4 @@
-<div class="shipping-calculator">
+<div class="shipping-calculator position-relative">
     <form
       v-if="canInputZip"
       @submit.prevent="submitZipCode"
@@ -30,9 +30,19 @@
         </div>
       </div>
     </form>
-    <div v-if="typeof(selectedService) === undefined || selectedService === null" class="alert alert-danger" role="alert">
-      Por favor, escolha uma forma de envio
-    </div>
+    <transition
+      enter-active-class="animated fadeIn"
+      leave-active-class="animated position-absolute fadeOut"
+    >
+      <div
+        v-if="canSelectServices && (typeof(selectedService) === undefined || selectedService === null)"
+        class="alert alert-warning px-3 py-2 mb-2"
+        style="width: 100%; max-width: 370px; z-index: 2"
+        role="alert"
+      >
+        <small>Escolha uma forma de envio abaixo</small>
+      </div>
+    </transition>
     <div v-if="!isToCalculate" class="alert alert-danger" role="alert">
       Necessário inserir o cep completo (8 dígitos) para cálculo
     </div>
