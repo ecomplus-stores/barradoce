@@ -20,21 +20,21 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 12,
+      "limit": 18,
       "page": 1,
-      "collection_id": "6242025e2e405e04ff055ba6:categories:FORMAS DE BARRA DE E TABLETE DE CHOCOLATE:/categoria/formas-de-barra-e-tablete-de-chocolate",
-      "title": "Formas para tabletes e barras",
-      "link": "https://www.barradoce.com.br/categoria/formas-de-barra-e-tablete-de-chocolate",
+      "collection_id": "645a4f244bd2e929c1f39a82:categories:TRANSFERS E FORMAS DECORADAS PARA DIA DAS MÃES E NAMORADOS:/categorias/transfers-e-formas-decoradas-para-dia-das-maes-e-namorados",
+      "title": "Dia das Mães: Transfers e formas decoradas",
+      "link": "https://www.barradoce.com.br/categorias/transfers-e-formas-decoradas-para-dia-das-maes-e-namorados",
       "autoplay": 3000
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 12,
+      "limit": 18,
       "page": 1,
-      "collection_id": "6242020b2e405e04ff055a3c:categories:FORMAS DE BOMBONS E TRUFAS:/categoria/formas-de-bombons-e-trufas",
-      "title": "Formas para trufas e bombons",
-      "link": "https://www.barradoce.com.br/categoria/formas-de-bombons-e-trufas",
+      "collection_id": "645a4fda4bd2e929c1f39caa:categories:CAIXAS PARA DIA DAS MÃES E NAMORADOS:/categorias/embalagens-para-dia-das-maes-e-namorados",
+      "title": "Dia das Mães: Caixas",
+      "link": "https://www.barradoce.com.br/categorias/embalagens-para-dia-das-maes-e-namorados",
       "autoplay": 3000
     },
     {
@@ -48,19 +48,19 @@
       "shuffle": false,
       "limit": 4,
       "page": 1,
-      "collection_id": "6126c2decfbcd97059897a09:brands:Banneton Brasil:/marcas/banneton-brasil",
-      "title": "Bannetons e acessórios para pães",
+      "collection_id": "645a4f934bd2e929c1f39bfc:categories:FORMAS PARA DIA DAS MÃES E NAMORADOS:/categorias/formas-de-chocolate-para-dia-das-maes-e-namorados",
+      "title": "Dia das Mães: Formas",
       "autoplay": "",
-      "link": "https://www.barradoce.com.br/marcas/banneton-brasil"
+      "link": "https://www.barradoce.com.br/categorias/formas-de-chocolate-para-dia-das-maes-e-namorados"
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 4,
       "page": 1,
-      "collection_id": "6126c603cfbcd97059897d2b:brands:Vanilla Brasil:/marcas/vanilla-brasil",
-      "title": "Os melhores produtos de baunilha",
-      "link": "https://www.barradoce.com.br/marcas/vanilla-brasil",
+      "collection_id": "645a4eaf4bd2e929c1f399a9:categories:FITAS PARA DIA DAS MÃES E NAMORADOS:/categorias/fitas-para-dia-das-maes-e-namorados",
+      "title": "Dia das Mães: Fitas",
+      "link": "https://www.barradoce.com.br/categorias/fitas-para-dia-das-maes-e-namorados",
       "autoplay": ""
     },
     {
