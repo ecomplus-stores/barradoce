@@ -5,5 +5,8 @@ const { ssr } = require('@ecomplus/storefront-renderer/functions/')
 process.env.STOREFRONT_LONG_CACHE = 'true'
 
 exports.ssr = functions
-  .runWith({ minInstances: 2 })
+  .runWith({
+    memory: '512MB',
+    minInstances: 2,
+  })
   .https.onRequest((req, res) => ssr(req, res))
