@@ -6,7 +6,7 @@ process.env.STOREFRONT_LONG_CACHE = 'true'
 
 exports.ssr = functions
   .runWith({
-    memory: '512MB',
-    minInstances: 2,
+    memory: '1GB',
+    minInstances: 1,
   })
   .https.onRequest((req, res) => ssr(req, res))
