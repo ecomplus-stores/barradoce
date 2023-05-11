@@ -26,11 +26,15 @@
     {
       "src": "/img/uploads/google-safe-browsing-site-seguro.png",
       "alt": "Comprar na BarraDoce é totalmente seguro",
-      "link": "https://transparencyreport.google.com/safe-browsing/search?url=www.barradoce.com.br"
+      "link": "https://transparencyreport.google.com/safe-browsing/search?url=www.barradoce.com.br",
+      "width": 125,
+      "height": 56
     },
     {
       "src": "/img/uploads/lets-encrypt-site-seguro.png",
-      "alt": "Compre com segurança e tranquilidade na BarraDoce"
+      "alt": "Compre com segurança e tranquilidade na BarraDoce",
+      "width": 100,
+      "height": 100
     }
   ],
   "payment_methods": {
