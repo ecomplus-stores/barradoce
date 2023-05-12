@@ -147,14 +147,8 @@ if (mainCategories) {
             <%= contacts.whatsapp %>
           </a>
         <% } else if (contacts.phone) { %>
-          <a
-            href="tel:+<%= contacts.phone.replace(/\D/g, '') %>"
-            target="_blank"
-            rel="noopener"
-          >
-            <i class="i-phone mr-1"></i>
-            <%= contacts.phone %>
-          </a>
+          <i class="i-phone mr-1"></i>
+          <%= contacts.phone %>
         <% } %>
       </div>
     <% } %>
