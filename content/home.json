@@ -22,9 +22,9 @@
       "shuffle": false,
       "limit": 18,
       "page": 1,
-      "collection_id": "645a4f244bd2e929c1f39a82:categories:TRANSFERS E FORMAS DECORADAS PARA DIA DAS MÃES E NAMORADOS:/categorias/transfers-e-formas-decoradas-para-dia-das-maes-e-namorados",
-      "title": "Dia das Mães: Transfers e formas decoradas",
-      "link": "https://www.barradoce.com.br/categorias/transfers-e-formas-decoradas-para-dia-das-maes-e-namorados",
+      "collection_id": "634d8a0e73321213f8af639a:collections:FORMAS DE BOLO DECORADOS:/colecao/formas-de-bolo-decoradas",
+      "title": "Formas para bolos decorados, um sucesso garantido",
+      "link": "https://www.barradoce.com.br/colecao/formas-de-bolo-decoradas",
       "autoplay": 3000
     },
     {
@@ -32,9 +32,9 @@
       "shuffle": false,
       "limit": 18,
       "page": 1,
-      "collection_id": "645a4fda4bd2e929c1f39caa:categories:CAIXAS PARA DIA DAS MÃES E NAMORADOS:/categorias/embalagens-para-dia-das-maes-e-namorados",
-      "title": "Dia das Mães: Caixas",
-      "link": "https://www.barradoce.com.br/categorias/embalagens-para-dia-das-maes-e-namorados",
+      "collection_id": "6241cf482e405e04ff049dc4:categories:BICOS DE CONFEITAR:/categoria/bicos-de-confeitar",
+      "title": "Bicos de confeitar, os mais vendidos",
+      "link": "https://www.barradoce.com.br/categoria/bicos-de-confeitar",
       "autoplay": 3000
     },
     {
@@ -48,19 +48,19 @@
       "shuffle": false,
       "limit": 4,
       "page": 1,
-      "collection_id": "645a4f934bd2e929c1f39bfc:categories:FORMAS PARA DIA DAS MÃES E NAMORADOS:/categorias/formas-de-chocolate-para-dia-das-maes-e-namorados",
-      "title": "Dia das Mães: Formas",
+      "collection_id": "6241d9332e405e04ff04ba04:categories:VELAS PARA BOLO:/categoria/velas-para-bolo",
+      "title": "Velas para todas ocasiões",
       "autoplay": "",
-      "link": "https://www.barradoce.com.br/categorias/formas-de-chocolate-para-dia-das-maes-e-namorados"
+      "link": "https://www.barradoce.com.br/categoria/velas-para-bolo"
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 4,
       "page": 1,
-      "collection_id": "645a4eaf4bd2e929c1f399a9:categories:FITAS PARA DIA DAS MÃES E NAMORADOS:/categorias/fitas-para-dia-das-maes-e-namorados",
-      "title": "Dia das Mães: Fitas",
-      "link": "https://www.barradoce.com.br/categorias/fitas-para-dia-das-maes-e-namorados",
+      "collection_id": "6242025e2e405e04ff055ba6:categories:FORMAS DE BARRA E TABLETE DE CHOCOLATE:/categoria/formas-de-barra-e-tablete-de-chocolate",
+      "title": "Formas para tabletes de chocolate irresistíveis",
+      "link": "https://www.barradoce.com.br/categoria/formas-de-barra-e-tablete-de-chocolate",
       "autoplay": ""
     },
     {
