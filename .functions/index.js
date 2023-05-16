@@ -1,12 +1,12 @@
-const { onRequest } = require('firebase-functions/v2/https')
+const functions = require('firebase-functions')
 
 const { ssr } = require('@ecomplus/storefront-renderer/functions/')
 
 process.env.STOREFRONT_LONG_CACHE = 'true'
 
-exports.ssr = onRequest({
-  concurrency: 80,
-  memory: '512MiB',
-  minInstances: 1,
-  timeoutSeconds: 15,
-}, ssr)
+exports.ssr = functions
+  .runWith({
+    memory: '1GB',
+    minInstances: 1,
+  })
+  .https.onRequest((req, res) => ssr(req, res))
