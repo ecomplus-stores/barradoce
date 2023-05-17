@@ -103,7 +103,7 @@ if (pathname) {
             default:
               const proxyUrl = new URL(`https://${location.hostname}/reverse-proxy/`);
               proxyUrl.searchParams.append('url', url.href);
-              return proxyUrl;
+              return decodeURIComponent(proxyUrl);
           };
         },
         forward: [],
