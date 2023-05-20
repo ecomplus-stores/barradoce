@@ -63,8 +63,12 @@ exports.ssr = functions
               switch (headerName) {
                 case 'transfer-encoding':
                 case 'connection':
+                case 'strict-transport-security':
+                case 'alt-svc':
+                case 'server':
                   break
                 default:
+                  console.log(headerName)
                   res.set(headerName, response.headers[headerName])
               }
             })
