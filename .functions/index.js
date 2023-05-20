@@ -51,10 +51,10 @@ exports.ssr = functions
             timeout: 3000,
             validateStatus: (status) => {
               return Boolean(status)
-            },
-            decompress: false
+            }
           })
           res.status(response.status)
+          console.log(response.data)
           if (response.headers) {
             Object.keys(response.headers).forEach((headerName) => {
               res.set(headerName, response.headers[headerName])
