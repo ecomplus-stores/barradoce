@@ -29,6 +29,7 @@ exports.ssr = functions
         delete headers['upgrade-insecure-requests']
         delete headers['x-timer']
         delete headers['x-varnish']
+        delete headers['x-orig-accept-language']
         Object.keys(headers).forEach((headerName) => {
           if (
             headerName.startsWith('x-forwarded-')
@@ -55,6 +56,7 @@ exports.ssr = functions
               return Boolean(status)
             }
           })
+          console.log(response.headers)
           res.status(response.status)
           if (response.headers) {
             Object.keys(response.headers).forEach((headerName) => {
