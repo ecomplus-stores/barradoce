@@ -60,7 +60,13 @@ exports.ssr = functions
           res.status(response.status)
           if (response.headers) {
             Object.keys(response.headers).forEach((headerName) => {
-              res.set(headerName, response.headers[headerName])
+              switch (headerName) {
+                case 'transfer-encoding':
+                case 'connection':
+                  break
+                default:
+                  res.set(headerName, response.headers[headerName])
+              }
             })
           }
           res.send(response.data)
