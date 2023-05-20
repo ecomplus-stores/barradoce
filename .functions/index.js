@@ -21,6 +21,7 @@ exports.ssr = functions
         const { headers } = req
         headers['origin'] = headers['x-forwarded-host']
         headers['host'] = proxyUrl.hostname
+        headers['accept'] = 'text/plain,text/html,application/xhtml+xml,application/javascript,application/x-javascript'
         headers['accept-encoding'] = 'gzip'
         delete headers['forwarded']
         delete headers['via']
@@ -49,12 +50,13 @@ exports.ssr = functions
           const response = await axios.get(proxyUrl.href, {
             headers,
             timeout: 3000,
+            responseType: 'text',
             validateStatus: (status) => {
               return Boolean(status)
-            }
+            },
+            decompress: false
           })
           res.status(response.status)
-          console.log(response.data)
           if (response.headers) {
             Object.keys(response.headers).forEach((headerName) => {
               res.set(headerName, response.headers[headerName])
