@@ -13,9 +13,26 @@ exports.ssr = functions
   .https.onRequest(async (req, res) => {
     if (req.url.startsWith('/reverse-proxy/')) {
       const { headers } = req
-      delete headers['origin']
-      delete headers['host']
-      delete headers['referer']
+      headers['origin'] = headers['x-forwarded-host']
+      delete headers['forwarded']
+      delete headers['via']
+      delete headers['traceparent']
+      delete headers['upgrade-insecure-requests']
+      delete headers['x-timer']
+      delete headers['x-varnish']
+      Object.keys(headers).forEach((headerName) => {
+        if (
+          headerName.startsWith('x-forwarded-')
+          || headerName.startsWith('cdn-')
+          || headerName.startsWith('fastly-')
+          || headerName.startsWith('x-firebase-')
+          || headerName.startsWith('x-cloud-')
+          || headerName.startsWith('x-appengine-')
+          || headerName.startsWith('function-')
+        ) {
+          delete headers[headerName]
+        }
+      })
       console.log({
         url: req.query.url,
         headers
@@ -29,10 +46,13 @@ exports.ssr = functions
             return Boolean(status)
           }
         })
-        console.log(response.data)
-        res
-          .writeHead(response.status, response.headers)
-          .send(response.data)
+        res.status(response.status)
+        if (response.headers) {
+          Object.keys(response.headers).forEach((headerName) => {
+            res.set(headerName, response.headers[headerName])
+          })
+        }
+        res.send(response.data)
       } catch (err) {
         console.error(err)
         res.status(400).send(err.message)
