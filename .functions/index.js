@@ -53,8 +53,7 @@ exports.ssr = functions
             responseType: 'text',
             validateStatus: (status) => {
               return Boolean(status)
-            },
-            decompress: false
+            }
           })
           res.status(response.status)
           if (response.headers) {
