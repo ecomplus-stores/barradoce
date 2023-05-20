@@ -16,9 +16,13 @@ exports.ssr = functions
       delete headers['origin']
       delete headers['host']
       delete headers['referer']
+      console.log({
+        url: req.query.url,
+        headers
+      })
       try {
         const response = await axios.get(req.query.url, {
-          headers,
+          // headers,
           timeout: 3000,
           responseType: 'text',
           validateStatus: (status) => {
