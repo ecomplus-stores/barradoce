@@ -1,4 +1,5 @@
 const functions = require('firebase-functions')
+const axios = require('axios')
 
 const { ssr } = require('@ecomplus/storefront-renderer/functions/')
 
@@ -9,4 +10,22 @@ exports.ssr = functions
     memory: '512MB',
     minInstances: 2,
   })
-  .https.onRequest((req, res) => ssr(req, res))
+  .https.onRequest(async (req, res) => {
+    if (url.startsWith('/reverse-proxy/')) {
+      const { headers } = req
+      delete headers['origin']
+      delete headers['host']
+      delete headers['referer']
+      const { response } = axios.get(req.query.url, {
+        headers,
+        timeout: 3000,
+        responseType: 'text',
+        validateStatus: (status) => {
+          return Boolean(status)
+        }
+      })
+      res.writeHead(response.status, response.headers).send(response.data)
+    } else {
+      return ssr(req, res)
+    }
+  })
