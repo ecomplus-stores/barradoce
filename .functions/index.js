@@ -17,7 +17,7 @@ exports.ssr = functions
       delete headers['host']
       delete headers['referer']
       try {
-        const { response } = await axios.get(req.query.url, {
+        const response = await axios.get(req.query.url, {
           headers,
           timeout: 3000,
           responseType: 'text',
