@@ -21,6 +21,8 @@ exports.ssr = functions
         const { headers } = req
         headers['origin'] = headers['x-forwarded-host']
         headers['host'] = proxyUrl.hostname
+        headers['accept'] = '*/*'
+        delete headers['accept-encoding']
         delete headers['forwarded']
         delete headers['via']
         delete headers['traceparent']
