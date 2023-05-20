@@ -21,10 +21,6 @@ exports.ssr = functions
         const { headers } = req
         headers['origin'] = headers['x-forwarded-host']
         headers['host'] = proxyUrl.hostname
-        headers['accept'] = '*/*'
-        if (!headers['accept-encoding']) {
-          headers['accept-encoding'] = 'gzip, deflate, br'
-        }
         delete headers['forwarded']
         delete headers['via']
         delete headers['traceparent']
@@ -55,7 +51,8 @@ exports.ssr = functions
             responseType: 'text',
             validateStatus: (status) => {
               return Boolean(status)
-            }
+            },
+            decompress: false
           })
           res.status(response.status)
           if (response.headers) {
