@@ -11,7 +11,7 @@ exports.ssr = functions
     minInstances: 2,
   })
   .https.onRequest(async (req, res) => {
-    if (url.startsWith('/reverse-proxy/')) {
+    if (req.url.startsWith('/reverse-proxy/')) {
       const { headers } = req
       delete headers['origin']
       delete headers['host']
