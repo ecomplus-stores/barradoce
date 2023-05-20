@@ -58,25 +58,25 @@ exports.ssr = functions
           })
           console.log(response.headers)
           res.status(response.status)
-          if (response.headers) {
-            Object.keys(response.headers).forEach((headerName) => {
-              switch (headerName) {
-                case 'transfer-encoding':
-                case 'connection':
-                case 'strict-transport-security':
-                case 'alt-svc':
-                case 'server':
-                  break
-                default:
-                  console.log(headerName)
-                  res.set(headerName, response.headers[headerName])
-              }
-            })
+          Object.keys(response.headers).forEach((headerName) => {
+            switch (headerName) {
+              case 'transfer-encoding':
+              case 'connection':
+              case 'strict-transport-security':
+              case 'alt-svc':
+              case 'server':
+                break
+              default:
+                res.set(headerName, response.headers[headerName])
+            }
+          })
+          if (!response.headers['access-control-allow-origin']) {
+            res.set('access-control-allow-origin', '*')
           }
-          res.send(response.data)
+          return res.send(response.data)
         } catch (err) {
           console.error(err)
-          res.status(400).send(err.message)
+          return res.status(400).send(err.message)
         }
       }
       res.sendStatus(400)
