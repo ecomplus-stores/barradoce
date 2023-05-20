@@ -16,15 +16,22 @@ exports.ssr = functions
       delete headers['origin']
       delete headers['host']
       delete headers['referer']
-      const { response } = await axios.get(req.query.url, {
-        headers,
-        timeout: 3000,
-        responseType: 'text',
-        validateStatus: (status) => {
-          return Boolean(status)
-        }
-      })
-      res.writeHead(response.status, response.headers).send(response.data)
+      try {
+        const { response } = await axios.get(req.query.url, {
+          headers,
+          timeout: 3000,
+          responseType: 'text',
+          validateStatus: (status) => {
+            return Boolean(status)
+          }
+        })
+        res
+          .writeHead(response.status, response.headers)
+          .send(response.data)
+      } catch (err) {
+        console.error(err)
+        res.status(400).send(err.message)
+      }
     } else {
       return ssr(req, res)
     }
