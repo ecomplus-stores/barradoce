@@ -22,7 +22,9 @@ exports.ssr = functions
         headers['origin'] = headers['x-forwarded-host']
         headers['host'] = proxyUrl.hostname
         headers['accept'] = '*/*'
-        delete headers['accept-encoding']
+        if (!headers['accept-encoding']) {
+          headers['accept-encoding'] = 'gzip, deflate, br'
+        }
         delete headers['forwarded']
         delete headers['via']
         delete headers['traceparent']
