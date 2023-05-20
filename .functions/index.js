@@ -22,13 +22,14 @@ exports.ssr = functions
       })
       try {
         const response = await axios.get(req.query.url, {
-          // headers,
+          headers,
           timeout: 3000,
           responseType: 'text',
           validateStatus: (status) => {
             return Boolean(status)
           }
         })
+        console.log(response.data)
         res
           .writeHead(response.status, response.headers)
           .send(response.data)
