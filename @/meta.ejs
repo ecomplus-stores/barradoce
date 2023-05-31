@@ -88,14 +88,17 @@ if (pathname) {
   if (_.widgets.length) {
     %>
     <script>
-      partytown = { 
+      partytown = {
         resolveUrl: function (url, location) {
           switch (url.hostname) {
             case 'www.googletagmanager.com':
             case 'www.google-analytics.com':
-            case 'analytics.tiktok.com':
+            case 'analytics.google.com':
+            case 'api.hubspot.com':
+            case 'api.hubapi.com':
+            case 'trc.taboola.com':
             case location.hostname:
-              break;
+              return url;
             default:
               const proxyUrl = new URL(`https://${location.hostname}/reverse-proxy/`);
               proxyUrl.searchParams.append('url', url.href);
