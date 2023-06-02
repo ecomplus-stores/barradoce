@@ -7,5 +7,5 @@ process.env.STOREFRONT_LONG_CACHE = 'true'
 exports.ssr = onRequest({
   concurrency: 80,
   minInstances: 1,
-  memory: '512MiB',
+  memory: '1GiB',
 }, ssr)
