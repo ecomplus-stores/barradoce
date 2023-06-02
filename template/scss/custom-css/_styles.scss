@@ -142,3 +142,6 @@ body, * {
 .order-info__valid-thru {
   color: white !important;
 }
+.cart__summary-row.mt-1 * {
+  color: var(--success) !important
+}
