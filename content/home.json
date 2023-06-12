@@ -20,11 +20,11 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 18,
+      "limit": 12,
       "page": 1,
-      "collection_id": "634d8a0e73321213f8af639a:collections:FORMAS DE BOLO DECORADOS:/colecao/formas-de-bolo-decoradas",
-      "title": "Formas para bolos decorados, um sucesso garantido",
-      "link": "https://www.barradoce.com.br/colecao/formas-de-bolo-decoradas",
+      "collection_id": "6241d4c22e405e04ff04ac99:categories:EJETORES DE MASSA:/categoria/ejetores-de-massa",
+      "title": "Ejetores",
+      "link": "https://www.barradoce.com.br/categoria/ejetores-de-massa",
       "autoplay": 3000
     },
     {
@@ -33,9 +33,9 @@
       "limit": 18,
       "page": 1,
       "collection_id": "6241cf482e405e04ff049dc4:categories:BICOS DE CONFEITAR:/categoria/bicos-de-confeitar",
-      "title": "Bicos de confeitar, os mais vendidos",
-      "link": "https://www.barradoce.com.br/categoria/bicos-de-confeitar",
-      "autoplay": 3000
+      "title": "Velas para todas ocasiões",
+      "autoplay": "",
+      "link": "https://www.barradoce.com.br/categoria/bicos-de-confeitar"
     },
     {
       "type": "brands-carousel",
@@ -48,20 +48,19 @@
       "shuffle": false,
       "limit": 4,
       "page": 1,
-      "collection_id": "6241d9332e405e04ff04ba04:categories:VELAS PARA BOLO:/categoria/velas-para-bolo",
-      "title": "Velas para todas ocasiões",
-      "autoplay": "",
-      "link": "https://www.barradoce.com.br/categoria/velas-para-bolo"
+      "collection_id": "62fe76041edaa56e539ea5a0:categories:CORANTES E GLITTERS PARA REVESTIMENTO:/categoria/corante-para-revestir-e-glitter",
+      "title": "Pós e glitter para decoração",
+      "link": "https://www.barradoce.com.br/categoria/corante-para-revestir-e-glitter",
+      "autoplay": ""
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 4,
+      "limit": 16,
       "page": 1,
-      "collection_id": "6242025e2e405e04ff055ba6:categories:FORMAS DE BARRA E TABLETE DE CHOCOLATE:/categoria/formas-de-barra-e-tablete-de-chocolate",
-      "title": "Formas para tabletes de chocolate irresistíveis",
-      "link": "https://www.barradoce.com.br/categoria/formas-de-barra-e-tablete-de-chocolate",
-      "autoplay": ""
+      "collection_id": "624205d92e405e04ff056a30:categories:GRANULADOS E CONFEITOS:/categoria/granulados-e-confeitos",
+      "title": "Granulados e confeitos",
+      "link": "https://www.barradoce.com.br/categoria/granulados-e-confeitos"
     },
     {
       "type": "page-title",
