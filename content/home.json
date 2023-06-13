@@ -20,22 +20,22 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
+      "limit": 18,
+      "page": 1,
+      "collection_id": "6241d0ac2e405e04ff04a198:categories:BICOS ESTRELA E PITANGA:/categoria/bicos-de-confeitar-estrela-e-pitanga",
+      "title": "Bicos de confeitar",
+      "autoplay": "",
+      "link": "https://www.barradoce.com.br/categoria/bicos-de-confeitar"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
       "limit": 12,
       "page": 1,
       "collection_id": "6241fcda2e405e04ff0542d6:categories:FORMAS DE TORTA:/categoria/formas-de-tortas",
       "title": "Formas para tortas",
       "link": "https://www.barradoce.com.br/categoria/formas-de-tortas",
       "autoplay": 3000
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 18,
-      "page": 1,
-      "collection_id": "6241d0ac2e405e04ff04a198:categories:BICOS ESTRELA E PITANGA:/categoria/bicos-de-confeitar-estrela-e-pitanga",
-      "title": "Velas para todas ocasiões",
-      "autoplay": "",
-      "link": "https://www.barradoce.com.br/categoria/bicos-de-confeitar"
     },
     {
       "type": "brands-carousel",
