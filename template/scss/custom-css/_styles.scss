@@ -109,7 +109,7 @@
   display: none !important;
 }
 .product-card__name {
-    --max-lines: 4 !important;
+    --max-lines: 3 !important;
 }
 .discount-applier.checkout__discount, .checkout__notes {
   display: none !important;
@@ -144,4 +144,32 @@ body, * {
 }
 .cart__summary-row.mt-1 * {
   color: var(--success) !important
+}
+
+#product-actions {
+  .quantity-selector__label button {
+    padding: .21rem 1rem !important;
+  }
+}
+.prices.product-card__prices {
+  line-height: unset !important;
+}
+.quantity-selector__btn-container {
+  border-radius: .25rem;
+  border: 1px solid #ced4da;
+  min-width: unset !important;
+  input {
+    border: none;
+  }
+  .btn.btn-sm.btn-link.col-sm-3 {
+    &:first-child {
+      border-radius: .25rem 0 0 .25rem;
+    }
+    &:last-child {
+      border-radius: 0 .25rem .25rem 0;
+    }
+  }
+}
+.quantity-selector__label {
+  margin-left: var(--spacer-4) !important;
 }
