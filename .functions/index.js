@@ -28,7 +28,7 @@ exports.ssr2 = onRequest({
       Object.keys(headers).forEach((headerName) => {
         res.set(headerName, headers[headerName])
       })
-      const isFresh = Timestamp.now().toMillis() - __timestamp.toMillis() < 1000 * 60 * 5
+      const isFresh = (Timestamp.now().toMillis() - __timestamp.toMillis()) < 1000 * 60 * 5
       res.set('x-swr-date', (isFresh ? 'fresh ' : '') + __timestamp.toDate().toISOString())
       res.status(status || 200).send(body)
       if (isFresh) {
@@ -39,15 +39,44 @@ exports.ssr2 = onRequest({
     cacheRef = null
     warn(err)
   }
+
+  const headers = {}
+  const _set = res.set
+  res.set = function (field, value) {
+    headers[field] = value
+    if (!res.headersSent) {
+      _set.apply(res, arguments)
+    }
+  }
+
+  let statusCode
+  const _status = res.status
+  res.status = function (_statusCode) {
+    statusCode = _statusCode
+    if (!res.headersSent) {
+      _status.apply(res, arguments)
+    }
+  }
+  const _sendStatus = res.sendStatus
+  res.sendStatus = function (_statusCode) {
+    statusCode = _statusCode
+    if (!res.headersSent) {
+      _sendStatus.apply(res, arguments)
+    }
+  }
+
   const _send = res.send
   res.send = function (body) {
     if (!res.headersSent) {
       _send.apply(res, arguments)
     }
-    if (cacheRef && res.statusCode === 200) {
+    if (!statusCode) {
+      statusCode = res.statusCode
+    }
+    if (cacheRef && statusCode === 200) {
       cacheRef.set({
-        headers: res.getHeaders(),
-        status: res.statusCode,
+        headers,
+        status: statusCode,
         body,
         __timestamp: Timestamp.now()
       }).catch(warn)
