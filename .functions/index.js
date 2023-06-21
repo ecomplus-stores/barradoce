@@ -31,32 +31,27 @@ exports.ssr2 = onRequest({
     warn(err)
   }
   const _send = res.send
-  const _end = res.end
-  let body = null
-  res.send = function (html) {
+  res.send = function (body) {
     body = html
     if (!res.headersSent) {
       _send.apply(res, arguments)
     }
+    if (cacheRef) {
+      cacheRef.set({
+        headers: res.getHeaders(),
+        status: res.statusCode,
+        body,
+        __timestamp: Timestamp.now()
+      }).catch(warn)
+    }
   }
+  const _end = res.end
   res.end = function () {
     if (!res.headersSent) {
       _end.apply(res, arguments)
     }
   }
-  ssr(req, res)
-  if (cacheRef) {
-    try {
-      await cacheRef.set({
-        headers: res.getHeaders(),
-        status: res.statusCode,
-        body,
-        __timestamp: Timestamp.now()
-      })
-    } catch (err) {
-      warn(err)
-    }
-  }
+  return ssr(req, res)
 })
 
 exports.reverseproxy = onRequest({
