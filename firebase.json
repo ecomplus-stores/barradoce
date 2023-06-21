@@ -11135,7 +11135,7 @@
       },
       {
         "source": "**/!(*(*.)js|*(*.)css|*(*.)ico|*(*.)png|*(*.)gif|*(*.)jpg|*(*.)jpeg|*(*.)webp|*(*.)svg|*(*.)woff|*(*.)woff2|*(*.)otf|*(*.)ttf|*(*.)eot)",
-        "function": "ssr2"
+        "function": "ssr"
       },
       {
         "source": "/storefront.?*.js",
