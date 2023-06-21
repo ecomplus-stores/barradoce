@@ -28,9 +28,10 @@ exports.ssr2 = onRequest({
       Object.keys(headers).forEach((headerName) => {
         res.set(headerName, headers[headerName])
       })
-      res.set('x-swr-date', __timestamp.toDate().toISOString())
+      const isFresh = Timestamp.now().toMillis() - __timestamp.toMillis() < 1000 * 60 * 5
+      res.set('x-swr-date', (isFresh ? 'fresh ' : '') + __timestamp.toDate().toISOString())
       res.status(status || 200).send(body)
-      if (Timestamp.now().toMillis() - __timestamp.toMillis() < 1000 * 60 * 5) {
+      if (isFresh) {
         return true
       }
     }
