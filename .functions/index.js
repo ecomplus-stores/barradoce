@@ -14,16 +14,21 @@ exports.ssr2 = onRequest({
   minInstances: 0,
   memory: '2GiB',
 }, async (req, res) => {
+  if (req.path.startsWith('/~partytown')) {
+    res.sendStatus(404)
+    return null
+  }
   let cacheRef
   try {
     const db = getFirestore()
-    cacheRef = db.doc(`ssrCache/${req.path.replace(/\//g, '_')}`)
+    cacheRef = db.doc(`ssrCache/${req.path.slice(1).replace(/\//g, '_')}`)
     const cacheDoc = await cacheRef.get()
     if (cacheDoc.exists) {
       const { headers, status, body, __timestamp } = cacheDoc.data()
       Object.keys(headers).forEach((headerName) => {
         res.set(headerName, headers[headerName])
       })
+      res.set('x-swr-date', __timestamp.toDate().toISOString())
       res.status(status || 200).send(body)
       if (Timestamp.now().toMillis() - __timestamp.toMillis() < 1000 * 60 * 5) {
         return true
@@ -38,7 +43,7 @@ exports.ssr2 = onRequest({
     if (!res.headersSent) {
       _send.apply(res, arguments)
     }
-    if (cacheRef) {
+    if (cacheRef && res.statusCode === 200) {
       cacheRef.set({
         headers: res.getHeaders(),
         status: res.statusCode,
