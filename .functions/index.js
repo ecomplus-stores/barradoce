@@ -17,7 +17,7 @@ exports.ssr2 = onRequest({
   let cacheRef
   try {
     const db = getFirestore()
-    cacheRef = db.doc(`ssrCache/${req.path}`)
+    cacheRef = db.doc(`ssrCache/${req.path.replace(/\//g, '_')}`)
     const cacheDoc = await cacheRef.get()
     if (cacheDoc.exists) {
       const { headers, status, body, __timestamp } = cacheDoc.data()
