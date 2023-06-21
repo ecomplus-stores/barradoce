@@ -47,6 +47,7 @@ exports.ssr2 = onRequest({
     if (!res.headersSent) {
       _set.apply(res, arguments)
     }
+    return res
   }
 
   let statusCode
@@ -56,6 +57,7 @@ exports.ssr2 = onRequest({
     if (!res.headersSent) {
       _status.apply(res, arguments)
     }
+    return res
   }
   const _sendStatus = res.sendStatus
   res.sendStatus = function (_statusCode) {
@@ -63,6 +65,7 @@ exports.ssr2 = onRequest({
     if (!res.headersSent) {
       _sendStatus.apply(res, arguments)
     }
+    return res
   }
 
   const _send = res.send
