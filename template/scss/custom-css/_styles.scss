@@ -8,9 +8,11 @@
     order: -1
   }
 }
-@media(max-width: 480px) {
+@media (max-width: 575.98px) {
   #search-bar {
     display: block !important;
+    height: 46px !important;
+    transition: none;
   }
 }
 
