@@ -5,7 +5,7 @@ const { warn } = require('firebase-functions/logger')
 
 const { ssr } = require('@ecomplus/storefront-renderer/functions/')
 
-process.env.STOREFRONT_LONG_CACHE = 'true'
+process.env.STOREFRONT_LONG_CACHE = 'false'
 
 initializeApp()
 
