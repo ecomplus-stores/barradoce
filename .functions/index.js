@@ -12,7 +12,7 @@ initializeApp()
 exports.ssr2 = onRequest({
   concurrency: 80,
   minInstances: 0,
-  memory: '2GiB',
+  memory: '1GiB',
 }, async (req, res) => {
   if (req.path.startsWith('/~partytown')) {
     res.sendStatus(404)
