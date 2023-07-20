@@ -230,3 +230,11 @@ body, * {
     border: none;
   }
 }
+#search-engine-snap .search-engine__retail {
+  .product-card__name {
+    min-height: 54.4px;
+  }
+  .product-card__prices {
+    min-height: 72px !important;
+  }
+}
