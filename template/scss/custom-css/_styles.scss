@@ -175,3 +175,58 @@ body, * {
 .quantity-selector__label {
   margin-left: var(--spacer-4) !important;
 }
+#contact-form {
+  font-weight: bold;
+  font-size: 1.18rem;
+  max-width: 600px;
+  margin: 50px auto;
+  input {
+    border-color: rgba(36, 52, 71, 0.73);
+    border-radius: 50px;
+    padding: 22px;
+  }
+  textarea {
+    border-color: rgba(36, 52, 71, 0.73);
+    border-radius: 10px;
+    padding: 22px;
+    min-height: 140px;
+  }
+  input, textarea {
+    &:hover, &:focus {
+      border-color: #f97a00;
+    }
+  }
+  span.helper-text, span.helper-text .arrow {
+    background-color: #e86c68;
+  }
+  span.helper-text {
+    border-radius: 99px;
+    font-size: .95em;
+    margin-top: .8em;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    border: 0 !important;
+    z-index: 999;
+    padding: .5em 1em;
+    word-break: break-word;
+  }
+  span.helper-text .arrow {
+    display: inline-block;
+    width: 14.1px;
+    height: 14.1px;
+    border-radius: 3px;
+    transform: rotate(45deg);
+    z-index: -1;
+    top: -5px;
+    left: 42px;
+  }
+  span.helper-text {
+    font-size: .95em;
+  }
+  #button-send {
+    min-width: 150px;
+    padding: 5px;
+    border: none;
+  }
+}

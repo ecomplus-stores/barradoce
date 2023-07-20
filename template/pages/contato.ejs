@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="<%= _.lang.replace('_', '-') %>" dir="ltr">
+
+<head>
+  <%- await include('@/head') %>
+</head>
+
+<body
+  id="page-contato"
+  class="_contato"
+>
+  <%- await include('@/layout/menu') %>
+
+  <main role="main" id="main">
+    <%- await include('@/layout/header') %>
+    <div class="sections pb-1 pb-sm-2 pb-lg-4">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb my-2 my-sm-3 d-none d-md-flex">
+              <li class="breadcrumb-item d-none d-md-block">
+                <a href="/">
+                  <i class="fas fa-home"></i>
+                </a>
+              </li>
+              <li class="breadcrumb-item d-none d-md-block active" aria-current="page">
+                    Contato
+              </li>
+            </ol>
+          </nav>
+          <div class="page-title container mt-4 mb-4 mb-lg-5">
+            <div class="page-title__head">
+              <h1 class="my-0">
+                Contato
+              </h1>
+            </div>
+          </div> 
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Qual o seu nome?*</label>
+              <input class="form-control" type="text" name="name" id="name" placeholder="Nome">
+            </div>
+            <div class="form-group">
+              <label for="email">Por favor, informe o seu email*</label>
+              <input class="form-control" type="email" name="email" id="email" placeholder="fulano@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="cellphone">Se desejar, informe o seu telefone</label>
+                <input class="form-control" type="tel" name="cellphone" id="cellphone" placeholder="(xx) #####-####">
+            </div>
+            <div class="form-group">
+                <label for="order">Se já tiver realizado uma compra, por favor informe o número do pedido</label>
+                <input class="form-control" type="number" name="order" id="order" placeholder="500000">
+            </div>
+            <div class="form-group">
+              <label for="message">Como podemos te ajudar?*</label>
+              <textarea id="message" class="form-control" name="message" placeholder="Digite sua mensagem aqui"></textarea>
+            </div>
+            <input style="background-color: #E89B14 !important; color: #000" type="submit" id="button-send" class="btn btn-lg btn-primary" value="Enviar" >
+          </form>
+          
+          <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+          
+          <script type="text/javascript">
+            emailjs.init('8LDLtCtSYT8MmEjy2')
+          </script> 
+          <script>
+            const btn = document.getElementById('button-send');
+
+            document.getElementById('contact-form')
+            .addEventListener('submit', function(event) {
+                const name = document.getElementById('name').value
+                const email = document.getElementById('email').value
+                const message = document.getElementById('message').value
+                event.preventDefault();
+                if (name.length && email.length && message.length) {
+                    btn.value = 'Enviando...';
+
+                    const serviceID = 'service_jx6ibcd';
+                    const templateID = 'template_bqgjdzr';
+
+                    emailjs.sendForm(serviceID, templateID, this)
+                        .then(() => {
+                            btn.value = 'Enviado!';
+                            document.getElementById('contact-form').reset()
+                            alert('Enviado!');
+                        }, (err) => {
+                            btn.value = 'Enviar';
+                            alert(JSON.stringify(err));
+                        });
+                } else {
+                    ['name', 'email', 'message'].forEach(field => {
+                        if (!document.getElementById(field).value.length) {
+                            document.getElementById(field).style.borderColor = 'red'
+                            document.getElementById(field).insertAdjacentHTML('afterend', '<span class="helper-text"> <span>Informação Obrigatória</span></span>')
+                        }
+                    })
+                }
+            
+            });
+
+            document.getElementById('contact-form').addEventListener('input', (e) => {
+                if (e.target.nextSibling && e.target.nextSibling.className === 'helper-text') {
+                    e.target.nextSibling.style.display = 'none'
+                    e.target.style.borderColor = 'rgba(36, 52, 71, 0.73)'
+                }
+            })
+          </script>      
+        </div>
+    </div>
+    <%- await include('@/layout/footer') %>
+    <div id="cookieconsent" class="cookieconsent">
+        <div class="container"> 
+          <div class="row align-items-center justify-content-center"> 
+            <div class="col-12 col-md text-center"> 
+              <div class="text">
+                Utilizamos cookies e outras tecnologias semelhantes para melhorar a sua experiência em nossos serviços e torna-los personalizamos para você. Ao utilizar nossos serviços, você concorda com a nossa <a target="_blank" href="https://barradoce.netlify.app//pages/privacidade">política de privacidade</a>
+              </div> 
+            </div> 
+            <div class="col-12 col-md-auto mt-3 mt-md-0 text-center"> 
+              <button id="cookieconsent-btn" class="btn product-buy-button"> 
+                Continuar e fechar
+              </button> 
+            </div> 
+          </div> 
+        </div> 
+      </div>
+      <script type="text/javascript"> 
+          const cookieconsent = document.getElementById('cookieconsent');
+          document.getElementById('cookieconsent-btn').onclick = function() {
+              localStorage.setItem('cookieconsent', true);
+              cookieconsent.classList.add('d-none');
+          };
+          if (localStorage.getItem('cookieconsent')) {
+            cookieconsent.classList.add('d-none');
+          }
+      </script>
+  </main>
+
+  <%- await include('@/json') %>
+  <%- await include('@/scripts') %>
+</body>
+
+</html>
