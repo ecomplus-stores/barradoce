@@ -45,11 +45,11 @@
             </div>
             <div class="form-group">
                 <label for="cellphone">Se desejar, informe o seu telefone</label>
-                <input class="form-control" type="tel" name="cellphone" id="cellphone" placeholder="(xx) #####-####">
+                <input class="form-control" type="tel" name="cellphone" id="cellphone" placeholder="(##) #####-####">
             </div>
             <div class="form-group">
                 <label for="order">Se já tiver realizado uma compra, por favor informe o número do pedido</label>
-                <input class="form-control" type="number" name="order" id="order" placeholder="500000">
+                <input class="form-control" type="number" name="order" id="order">
             </div>
             <div class="form-group">
               <label for="message">Como podemos te ajudar?*</label>
@@ -60,6 +60,8 @@
           
           <script type="text/javascript"
             src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/vanilla-masker@1.1.1/build/vanilla-masker.min.js">
+          </script>
           
           <script type="text/javascript">
             emailjs.init('8LDLtCtSYT8MmEjy2')
@@ -104,7 +106,22 @@
                     e.target.nextSibling.style.display = 'none'
                     e.target.style.borderColor = 'rgba(36, 52, 71, 0.73)'
                 }
-            })
+            });
+
+            function inputHandler(masks, max, event) {
+              var c = event.target;
+              var v = c.value.replace(/\D/g, '');
+              var m = c.value.length > max ? 1 : 0;
+              VMasker(c).unMask();
+              VMasker(c).maskPattern(masks[m]);
+              c.value = VMasker.toPattern(v, masks[m]);
+            }
+
+            var telMask = ['(99) 9999-99999', '(99) 99999-9999'];
+            var tel = document.querySelector('#cellphone');
+            VMasker(tel).maskPattern(telMask[0]);
+            tel.addEventListener('input', inputHandler.bind(undefined, telMask, 14), false);
+
           </script>      
         </div>
     </div>
