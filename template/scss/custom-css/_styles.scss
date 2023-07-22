@@ -1,12 +1,32 @@
 // Add your custom CSS here.
+
+.product-card {
+  &__name {
+    min-height: 54.4px;
+  }
+  &__prices {
+    flex-grow: 0;
+    > span:not(.prices__compare, .prices__value) {
+      display: none;
+    }
+  }
+  @media (min-width: 768px) {
+    &__prices {
+      display: block;
+      margin-bottom: .25rem;
+    }
+    .prices__compare,
+    .prices__value {
+      display: inline-block;
+    }
+    .prices__value {
+      margin-left: .25rem;
+    }
+  }
+}
+
 #page-products .shipping-calculator__form div.alert.alert-danger {
   display: none !important;
-}
-.product-card .prices {
-  display: flex;
-  .prices__value + span {
-    order: -1
-  }
 }
 @media (max-width: 575.98px) {
   #search-bar {
@@ -153,9 +173,6 @@ body, * {
     padding: .21rem 1rem !important;
   }
 }
-.prices.product-card__prices {
-  line-height: unset !important;
-}
 .quantity-selector__btn-container {
   border-radius: .25rem;
   border: 1px solid #ced4da;
@@ -228,13 +245,5 @@ body, * {
     min-width: 150px;
     padding: 5px;
     border: none;
-  }
-}
-#search-engine-snap .search-engine__retail {
-  .product-card__name {
-    min-height: 54.4px;
-  }
-  .product-card__prices {
-    min-height: 72px !important;
   }
 }
