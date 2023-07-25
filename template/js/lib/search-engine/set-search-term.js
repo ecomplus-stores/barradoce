@@ -103,7 +103,8 @@ export default (self, term) => {
       type: finalTerm.length > 6 ? 'best_fields' : 'phrase_prefix',
       fields: [
         'name',
-        'keywords'
+        'keywords',
+        'sku'
       ]
     }
   }, 'must')
