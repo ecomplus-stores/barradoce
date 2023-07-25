@@ -293,9 +293,8 @@ body, * {
     position: relative;
   }
   .title-client-avk img {
-    position: absolute;
-    right: 0px;
-    top: 0px;
+    display: block;
+    text-align: center;
     margin-bottom: 0px;
   }
   .title-client-avk p {
@@ -305,8 +304,8 @@ body, * {
 }
 
 .reviews {
-  .products-carousel__title::after {
-    height: 0;
+  .products-carousel__title::before {
+    height: 0 !important;
   }
   small {
     color: var(--secondary);
@@ -314,4 +313,5 @@ body, * {
   .depoimento-box {
     min-height: 300px;
   }
+  height: unset;
 }

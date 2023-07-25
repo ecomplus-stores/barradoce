@@ -31,14 +31,13 @@ if (reviews && reviews.length) {
     >
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides brands-carousel__list">
-          <% reviews.forEach(({ nome, cidade, imagem, texto }) => { %>
+          <% reviews.forEach(({ nome, cidade, img, texto }) => { %>
             <li class="glide__slide brands-carousel__item">
               <div class="depoimento-box">
                 <div class="title-client-avk">
-                  <% if (imagem && imagem.length) { %>
-                    <img src="<%= imagem %>"
-                        alt="Depoimento - <%= nome %>"
-                        srcset="<%= imagem %>"
+                  <% if (img && img.length) { %>
+                    <img src="<%= img %>"
+                        srcset="<%= img %>"
                         sizes="100vw">
                   <%} %>
                   <% if (nome && nome.length) { %>
