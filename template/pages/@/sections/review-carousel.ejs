@@ -35,10 +35,8 @@ if (reviews && reviews.length) {
             <li class="glide__slide brands-carousel__item">
               <div class="depoimento-box">
                 <div class="title-client-avk">
-                  <% if (img && img.length) { %>
-                    <img src="<%= img %>"
-                        srcset="<%= img %>"
-                        sizes="100vw">
+                  <% if (img && img.startsWith('http')) { %>
+                    <img src="<%= img %>" loading="lazy" width="50" height="50">
                   <%} %>
                   <% if (nome && nome.length) { %>
                     <p><%= nome %></p> 
