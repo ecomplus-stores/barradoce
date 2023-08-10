@@ -18,6 +18,7 @@ exports.ssr2 = onRequest({
     res.sendStatus(404)
     return null
   }
+  res.set('x-load-took', '1')
   let cacheRef
   try {
     const db = getFirestore()
