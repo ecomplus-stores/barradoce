@@ -11130,7 +11130,7 @@
     ],
     "rewrites": [
       {
-        "source": "/reverse-proxy/**",
+        "source": "/~reverse-proxy/**",
         "function": "reverseproxy"
       },
       {
@@ -11161,6 +11161,10 @@
           {
             "key": "cache-control",
             "value": "public, max-age=30, s-maxage=240, stale-while-revalidate=2592000"
+          },
+          {
+            "key": "x-load-took",
+            "value": "0"
           }
         ]
       },
@@ -11169,7 +11173,11 @@
         "headers": [
           {
             "key": "cache-control",
-            "value": "public, max-age=300, s-maxage=60, must-revalidate"
+            "value": "public, max-age=300, stale-while-revalidate=2592000"
+          },
+          {
+            "key": "x-load-took",
+            "value": "0"
           }
         ]
       },
@@ -11178,7 +11186,11 @@
         "headers": [
           {
             "key": "cache-control",
-            "value": "public, max-age=86400, s-maxage=600"
+            "value": "public, max-age=86400, s-maxage=600, stale-while-revalidate=2592000"
+          },
+          {
+            "key": "x-load-took",
+            "value": "0"
           }
         ]
       },
