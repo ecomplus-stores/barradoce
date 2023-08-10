@@ -11161,6 +11161,10 @@
           {
             "key": "cache-control",
             "value": "public, max-age=30, s-maxage=240, stale-while-revalidate=2592000"
+          },
+          {
+            "key": "x-load-took",
+            "value": "0"
           }
         ]
       },
