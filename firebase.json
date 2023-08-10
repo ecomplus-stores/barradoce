@@ -11130,7 +11130,7 @@
     ],
     "rewrites": [
       {
-        "source": "/reverse-proxy/**",
+        "source": "/~reverse-proxy/**",
         "function": "reverseproxy"
       },
       {
