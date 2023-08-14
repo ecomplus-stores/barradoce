@@ -59,6 +59,7 @@ if (opt.img) {
           <img
             src="<%= opt.img.replace('.webp', '.png') %>"
             alt="<%= opt.alt %>"
+            loading="eager"
             <% if (width) { %>
               width="<%= width %>"
               height="<%= height %>"
