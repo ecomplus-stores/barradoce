@@ -11229,6 +11229,19 @@
             "value": "public, max-age=31536000"
           }
         ]
+      },
+      {
+        "source": "/blog",
+        "headers": [
+          {
+            "key": "cache-control",
+            "value": "public, max-age=300, stale-while-revalidate=2592000"
+          },
+          {
+            "key": "x-load-took",
+            "value": "0"
+          }
+        ]
       }
     ],
     "cleanUrls": true
