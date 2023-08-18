@@ -4,6 +4,10 @@
   "thumbnail": "/img/uploads/blog-bicos-de-confeitar.jpeg",
   "sections": [
     {
+      "type": "blog-post",
+      "enabled": true
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 24,
