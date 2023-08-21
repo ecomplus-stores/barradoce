@@ -24,7 +24,7 @@
       "page": 1,
       "collection_id": "6126c33ecfbcd97059897a82:brands:BWB:/marcas/formas-bwb-embalagens",
       "title": "Formas de chocolate BWB",
-      "autoplay": 2000,
+      "autoplay": 0,
       "link": "https://www.barradoce.com.br/categoria/formas-de-bombons-e-trufas"
     },
     {
@@ -51,7 +51,7 @@
       "collection_id": "6126ca06cfbcd97059898115:brands:Gramado Injetados:/marcas/gramado-injetados",
       "title": "Formas de chocolate em policarbonato",
       "link": "https://www.barradoce.com.br/marcas/gramado-injetados",
-      "autoplay": 2000
+      "autoplay": 0
     },
     {
       "type": "collection-shelf",
