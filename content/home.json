@@ -22,20 +22,20 @@
       "shuffle": false,
       "limit": 18,
       "page": 1,
-      "collection_id": "6241d0ac2e405e04ff04a198:categories:BICOS ESTRELA E PITANGA:/categoria/bicos-de-confeitar-estrela-e-pitanga",
-      "title": "Bicos de confeitar",
-      "autoplay": "",
-      "link": "https://www.barradoce.com.br/categoria/bicos-de-confeitar"
+      "collection_id": "6126c33ecfbcd97059897a82:brands:BWB:/marcas/formas-bwb-embalagens",
+      "title": "Formas de chocolate BWB",
+      "autoplay": 2000,
+      "link": "https://www.barradoce.com.br/categoria/formas-de-bombons-e-trufas"
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 12,
+      "limit": 16,
       "page": 1,
-      "collection_id": "6241fcda2e405e04ff0542d6:categories:FORMAS DE TORTA:/categoria/formas-de-tortas",
-      "title": "Formas para tortas",
-      "link": "https://www.barradoce.com.br/categoria/formas-de-tortas",
-      "autoplay": 3000
+      "collection_id": "6126c426cfbcd97059897b60:brands:Gran Chef:/marcas/gran-chef",
+      "title": "Corantes culinários Granchef",
+      "link": "https://www.barradoce.com.br/categoria/corantes-e-anilinas",
+      "autoplay": 0
     },
     {
       "type": "brands-carousel",
@@ -46,21 +46,22 @@
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 4,
+      "limit": 18,
       "page": 1,
-      "collection_id": "62fe76041edaa56e539ea5a0:categories:CORANTES E GLITTERS PARA REVESTIMENTO:/categoria/corante-para-revestir-e-glitter",
-      "title": "Pós e glitter para decoração",
-      "link": "https://www.barradoce.com.br/categoria/corante-para-revestir-e-glitter",
-      "autoplay": ""
+      "collection_id": "6126ca06cfbcd97059898115:brands:Gramado Injetados:/marcas/gramado-injetados",
+      "title": "Formas de chocolate em policarbonato",
+      "link": "https://www.barradoce.com.br/marcas/gramado-injetados",
+      "autoplay": 2000
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
-      "limit": 16,
+      "limit": 15,
       "page": 1,
-      "collection_id": "624205d92e405e04ff056a30:categories:GRANULADOS E CONFEITOS:/categoria/granulados-e-confeitos",
-      "title": "Granulados e confeitos",
-      "link": "https://www.barradoce.com.br/categoria/granulados-e-confeitos"
+      "collection_id": "6241fc852e405e04ff0541da:categories:FORMAS DE BOLO:/categoria/formas-de-bolo",
+      "title": "Formas para bolos",
+      "link": "https://www.barradoce.com.br/categoria/formas-de-bolo",
+      "autoplay": 0
     },
     {
       "type": "review-carousel",
