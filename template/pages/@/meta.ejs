@@ -116,7 +116,6 @@ if (pathname) {
       _, opt: {}, field: 'headAppend'
     }) %>
     <% if (
-      _.pageName !== 'app/index' &&
       Array.isArray(_.widgets) &&
       _.widgets.find(({ usePartytown, options }) => {
         return (usePartytown || (options && options.partytown))
