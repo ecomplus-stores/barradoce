@@ -17,6 +17,7 @@ do
     content=$(_jq '.content.rendered');
     content=${content/"https://blog.barradoce.com.br/"/"https://www.barradoce.com.br/posts/"};
     description=$(_jq '.excerpt.rendered');
+    description=$(echo $description | sed 's/<[^>]*>//g');
     thumbnail_src=$(_jq '.jetpack_featured_media_url');
     if [ ! -z "$thumbnail_src" ]; then
       curl $thumbnail_src > "template/public/img/uploads/$slug.webp";
@@ -29,7 +30,7 @@ do
   "title": "$title",
   "date": "${date}Z",
   "thumbnail": "$thumbnail",
-  "description": $(echo $description | jq -Rs .),
+  "description": $(echo $description | jq -R .),
   "body": $(echo $content | jq -Rs .),
   "meta_title": "",
   "meta_description": $(echo $description | jq -R .)
@@ -37,4 +38,5 @@ do
 EOL
   done
   page=$((page+1));
+  sleep 1;
 done
