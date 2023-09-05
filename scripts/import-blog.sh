@@ -29,10 +29,10 @@ do
   "title": "$title",
   "date": "${date}Z",
   "thumbnail": "$thumbnail",
-  "description": $(echo $content | jq -Rs .),
+  "description": $(echo $description | jq -Rs .),
   "body": $(echo $content | jq -Rs .),
   "meta_title": "",
-  "meta_description": $(echo $content | jq -R .)
+  "meta_description": $(echo $description | jq -R .)
 }
 EOL
   done
