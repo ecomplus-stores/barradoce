@@ -20,7 +20,7 @@ if (Array.isArray(posts) && posts.length) {
             const { title, slug, thumbnail, description, date } = post 
             %>
             <div class="col col-md-6 col-lg-4">
-              <div class="card">
+              <div class="card mb-3">
                 <% if (thumbnail) { %>
                   <a href="/posts/<%= slug %>">
                     <img
@@ -50,7 +50,7 @@ if (Array.isArray(posts) && posts.length) {
                     </a>
                   <% } else { %>
                     <p class="card-text">
-                      <%= description %>
+                      <%- description %>
                     </p>
                   <% } %>
                 </div>
