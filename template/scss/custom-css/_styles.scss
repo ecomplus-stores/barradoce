@@ -71,6 +71,16 @@
   }
 }
 
+section.buy-together {
+  min-height: 811px;
+  @media (min-width: 768px) {
+    min-height: 281px;
+  }
+  @media (min-width: 1024px) {
+    min-height: 302px;
+  }
+}
+
 .cookieconsent {
   position: fixed;
   bottom: 0;
