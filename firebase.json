@@ -1,7 +1,7 @@
 {
   "hosting": {
     "redirects": [
-      { "source": "/posts/[0-9]+/[0-9]+/([^/]+)", "destination": "/posts/$1", "type": 301 },
+      { "source": "/posts/*/*/:slug*", "destination": "/posts/:slug", "type": 301 },
       { "source": "/12-cavity-spool-cakes-mini-cake-pan-wilton", "destination": "/categoria/formas-de-bolo", "type": 301 },
       { "source": "/20-pc-beginning-buttercream-decorating-wilton", "destination": "/categoria/bicos-de-confeitar", "type": 301 },
       { "source": "/4-cavity-mini-angel-food-cake-pan-wilton", "destination": "/produto/forma-bolo-chiffon-18-0cm", "type": 301 },
