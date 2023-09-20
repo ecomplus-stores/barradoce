@@ -18,24 +18,26 @@
       ]
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 18,
-      "page": 1,
-      "collection_id": "6126c33ecfbcd97059897a82:brands:BWB:/marcas/formas-bwb-embalagens",
-      "title": "Formas de chocolate BWB",
       "autoplay": 0,
-      "link": "https://www.barradoce.com.br/categoria/formas-de-bombons-e-trufas"
+      "page": 1,
+      "title": "Espátulas para confeitaria",
+      "shuffle": false,
+      "type": "collection-shelf",
+      "link": "https://www.barradoce.com.br/categoria/espatulas-e-pao-duro",
+      "limit": 18,
+      "collection_id": "62420da92e405e04ff0585eb:categories:ESPÁTULAS E PÃO DURO:/categoria/espatulas-e-pao-duro",
+      "sort": "sales"
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 16,
+      "autoplay": 0,
       "page": 1,
-      "collection_id": "6126c426cfbcd97059897b60:brands:Gran Chef:/marcas/gran-chef",
-      "title": "Corantes culinários Granchef",
-      "link": "https://www.barradoce.com.br/categoria/corantes-e-anilinas",
-      "autoplay": 0
+      "title": "Velas para bolos de aniversário",
+      "shuffle": false,
+      "type": "collection-shelf",
+      "link": "https://www.barradoce.com.br/categoria/velas-para-bolo",
+      "limit": 21,
+      "collection_id": "6241d9332e405e04ff04ba04:categories:VELAS PARA BOLO:/categoria/velas-para-bolo",
+      "sort": "sales"
     },
     {
       "type": "brands-carousel",
@@ -44,24 +46,26 @@
       "sort": null
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 18,
+      "autoplay": 0,
       "page": 1,
-      "collection_id": "6126ca06cfbcd97059898115:brands:Gramado Injetados:/marcas/gramado-injetados",
-      "title": "Formas de chocolate em policarbonato",
-      "link": "https://www.barradoce.com.br/marcas/gramado-injetados",
-      "autoplay": 0
+      "title": "Formas de pão e panetone",
+      "shuffle": false,
+      "type": "collection-shelf",
+      "link": "https://www.barradoce.com.br/categoria/formas-de-pao-e-panetone",
+      "limit": 18,
+      "collection_id": "6241fcca2e405e04ff0542a7:categories:FORMAS DE PÃO E PANETONE:/categoria/formas-de-pao-e-panetone",
+      "sort": "sales"
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 15,
+      "autoplay": 0,
       "page": 1,
-      "collection_id": "6241fc852e405e04ff0541da:categories:FORMAS DE BOLO:/categoria/formas-de-bolo",
-      "title": "Formas para bolos",
-      "link": "https://www.barradoce.com.br/categoria/formas-de-bolo",
-      "autoplay": 0
+      "title": "Sacos e mangas de confeitar",
+      "shuffle": false,
+      "type": "collection-shelf",
+      "link": "https://www.barradoce.com.br/categoria/sacos-e-mangas-de-confeitar",
+      "limit": 18,
+      "collection_id": "6241d0cf2e405e04ff04a230:categories:SACOS DE CONFEITAR:/categoria/sacos-e-mangas-de-confeitar",
+      "sort": "sales"
     },
     {
       "type": "review-carousel",
