@@ -23,6 +23,12 @@
       margin-left: .25rem;
     }
   }
+  @media (min-width: 992px) {
+    min-height: 398px;
+    &__picture img {
+      height: 250px;
+    }
+  }
 }
 
 #page-products .shipping-calculator__form div.alert.alert-danger {
