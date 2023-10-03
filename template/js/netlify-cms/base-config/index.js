@@ -60,6 +60,29 @@ export default options => {
                 widget: 'string'
             }
         ]
+    },
+    {
+      label: 'Lista de Produtos (Personalizado)',
+      name: 'product-list',
+      widget: 'object',
+      fields: [
+        {
+          label: 'Produtos',
+          name: 'products',
+          widget: 'list',
+          field: {
+            label: 'SKU do produto',
+            name: 'product_id',
+            widget: 'select',
+            options: options.state.routes
+              .filter(({ sku }) => typeof sku === 'string')
+              .map(({ _id, sku }) => ({
+                label: sku,
+                value: _id
+              }))
+          }
+        }
+      ]
     }
   ])
 
