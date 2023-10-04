@@ -18,26 +18,55 @@
       ]
     },
     {
-      "autoplay": 0,
-      "page": 1,
-      "title": "Espátulas para confeitaria",
-      "shuffle": false,
-      "type": "collection-shelf",
-      "link": "https://www.barradoce.com.br/categoria/espatulas-e-pao-duro",
-      "limit": 18,
-      "collection_id": "62420da92e405e04ff0585eb:categories:ESPÁTULAS E PÃO DURO:/categoria/espatulas-e-pao-duro",
-      "sort": "sales"
+      "type": "product-list",
+      "products": [
+        "6329c0fa73321213f88156e6",
+        "6329c17173321213f88158e9",
+        "6329c12d73321213f88157da",
+        "6329c0e173321213f8815686",
+        "6329c11573321213f881576c",
+        "6329c0c873321213f88155fe",
+        "6329c18d73321213f8815941",
+        "6329c14273321213f8815839",
+        "6329c1a573321213f8815996",
+        "6329c15a73321213f881589b"
+      ],
+      "title": "Transfers e blisters de Halloween",
+      "link": "https://www.barradoce.com.br/search?term=halloween"
     },
     {
-      "autoplay": 0,
-      "page": 1,
-      "title": "Velas para bolos de aniversário",
-      "shuffle": false,
-      "type": "collection-shelf",
-      "link": "https://www.barradoce.com.br/categoria/velas-para-bolo",
-      "limit": 21,
-      "collection_id": "6241d9332e405e04ff04ba04:categories:VELAS PARA BOLO:/categoria/velas-para-bolo",
-      "sort": "sales"
+      "type": "product-list",
+      "products": [
+        "6176f1bd9bb4ce40f93eb393",
+        "6176f1fc9bb4ce40f93eb409",
+        "6176f20b9bb4ce40f93eb41d",
+        "6176f1d09bb4ce40f93eb3b8",
+        "64d123562cd6b659590c8115",
+        "60eb68adf8aba90b3a155d46",
+        "64d106a32cd6b659590c5264",
+        "64d151152cd6b659590cee50",
+        "64d1518f2cd6b659590cefc5",
+        "64d151932cd6b659590cefcf",
+        "64d151962cd6b659590cefd4",
+        "64d151962cd6b659590cefda",
+        "64d151972cd6b659590cefdd",
+        "64d151982cd6b659590cefdf",
+        "64d151ac2cd6b659590ceffa",
+        "60eb5c2ff8aba90b3a155731"
+      ],
+      "title": "Formas de chocolate para o Dia das Bruxas",
+      "link": "https://www.barradoce.com.br/search?term=halloween"
+    },
+    {
+      "type": "product-list",
+      "products": [
+        "617711de9bb4ce40f93ef5c8",
+        "617711c99bb4ce40f93ef5ac",
+        "617711f09bb4ce40f93ef5e5",
+        "64f734162cd6b659593ed913"
+      ],
+      "title": "Confeitos para o Halloween",
+      "link": "https://www.barradoce.com.br/search?term=halloween"
     },
     {
       "type": "brands-carousel",
@@ -46,26 +75,27 @@
       "sort": null
     },
     {
-      "autoplay": 0,
-      "page": 1,
-      "title": "Formas de pão e panetone",
-      "shuffle": false,
-      "type": "collection-shelf",
-      "link": "https://www.barradoce.com.br/categoria/formas-de-pao-e-panetone",
-      "limit": 18,
-      "collection_id": "6241fcca2e405e04ff0542a7:categories:FORMAS DE PÃO E PANETONE:/categoria/formas-de-pao-e-panetone",
-      "sort": "sales"
+      "type": "product-list",
+      "products": [
+        "60e8df33f8aba90b3a145878",
+        "62e51a69eb859112169da62a",
+        "62e5222feb859112169daed4",
+        "62e51ba7eb859112169da6f0",
+        "62e52144eb859112169dadce"
+      ],
+      "title": "Cortadores assustadores",
+      "link": "https://www.barradoce.com.br/search?term=halloween"
     },
     {
-      "autoplay": 0,
-      "page": 1,
-      "title": "Sacos e mangas de confeitar",
-      "shuffle": false,
-      "type": "collection-shelf",
-      "link": "https://www.barradoce.com.br/categoria/sacos-e-mangas-de-confeitar",
-      "limit": 18,
-      "collection_id": "6241d0cf2e405e04ff04a230:categories:SACOS DE CONFEITAR:/categoria/sacos-e-mangas-de-confeitar",
-      "sort": "sales"
+      "type": "product-list",
+      "products": [
+        "64dd149d2cd6b659591a0689",
+        "64dd14982cd6b659591a0680",
+        "64dd149b2cd6b659591a0685",
+        "64dd1c7c2cd6b659591a1ad2"
+      ],
+      "title": "Carimbos e stencils para decoração do Dia das Bruxas",
+      "link": "https://www.barradoce.com.br/search?term=halloween"
     },
     {
       "type": "review-carousel",
