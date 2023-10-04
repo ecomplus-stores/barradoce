@@ -81,6 +81,18 @@ export default options => {
                 value: _id
               }))
           }
+        },
+        {
+          label: 'Título',
+          required: false,
+          name: 'title',
+          widget: 'string'
+        },
+        {
+          label: 'Link de destino',
+          required: false,
+          name: 'link',
+          widget: 'string'
         }
       ]
     }

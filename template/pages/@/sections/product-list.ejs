@@ -15,6 +15,19 @@
     class="products-carousel"
     data-size="<%= items.length %>"
   >
+  <% if (opt.title) { %>
+    <h4 class="products-carousel__title">
+      <% if (opt.link) { %>
+        <a href="<%= opt.link %>">
+          <%= opt.title %>
+        </a>
+      <% } else { %>
+        <span>
+          <%= opt.title %>
+        </span>
+      <% } %>
+    </h4>
+  <% } %>
     <div
       class="glide"
       data-wait-mutation="true"
