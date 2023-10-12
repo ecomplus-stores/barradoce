@@ -15,7 +15,7 @@ exports.ssr2 = onRequest({
     return null
   }
   res.set('x-load-took', '1')
-  res.set('Link', `<https://${process.env.STOREFRONT_ASSETS}/>; rel=preconnect`)
+  res.set('Link', `<${process.env.STOREFRONT_ASSETS}/>; rel=preconnect`)
   return ssr(req, res)
 })
 
