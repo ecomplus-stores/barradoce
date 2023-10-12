@@ -11166,6 +11166,10 @@
           {
             "key": "x-load-took",
             "value": "0"
+          },
+          {
+            "key": "Link",
+            "value": "<https://s1-barradoce.b-cdn.net/>; rel=preconnect"
           }
         ]
       },
