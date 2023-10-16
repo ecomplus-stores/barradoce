@@ -1,0 +1,18 @@
+{
+  "title": "Quero ficar por dentro das novidades e promoções",
+  "body": "Você q﻿uer receber todas as novidades e lançamentos de nossa loja? Receitas com dicas super especiais? Promoções exclusivas?\n\nEntão se inscreva e comece a aproveitar!",
+  "sections": [
+    {
+      "type": "custom-html",
+      "html": "<div id=\"mc_embed_shell\"> <link href=\"//cdn-images.mailchimp.com/embedcode/classic-061523.css\" rel=\"stylesheet\" type=\"text/css\">\n\n<style type=\"text/css\"> #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;} /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.\n\nWe recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */ </style><style type=\"text/css\"> #mc-embedded-subscribe-form input\\\\[type=checkbox]{display: inline; width: auto;margin-right: 10px;}\n\n\\#mergeRow-gdpr {margin-top: 20px;} #mergeRow-gdpr fieldset label {font-weight: normal;} #mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;} </style>\n\n<div id=\"mc_embed_signup\"> <form action=\"https://barradoce.us10.list-manage.com/subscribe/post?u=9ef4112a1a2bb99ee984b91e0&amp;id=ce318b8d00&amp;v_id=5427&amp;f_id=0004d2e5f0\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\">\n\n<div class=\"mc-field-group\"><label for=\"mce-EMAIL\">Seu melhor email <span class=\"asterisk\">*</span></label><input type=\"email\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\" required=\"\" value=\"\"></div><div class=\"mc-field-group\"><label for=\"mce-FNAME\">Nome </label><input type=\"text\" name=\"FNAME\" class=\" text\" id=\"mce-FNAME\" value=\"\"></div><div class=\"mc-field-group\"><label for=\"mce-PHONE\">Telefone </label><input type=\"text\" name=\"PHONE\" class=\"REQ_CSS\" id=\"mce-PHONE\" value=\"\"></div><p><a href=\"https://us10.campaign-archive.com/home/?u=9ef4112a1a2bb99ee984b91e0&amp;id=ce318b8d00\" title=\"View previous campaigns\"></a></p><div id=\"mergeRow-gdpr\" class=\"mergeRow gdpr-mergeRow content__gdprBlock mc-field-group\"><div class=\"content__gdpr\"><p>Por favor, selecione as formas pelas quais você aceita receber novidades, informações e promoções da BarraDoce</p><fieldset class=\"mc_fieldset gdprRequired mc-field-group\" name=\"interestgroup_field\"><label class=\"checkbox subfield\" for=\"gdpr61375\"><input type=\"checkbox\" id=\"gdpr_61375\" name=\"gdpr[61375]\" class=\"gdpr\" value=\"Y\"><span>Email</span></label><label class=\"checkbox subfield\" for=\"gdpr61379\"><input type=\"checkbox\" id=\"gdpr_61379\" name=\"gdpr[61379]\" class=\"gdpr\" value=\"Y\"><span>WhatsApp</span></label></fieldset><p><p>Você poderá optar, a qualquer momento, por deixar de receber nossas mensagens.</p></div><div class=\"content__gdprLegal\"></div></div>\n\n<div id=\"mce-responses\" class=\"clear\"> <div class=\"response\" id=\"mce-error-response\" style=\"display: none;\"></div> <div class=\"response\" id=\"mce-success-response\" style=\"display: none;\"></div> </div><div aria-hidden=\"true\" style=\"position: absolute; left: -5000px;\"><input type=\"text\" name=\"b_9ef4112a1a2bb99ee984b91e0_ce318b8d00\" tabindex=\"-1\" value=\"\"></div><div class=\"clear\"><input type=\"submit\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\" value=\"Enviar\"></div> </div>"
+    },
+    {
+      "type": "brands-carousel",
+      "limit": 24,
+      "offset": 0,
+      "sort": null
+    }
+  ],
+  "meta_title": "Inscrição para novidades e promoções",
+  "meta_description": "Fique por dentro de tudo que é novo e tendência no mundo da confeitaria! Receba receitas novidades e promoções."
+}
