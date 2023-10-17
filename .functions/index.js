@@ -1,9 +1,9 @@
 const { onRequest } = require('firebase-functions/v2/https')
 
-const { ssr } = require('@ecomplus/storefront-renderer/functions/')
-
 process.env.STOREFRONT_LONG_CACHE = 'false'
 process.env.STOREFRONT_ASSETS = 'https://s1-barradoce.b-cdn.net'
+
+const { ssr } = require('@ecomplus/storefront-renderer/functions/')
 
 exports.ssr2 = onRequest({
   concurrency: 80,
