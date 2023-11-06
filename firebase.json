@@ -1242,7 +1242,6 @@
       { "source": "/produto/manteiga-de-cacau-color-bits-chocolate-amarela-180g-gran-chef", "destination": "/produto/color-bits-manteiga-de-cacau-amarela-para-chocolate-50g-gran-chef", "type": 301 },
       { "source": "/produto/manteiga-de-cacau-color-bits-chocolate-branco-gelo-180g-gran-chef", "destination": "/produto/color-bits-manteiga-de-cacau-branco-gelo-para-chocolate-50g-gran-chef", "type": 301 },
       { "source": "/produto/manteiga-de-cacau-color-bits-chocolate-vermelha-180g-gran-chef", "destination": "/produto/color-bits-manteiga-de-cacau-vermelho-para-chocolate-50g-gran-chef", "type": 301 },
-      { "source": "/produto/oleo-essencial-natural-10ml-hortela-gran-chef", "destination": "/categoria/essencias-e-aromas", "type": 301 },
       { "source": "/produto/caixa-bolinhos-cupcake-uni", "destination": "/produto/caixa-cupcake-branca-8cm-10uni-artcrystal", "type": 301 },
       { "source": "/produto/caixa-bolinhos-cupcakes-uni", "destination": "/categoria/caixas-e-latas", "type": 301 },
       { "source": "/produto/caixa-cupcakes-cupcake-uni", "destination": "/categoria/caixas-e-latas", "type": 301 },
