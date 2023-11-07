@@ -20,47 +20,42 @@
     {
       "type": "product-list",
       "products": [
-        "645d50934bd2e929c1f8942b",
-        "645d506f4bd2e929c1f893da",
-        "6329c1bf73321213f8815a05",
-        "60ea9870f8aba90b3a14f0ca",
-        "60eba21cf8aba90b3a157491",
+        "653131f62cd6b65959814a2a",
+        "653132232cd6b65959814ab1",
+        "60e88834f8aba90b3a14024f",
+        "62b33750eb859112165fee90",
+        "60ecbb97f8aba90b3a162a5a",
+        "60e91535f8aba90b3a147314",
+        "60e93df0f8aba90b3a147b6f",
+        "60e9170bf8aba90b3a147369"
+      ],
+      "title": "Ingredientes que fazem a diferença",
+      "link": ""
+    },
+    {
+      "type": "product-list",
+      "products": [
+        "653131952cd6b6595981493b",
+        "653130ff2cd6b659598147ff",
+        "653131672cd6b659598148da",
+        "60e9229cf8aba90b3a1475fd",
+        "60e92231f8aba90b3a1475db"
+      ],
+      "title": "Cacau e chocolate em pó",
+      "link": "https://www.barradoce.com.br/categoria/chocolate-e-cacau-em-po"
+    },
+    {
+      "type": "product-list",
+      "products": [
         "60eba1b2f8aba90b3a157462",
-        "61770db79bb4ce40f93eede5"
+        "60eba21cf8aba90b3a157491",
+        "6345801a73321213f8a69af5",
+        "60ea9870f8aba90b3a14f0ca",
+        "6329c1bf73321213f8815a05",
+        "645d50934bd2e929c1f8942b"
       ],
       "title": "Pastas saborizantes",
       "link": "https://www.barradoce.com.br/categoria/recheios-e-saborizantes"
-    },
-    {
-      "type": "product-list",
-      "products": [
-        "60ecad90f8aba90b3a161d0b",
-        "60ecae1bf8aba90b3a161d79",
-        "60ecacdaf8aba90b3a161c24",
-        "60ecadf5f8aba90b3a161d5e",
-        "60ecadc8f8aba90b3a161d3d",
-        "60ecad54f8aba90b3a161cd7",
-        "60ecad2ef8aba90b3a161ca8",
-        "60ecad09f8aba90b3a161c7f"
-      ],
-      "title": "Manteiga de cacau colorida para chocolates",
-      "link": "https://www.barradoce.com.br/categoria/corantes-e-anilinas"
-    },
-    {
-      "type": "product-list",
-      "products": [
-        "60e88834f8aba90b3a14024f",
-        "60e95281f8aba90b3a147ec9",
-        "60e9225bf8aba90b3a1475e8",
-        "60ecc9abf8aba90b3a1637cd",
-        "60ecbbb8f8aba90b3a162a73",
-        "6329c1d173321213f8815a54",
-        "6283d475df4d8071c911909c",
-        "60e93df0f8aba90b3a147b6f",
-        "60ea97c9f8aba90b3a14f0a9"
-      ],
-      "title": "Ingredientes indispensáveis",
-      "link": "https://www.barradoce.com.br/categoria/ingredientes"
     },
     {
       "type": "brands-carousel",
@@ -71,45 +66,40 @@
     {
       "type": "product-list",
       "products": [
-        "60eca81ef8aba90b3a1616c3",
-        "60eca64ef8aba90b3a1614d8",
-        "60eca2c7f8aba90b3a161107",
-        "60eca1c8f8aba90b3a160ff8",
-        "60eca104f8aba90b3a160f1f",
-        "60eca7dff8aba90b3a16169b"
+        "6501b1bb2cd6b659594a1048",
+        "6501b1872cd6b659594a1018",
+        "61770a359bb4ce40f93ee688",
+        "636ced9573321213f8d39328",
+        "636ceba873321213f8d38bce",
+        "636ce9f173321213f8d385f4"
       ],
-      "title": "Corantes em pó hidro e lipossolúveis",
-      "link": "https://www.barradoce.com.br/categoria/corantes-e-anilinas"
+      "title": "Fitas de Natal",
+      "link": "https://www.barradoce.com.br/categoria/fitas-decorativas?filters[]=ocasiao:Natal"
     },
     {
       "type": "product-list",
       "products": [
-        "60eca051f8aba90b3a160e63",
-        "60ec9ff9f8aba90b3a160e0a",
-        "60eca022f8aba90b3a160e27",
-        "60ec9fd7f8aba90b3a160df1",
-        "60ec9fabf8aba90b3a160dc7",
-        "60eca081f8aba90b3a160e88",
-        "64e3659e2cd6b65959210247"
+        "617713f49bb4ce40f93ef8bc",
+        "617714329bb4ce40f93ef915",
+        "60eb5627f8aba90b3a155351",
+        "6177141e9bb4ce40f93ef901",
+        "60eb5555f8aba90b3a1552a7",
+        "60eb5572f8aba90b3a1552ba"
       ],
-      "title": "Óleo essencial para culinária",
-      "link": "https://www.barradoce.com.br/categoria/essencias-e-aromas"
+      "title": "Formas de chocolate para o Natal",
+      "link": "https://www.barradoce.com.br/categoria/formas-de-chocolate?filters[]=ocasiao:Natal"
     },
     {
       "type": "product-list",
-      "link": "https://www.barradoce.com.br/categoria/granulados-e-confeitos",
-      "title": "Confeitos e granulados",
+      "link": "https://www.barradoce.com.br/categoria/formas-de-chocolate?filters[]=ocasiao:Natal",
+      "title": "Formas de chocolate decoradas para o Natal",
       "products": [
-        "60e92192f8aba90b3a1475b3",
-        "60e92135f8aba90b3a147599",
-        "64134ae84bd2e929c1a066fb",
-        "64120f534bd2e929c19e73d9",
-        "60e92106f8aba90b3a147586",
-        "641212764bd2e929c19e7beb",
-        "64120d834bd2e929c19e6ff6",
-        "641212f24bd2e929c19e7d10",
-        "64145d314bd2e929c1a1e55b",
-        "64145d1d4bd2e929c1a1e540"
+        "652d60462cd6b659597c2d4a",
+        "60e8b45bf8aba90b3a1436db",
+        "63445b6073321213f8a51b11",
+        "652d5f6a2cd6b659597c2ba3",
+        "652d5f362cd6b659597c2b36",
+        "652d5f092cd6b659597c2afe"
       ]
     },
     {
