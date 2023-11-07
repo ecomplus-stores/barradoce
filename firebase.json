@@ -1704,7 +1704,6 @@
       { "source": "/produto/split-granulado-9m-ao-leite-1kg-callebaut", "destination": "/", "type": 301 },
       { "source": "/produto/chocolate-callebaut-ao-leite-33-6-cacau-823-em-callets-2-5kg-callebaut", "destination": "/", "type": 301 },
       { "source": "/produto/nibs-de-cacau-800g-callebaut", "destination": "/", "type": 301 },
-      { "source": "/produto/cacau-em-po-100-500g-sicao", "destination": "/", "type": 301 },
       { "source": "/produto/chocolate-callebaut-ao-leite-33-6-cacau-823-em-callets-400g-callebaut", "destination": "/", "type": 301 },
       { "source": "/produto/chocolate-callebaut-amargo-54-5-cacau-811-em-callets-2-5kg-callebaut", "destination": "/", "type": 301 },
       { "source": "/produto/granulado-vermicelli-ao-leite-1kg-callebaut", "destination": "/", "type": 301 },
