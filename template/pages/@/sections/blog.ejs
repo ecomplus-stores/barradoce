@@ -19,7 +19,7 @@ if (Array.isArray(posts) && posts.length) {
           postsList.forEach(post => { 
             const { title, slug, thumbnail, description, date } = post 
             %>
-            <div class="col col-md-6 col-lg-4">
+            <div class="col col-auto">
               <div class="card mb-3">
                 <% if (thumbnail) { %>
                   <a href="/posts/<%= slug %>">
@@ -60,6 +60,12 @@ if (Array.isArray(posts) && posts.length) {
         </div>
       </div>
     </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script>
+      new Masonry(document.querySelector('.blog > .container > .row'), {
+        itemSelector: '.col',
+      });
+    </script>
   <%
 }
 %>

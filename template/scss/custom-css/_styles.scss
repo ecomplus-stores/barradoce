@@ -87,6 +87,19 @@ section.buy-together {
   }
 }
 
+.blog-post .md-content img {
+  width: 100%;
+  max-width: 800px;
+}
+.blog .row .card {
+  @media (min-width: 768px) {
+    max-width: 250px;
+  }
+  @media (min-width: 1024px) {
+    max-width: 350px;
+  }
+}
+
 .cookieconsent {
   position: fixed;
   bottom: 0;
