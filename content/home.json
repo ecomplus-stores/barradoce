@@ -72,44 +72,49 @@
       "sort": null
     },
     {
-      "type": "product-list",
-      "products": [
-        "653131f62cd6b65959814a2a",
-        "653132232cd6b65959814ab1",
-        "60e88834f8aba90b3a14024f",
-        "62b33750eb859112165fee90",
-        "60ecbb97f8aba90b3a162a5a",
-        "60e91535f8aba90b3a147314",
-        "60e93df0f8aba90b3a147b6f",
-        "60e9170bf8aba90b3a147369"
-      ],
-      "title": "Ingredientes que fazem a diferença",
-      "link": ""
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "655647ea2cd6b65959aae1c1:categories:CONFEITOS DE NATAL:/confeitos-de-natal",
+      "title": "https://www.barradoce.com.br/confeitos-de-natal",
+      "link": "Confeitos de Natal"
     },
     {
-      "type": "product-list",
-      "products": [
-        "653131952cd6b6595981493b",
-        "653130ff2cd6b659598147ff",
-        "653131672cd6b659598148da",
-        "60e9229cf8aba90b3a1475fd",
-        "60e92231f8aba90b3a1475db"
-      ],
-      "title": "Cacau e chocolate em pó",
-      "link": "https://www.barradoce.com.br/categoria/chocolate-e-cacau-em-po"
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "65568be92cd6b65959ab86e3:categories:CORTADORES DE NATAL:/cortadores-de-natal",
+      "link": "https://www.barradoce.com.br/cortadores-de-natal",
+      "title": "Cortadores de Natal para massa e biscoito "
     },
     {
-      "type": "product-list",
-      "products": [
-        "60eba1b2f8aba90b3a157462",
-        "60eba21cf8aba90b3a157491",
-        "6345801a73321213f8a69af5",
-        "60ea9870f8aba90b3a14f0ca",
-        "6329c1bf73321213f8815a05",
-        "645d50934bd2e929c1f8942b"
-      ],
-      "title": "Pastas saborizantes",
-      "link": "https://www.barradoce.com.br/categoria/recheios-e-saborizantes"
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "655689bd2cd6b65959ab8262:categories:INGREDIENTES DE NATAL:/ingredientes-de-natal",
+      "link": "https://www.barradoce.com.br/ingredientes-de-natal",
+      "title": "Ingredientes para sua receita de Natal"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "65568cf42cd6b65959ab89b2:categories:STENCIL E MARCADORES DE NATAL:/stencil-e-marcadores-de-natal",
+      "link": "https://www.barradoce.com.br/stencil-e-marcadores-de-natal",
+      "title": "Stencils e marcadores de Natal"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "655647942cd6b65959aae12b:categories:TRANSFERS DE NATAL:/transfers-de-natal",
+      "link": "https://www.barradoce.com.br/transfers-de-natal",
+      "title": "Transfers de Natal para chocolates decorados"
     },
     {
       "type": "review-carousel",
