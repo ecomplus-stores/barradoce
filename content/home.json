@@ -20,6 +20,60 @@
     {
       "type": "product-list",
       "products": [
+        "6501b1bb2cd6b659594a1048",
+        "6501b1872cd6b659594a1018",
+        "61770a359bb4ce40f93ee688",
+        "636ced9573321213f8d39328",
+        "636ceba873321213f8d38bce",
+        "636ce9f173321213f8d385f4"
+      ],
+      "title": "Fitas de Natal",
+      "link": "https://www.barradoce.com.br/fitas-de-natal"
+    },
+    {
+      "type": "product-list",
+      "products": [
+        "617713f49bb4ce40f93ef8bc",
+        "617714329bb4ce40f93ef915",
+        "60eb5627f8aba90b3a155351",
+        "6177141e9bb4ce40f93ef901",
+        "60eb5555f8aba90b3a1552a7",
+        "60eb5572f8aba90b3a1552ba"
+      ],
+      "title": "Formas de chocolate para o Natal",
+      "link": "https://www.barradoce.com.br/categoria/formas-de-chocolate"
+    },
+    {
+      "type": "product-list",
+      "link": "https://www.barradoce.com.br/formas-decoradas-de-natal",
+      "title": "Formas de chocolate decoradas para o Natal",
+      "products": [
+        "652d60462cd6b659597c2d4a",
+        "60e8b45bf8aba90b3a1436db",
+        "63445b6073321213f8a51b11",
+        "652d5f6a2cd6b659597c2ba3",
+        "652d5f362cd6b659597c2b36",
+        "652d5f092cd6b659597c2afe"
+      ]
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 13,
+      "page": 1,
+      "collection_id": "655646e92cd6b65959aae003:categories:EMBALAGENS DE NATAL:/embalagens-de-natal",
+      "title": "Caixas, papéis e enfeites de Natal",
+      "link": "https://www.barradoce.com.br/embalagens-de-natal"
+    },
+    {
+      "type": "brands-carousel",
+      "limit": 43,
+      "offset": 0,
+      "sort": null
+    },
+    {
+      "type": "product-list",
+      "products": [
         "653131f62cd6b65959814a2a",
         "653132232cd6b65959814ab1",
         "60e88834f8aba90b3a14024f",
@@ -56,51 +110,6 @@
       ],
       "title": "Pastas saborizantes",
       "link": "https://www.barradoce.com.br/categoria/recheios-e-saborizantes"
-    },
-    {
-      "type": "brands-carousel",
-      "limit": 43,
-      "offset": 0,
-      "sort": null
-    },
-    {
-      "type": "product-list",
-      "products": [
-        "6501b1bb2cd6b659594a1048",
-        "6501b1872cd6b659594a1018",
-        "61770a359bb4ce40f93ee688",
-        "636ced9573321213f8d39328",
-        "636ceba873321213f8d38bce",
-        "636ce9f173321213f8d385f4"
-      ],
-      "title": "Fitas de Natal",
-      "link": "https://www.barradoce.com.br/categoria/fitas-decorativas?filters[]=ocasiao:Natal"
-    },
-    {
-      "type": "product-list",
-      "products": [
-        "617713f49bb4ce40f93ef8bc",
-        "617714329bb4ce40f93ef915",
-        "60eb5627f8aba90b3a155351",
-        "6177141e9bb4ce40f93ef901",
-        "60eb5555f8aba90b3a1552a7",
-        "60eb5572f8aba90b3a1552ba"
-      ],
-      "title": "Formas de chocolate para o Natal",
-      "link": "https://www.barradoce.com.br/categoria/formas-de-chocolate?filters[]=ocasiao:Natal"
-    },
-    {
-      "type": "product-list",
-      "link": "https://www.barradoce.com.br/categoria/formas-de-chocolate?filters[]=ocasiao:Natal",
-      "title": "Formas de chocolate decoradas para o Natal",
-      "products": [
-        "652d60462cd6b659597c2d4a",
-        "60e8b45bf8aba90b3a1436db",
-        "63445b6073321213f8a51b11",
-        "652d5f6a2cd6b659597c2ba3",
-        "652d5f362cd6b659597c2b36",
-        "652d5f092cd6b659597c2afe"
-      ]
     },
     {
       "type": "review-carousel",
