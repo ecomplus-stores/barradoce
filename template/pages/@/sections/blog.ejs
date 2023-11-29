@@ -50,7 +50,7 @@ if (Array.isArray(posts) && posts.length) {
                     </a>
                   <% } else { %>
                     <p class="card-text">
-                      <%- description && description.substring(0, 82).concat(' [...]') %>
+                      <%-description && description.length > 90 ? description && description.substring(0, 90).concat(' [...]') : description %>
                     </p>
                   <% } %>
                 </div>
