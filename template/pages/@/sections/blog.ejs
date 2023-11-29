@@ -60,10 +60,17 @@ if (Array.isArray(posts) && posts.length) {
         </div>
       </div>
     </div>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script>
-      new Masonry(document.querySelector('.blog > .container > .row'), {
-        itemSelector: '.col',
+      const $grid = document.querySelector('.blog > .container > .row');
+      const msnry = new Masonry($grid, {
+        itemSelector: '.col'
+      });
+
+      imagesLoaded($grid).on( 'progress', function() {
+        // layout Masonry after each image loads
+        msnry.layout();
       });
     </script>
   <%
