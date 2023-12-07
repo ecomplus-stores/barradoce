@@ -1,5 +1,6 @@
 <%
 const markdown = (typeof opt === 'object' && opt.markdown) || _.state.body
+const isBlogPost = opt.type === 'blog-post'
 if (markdown) {
   %>
   <section class="md-content mb-5 pt-1 pt-sm-2 pt-lg-3">
@@ -8,3 +9,21 @@ if (markdown) {
     </div>
   </section>
 <% } %>
+
+
+<script>
+
+const anchorTags = document.querySelectorAll(".blog-post a");
+if (anchorTags && anchorTags.length) {
+  // Loop through each anchor tag
+  for (let i = 0; i < anchorTags.length; i++) {
+    const currentText = anchorTags[i].textContent.toLowerCase(); // Convert to lowercase for case-insensitive comparison
+      // Check if the word "comprar" is present in the text content
+      if (currentText.includes("omprar")) {
+      // Add the 'buy' class to the anchor tag
+      anchorTags[i].classList.add("buy");
+    }
+  }
+}
+
+</script>

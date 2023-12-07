@@ -344,3 +344,20 @@ body, * {
   }
   height: unset;
 }
+
+
+.blog .card-body .card-text, .blog-post a {
+  text-decoration: underline !important;
+}
+
+.blog-post .buy {
+  padding: 10px;
+  background-color: #f97a00;
+  color: #fff;
+  text-decoration: none !important;
+  text-align: center;
+  border-radius: 20px;
+  &:hover {
+    background-color: #ab5414;
+  }
+}
