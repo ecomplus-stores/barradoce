@@ -90,18 +90,18 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "65568cf42cd6b65959ab89b2:categories:STENCIL E MARCADORES DE NATAL:/stencil-e-marcadores-de-natal",
-      "link": "https://www.barradoce.com.br/stencil-e-marcadores-de-natal",
-      "title": "Stencils e marcadores de Natal"
+      "collection_id": "655647942cd6b65959aae12b:categories:TRANSFERS DE NATAL:/transfers-de-natal",
+      "link": "https://www.barradoce.com.br/transfers-de-natal",
+      "title": "Transfers de Natal para chocolates decorados"
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "655647942cd6b65959aae12b:categories:TRANSFERS DE NATAL:/transfers-de-natal",
-      "link": "https://www.barradoce.com.br/transfers-de-natal",
-      "title": "Transfers de Natal para chocolates decorados"
+      "collection_id": "65568cf42cd6b65959ab89b2:categories:STENCIL E MARCADORES DE NATAL:/stencil-e-marcadores-de-natal",
+      "link": "https://www.barradoce.com.br/stencil-e-marcadores-de-natal",
+      "title": "Stencils e marcadores de Natal"
     },
     {
       "type": "review-carousel",
