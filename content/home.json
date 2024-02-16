@@ -3,6 +3,21 @@
   "meta_description": "Produtos para quem trabalha com confeitaria e festas. Tudo que você precisa para fazer bolos, biscoitos, chocolates e muito mais.",
   "sections": [
     {
+      "type": "banner-slider",
+      "autoplay": 9000,
+      "full_width": false,
+      "slides": [
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/confeitos-de-ac-ucar-para-pa-scoa-desk.avif",
+          "mobile_img": "/img/uploads/confeitos-de-ac-ucar-para-pa-scoa-mob.avif",
+          "link": "https://www.barradoce.com.br/categorias/confeitos-e-granulados-de-pascoa",
+          "alt": "Confeitos em açúcar para decorar ovos e doces de Páscoa"
+        }
+      ]
+    },
+    {
       "type": "product-list",
       "title": "Formas de chocolate para Páscoa",
       "link": "https://www.barradoce.com.br/categorias/formas-de-chocolate-para-pascoa",
