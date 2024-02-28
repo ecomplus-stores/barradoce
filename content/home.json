@@ -10,12 +10,80 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/confeitos-de-ac-ucar-para-pa-scoa-desk.avif",
-          "mobile_img": "/img/uploads/confeitos-de-ac-ucar-para-pa-scoa-mob.avif",
-          "link": "https://www.barradoce.com.br/categorias/confeitos-e-granulados-de-pascoa",
-          "alt": "Confeitos em açúcar para decorar ovos e doces de Páscoa"
+          "img": "/img/uploads/papel-chumbo-para-chocolate-desk-1-.jpg",
+          "mobile_img": "/img/uploads/papel-chumbo-para-chocolate-mob-1-.jpg",
+          "link": "https://www.barradoce.com.br/categorias/papel-embrulho-para-pascoa",
+          "alt": "Papel chumbo para embrulhar chocolates e Ovos de Páscoa"
         }
       ]
+    },
+    {
+      "type": "product-list",
+      "title": "Caixas e latas para Páscoa",
+      "link": "https://www.barradoce.com.br/categorias/caixas-e-latas-de-pascoa",
+      "products": [
+        "63c5654e4834634f73375f94",
+        "62eab1aaeb85911216a3bece",
+        "61f165267963422eeed4bcdc",
+        "61f160d67963422eeed4abe8",
+        "63c56cf34834634f7337716e",
+        "60ec8de8f8aba90b3a15f56b",
+        "60ebbc6ef8aba90b3a157c58",
+        "65cf540e87ab487fbfba0ae4",
+        "65cf540d87ab487fbfba0ae2",
+        "61f161037963422eeed4accd",
+        "65c3c0d987ab487fbfae35a3",
+        "65c3e74e87ab487fbfae799e",
+        "65c274122cd6b65959255c87",
+        "65c3c0d887ab487fbfae359f"
+      ]
+    },
+    {
+      "type": "product-list",
+      "title": "Papéis embrulho para Ovos de Páscoa",
+      "link": "https://www.barradoce.com.br/categorias/papel-embrulho-para-pascoa",
+      "products": [
+        "6594ce732cd6b65959f0f9df",
+        "6594ce492cd6b65959f0f9bd",
+        "63c53fb54834634f7337015f",
+        "63d280b5b9e5be0778470cc9",
+        "61f165287963422eeed4bce4",
+        "6595a4fb2cd6b65959f1eb17",
+        "65ae7fe02cd6b659590cef82"
+      ]
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "63a9ab6d4834634f731f41df:categories:TRANSFERS E FORMAS DECORADAS DE PÁSCOA:/categorias/transfers-e-formas-decoradas-de-pascoa",
+      "link": "https://www.barradoce.com.br/categorias/transfers-e-formas-decoradas-de-pascoa",
+      "title": "Transfers e blisters para Páscoa"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "63a9a0934834634f731f34f9:categories:CORTADORES DE PÁSCOA:/categorias/cortadores-de-pascoa",
+      "link": "https://www.barradoce.com.br/categorias/cortadores-de-pascoa",
+      "title": "Cortadores de Páscoa"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "63a99f7e4834634f731f3276:categories:MOLDES DE SILICONE PARA PÁSCOA:/categorias/moldes-de-silicone-para-pascoa",
+      "title": "Moldes de silicone para Páscoa",
+      "link": "https://www.barradoce.com.br/categorias/moldes-de-silicone-para-pascoa"
+    },
+    {
+      "type": "brands-carousel",
+      "limit": 43,
+      "offset": 0,
+      "sort": null
     },
     {
       "type": "product-list",
@@ -44,56 +112,6 @@
       "link": "https://www.barradoce.com.br/categorias/confeitos-e-granulados-de-pascoa"
     },
     {
-      "type": "product-list",
-      "title": "Caixas e latas para Páscoa",
-      "link": "https://www.barradoce.com.br/categorias/caixas-e-latas-de-pascoa",
-      "products": [
-        "63c5654e4834634f73375f94",
-        "62eab1aaeb85911216a3bece",
-        "61f165267963422eeed4bcdc",
-        "61f160d67963422eeed4abe8",
-        "63c56cf34834634f7337716e",
-        "60ec8de8f8aba90b3a15f56b",
-        "60ebbc6ef8aba90b3a157c58",
-        "65cf540e87ab487fbfba0ae4",
-        "65cf540d87ab487fbfba0ae2",
-        "61f161037963422eeed4accd",
-        "65c3c0d987ab487fbfae35a3",
-        "65c3e74e87ab487fbfae799e",
-        "65c274122cd6b65959255c87",
-        "65c3c0d887ab487fbfae359f"
-      ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "63a9ab6d4834634f731f41df:categories:TRANSFERS E FORMAS DECORADAS DE PÁSCOA:/categorias/transfers-e-formas-decoradas-de-pascoa",
-      "link": "https://www.barradoce.com.br/categorias/transfers-e-formas-decoradas-de-pascoa",
-      "title": "Transfers e blisters para Páscoa"
-    },
-    {
-      "type": "brands-carousel",
-      "limit": 43,
-      "offset": 0,
-      "sort": null
-    },
-    {
-      "type": "product-list",
-      "title": "Papéis embrulho para Ovos de Páscoa",
-      "link": "https://www.barradoce.com.br/categorias/papel-embrulho-para-pascoa",
-      "products": [
-        "6594ce732cd6b65959f0f9df",
-        "6594ce492cd6b65959f0f9bd",
-        "63c53fb54834634f7337015f",
-        "63d280b5b9e5be0778470cc9",
-        "61f165287963422eeed4bce4",
-        "6595a4fb2cd6b65959f1eb17",
-        "65ae7fe02cd6b659590cef82"
-      ]
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
@@ -101,24 +119,6 @@
       "collection_id": "63a996bc4834634f731f27f2:categories:FITAS DECORATIVAS PÁSCOA:/categorias/fitas-decorativas-de-pascoa",
       "link": "https://www.barradoce.com.br/categorias/fitas-decorativas-de-pascoa",
       "title": "Fitas decorativas para Páscoa"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "63a9a0934834634f731f34f9:categories:CORTADORES DE PÁSCOA:/categorias/cortadores-de-pascoa",
-      "link": "https://www.barradoce.com.br/categorias/cortadores-de-pascoa",
-      "title": "Cortadores de Páscoa"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "63a99f7e4834634f731f3276:categories:MOLDES DE SILICONE PARA PÁSCOA:/categorias/moldes-de-silicone-para-pascoa",
-      "title": "Moldes de silicone para Páscoa",
-      "link": "https://www.barradoce.com.br/categorias/moldes-de-silicone-para-pascoa"
     },
     {
       "type": "review-carousel",
