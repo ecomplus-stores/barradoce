@@ -361,3 +361,7 @@ body, * {
     background-color: #ab5414;
   }
 }
+
+.shipping-line[data-service-code="retire"] span.mr-2 {
+  color: transparent !important;
+}
