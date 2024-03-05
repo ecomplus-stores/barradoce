@@ -19,6 +19,37 @@
     },
     {
       "type": "product-list",
+      "title": "Formas de chocolate para Páscoa",
+      "link": "https://www.barradoce.com.br/categorias/formas-de-chocolate-para-pascoa",
+      "products": [
+        "63a451194834634f731b9c22",
+        "63a458ac4834634f731ba9b9",
+        "60eb53e4f8aba90b3a1551b6",
+        "60eb5387f8aba90b3a15516e",
+        "63a3028c4834634f731a2776",
+        "60eb527af8aba90b3a15508d",
+        "60eb5387f8aba90b3a15516e",
+        "63a449d34834634f731b91a1",
+        "60eb5348f8aba90b3a15514f",
+        "65a4955e2cd6b6595901b85c"
+      ]
+    },
+    {
+      "type": "product-list",
+      "title": "Papéis embrulho para Ovos de Páscoa",
+      "link": "https://www.barradoce.com.br/categorias/papel-embrulho-para-pascoa",
+      "products": [
+        "6594ce732cd6b65959f0f9df",
+        "6594ce492cd6b65959f0f9bd",
+        "63c53fb54834634f7337015f",
+        "63d280b5b9e5be0778470cc9",
+        "61f165287963422eeed4bce4",
+        "6595a4fb2cd6b65959f1eb17",
+        "65ae7fe02cd6b659590cef82"
+      ]
+    },
+    {
+      "type": "product-list",
       "title": "Caixas e latas para Páscoa",
       "link": "https://www.barradoce.com.br/categorias/caixas-e-latas-de-pascoa",
       "products": [
@@ -36,20 +67,6 @@
         "65c3e74e87ab487fbfae799e",
         "65c274122cd6b65959255c87",
         "65c3c0d887ab487fbfae359f"
-      ]
-    },
-    {
-      "type": "product-list",
-      "title": "Papéis embrulho para Ovos de Páscoa",
-      "link": "https://www.barradoce.com.br/categorias/papel-embrulho-para-pascoa",
-      "products": [
-        "6594ce732cd6b65959f0f9df",
-        "6594ce492cd6b65959f0f9bd",
-        "63c53fb54834634f7337015f",
-        "63d280b5b9e5be0778470cc9",
-        "61f165287963422eeed4bce4",
-        "6595a4fb2cd6b65959f1eb17",
-        "65ae7fe02cd6b659590cef82"
       ]
     },
     {
@@ -71,36 +88,10 @@
       "title": "Cortadores de Páscoa"
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "63a99f7e4834634f731f3276:categories:MOLDES DE SILICONE PARA PÁSCOA:/categorias/moldes-de-silicone-para-pascoa",
-      "title": "Moldes de silicone para Páscoa",
-      "link": "https://www.barradoce.com.br/categorias/moldes-de-silicone-para-pascoa"
-    },
-    {
       "type": "brands-carousel",
       "limit": 43,
       "offset": 0,
       "sort": null
-    },
-    {
-      "type": "product-list",
-      "title": "Formas de chocolate para Páscoa",
-      "link": "https://www.barradoce.com.br/categorias/formas-de-chocolate-para-pascoa",
-      "products": [
-        "63a451194834634f731b9c22",
-        "63a458ac4834634f731ba9b9",
-        "60eb53e4f8aba90b3a1551b6",
-        "60eb5387f8aba90b3a15516e",
-        "63a3028c4834634f731a2776",
-        "60eb527af8aba90b3a15508d",
-        "60eb5387f8aba90b3a15516e",
-        "63a449d34834634f731b91a1",
-        "60eb5348f8aba90b3a15514f",
-        "65a4955e2cd6b6595901b85c"
-      ]
     },
     {
       "type": "collection-shelf",
