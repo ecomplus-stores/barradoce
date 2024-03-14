@@ -362,6 +362,6 @@ body, * {
   }
 }
 
-.shipping-line[data-service-code="retire"] span.mr-2 {
+.shipping-line[data-service-code="retire"] span.mr-2, .shipping-line[data-service-code="transporta"] span.mr-2 {
   color: transparent !important;
 }
