@@ -54,11 +54,11 @@ import {
         } else if (((today > 0 && today < 6  && hour >= 11)) && this.serviceCode && this.serviceCode.includes('retire')) {
           return 'A partir de amanhã, após as 14'
         }
-        if (((today === 6) || (today === 0) || (today === 5 && hour >= 11)) && this.serviceCode && this.serviceCode.includes('transporta')) {
+        if (((today === 6) || (today === 0) || (today === 5 && hour >= 11)) && this.serviceCode && this.serviceCode.includes('avulso')) {
           return 'Receba segunda-feira'
-        } else if (((today > 0 && today < 6  && hour < 11)) && this.serviceCode && this.serviceCode.includes('transporta')) {
+        } else if (((today > 0 && today < 6  && hour < 11)) && this.serviceCode && this.serviceCode.includes('avulso')) {
           return 'Receba hoje'
-        } else if (((today > 0 && today < 6  && hour >= 11)) && this.serviceCode && this.serviceCode.includes('transporta')) {
+        } else if (((today > 0 && today < 6  && hour >= 11)) && this.serviceCode && this.serviceCode.includes('avulso')) {
           return 'Receba amanhã'
         }
         if (days) {
