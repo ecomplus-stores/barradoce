@@ -52,7 +52,7 @@ import {
         } else if (((today > 0 && today < 6  && hour < 11)) && this.serviceCode && this.serviceCode.includes('retire')) {
           return 'Hoje mesmo, após as 14h'
         } else if (((today > 0 && today < 6  && hour >= 11)) && this.serviceCode && this.serviceCode.includes('retire')) {
-          return 'A partir de amanhã, após as 14'
+          return 'A partir de amanhã, após as 14h'
         }
         if (((today === 6) || (today === 0) || (today === 5 && hour >= 11)) && this.serviceCode && this.serviceCode.includes('avulso')) {
           return 'Receba segunda-feira'
