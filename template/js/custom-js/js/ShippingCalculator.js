@@ -100,7 +100,8 @@ import {
         isScheduled: false,
         retryTimer: null,
         isWaiting: false,
-        hasCalculated: false
+        hasCalculated: false,
+        isZipCodeError: false
       }
     },
   
@@ -170,6 +171,8 @@ import {
               ) {
                 this.freeFromValue = freeShippingFromValue
               }
+            } else {
+              this.isZipCodeError = response && response.message && response.message.includes('Cep nulo') 
             }
           })
           if (!this.shippingServices.length) {

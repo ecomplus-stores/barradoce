@@ -30,10 +30,19 @@
         </div>
       </div>
     </form>
+
     <transition
       enter-active-class="animated fadeIn"
       leave-active-class="animated position-absolute fadeOut"
     >
+      <div
+        v-if="isZipCodeError"
+        class="alert alert-warning px-3 py-2 mb-2"
+        style="width: 100%; max-width: 370px; z-index: 2"
+        role="alert"
+      >
+        <small>CEP INVÁLIDO, por favor verifique o cep inserido!</small>
+      </div>
       <div
         v-if="canSelectServices && (typeof(selectedService) === undefined || selectedService === null)"
         class="alert alert-warning px-3 py-2 mb-2"
