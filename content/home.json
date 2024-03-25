@@ -18,6 +18,24 @@
       ]
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 5,
+      "page": 1,
+      "collection_id": "63a99cbb4834634f731f2f0d:categories:CONFEITOS E GRANULADOS DE PÁSCOA:/categorias/confeitos-e-granulados-de-pascoa",
+      "title": "Confeitos de açúcar para Páscoa",
+      "link": "https://www.barradoce.com.br/categorias/confeitos-e-granulados-de-pascoa"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "63a996bc4834634f731f27f2:categories:FITAS DECORATIVAS PÁSCOA:/categorias/fitas-decorativas-de-pascoa",
+      "link": "https://www.barradoce.com.br/categorias/fitas-decorativas-de-pascoa",
+      "title": "Fitas decorativas para Páscoa"
+    },
+    {
       "type": "product-list",
       "products": [
         "65a48b8f2cd6b6595901b054",
@@ -107,24 +125,6 @@
       "limit": 43,
       "offset": 0,
       "sort": null
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 5,
-      "page": 1,
-      "collection_id": "63a99cbb4834634f731f2f0d:categories:CONFEITOS E GRANULADOS DE PÁSCOA:/categorias/confeitos-e-granulados-de-pascoa",
-      "title": "Confeitos de açúcar para Páscoa",
-      "link": "https://www.barradoce.com.br/categorias/confeitos-e-granulados-de-pascoa"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_id": "63a996bc4834634f731f27f2:categories:FITAS DECORATIVAS PÁSCOA:/categorias/fitas-decorativas-de-pascoa",
-      "link": "https://www.barradoce.com.br/categorias/fitas-decorativas-de-pascoa",
-      "title": "Fitas decorativas para Páscoa"
     },
     {
       "type": "review-carousel",
