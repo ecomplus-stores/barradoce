@@ -107,18 +107,18 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "63a9ab6d4834634f731f41df:categories:TRANSFERS E FORMAS DECORADAS DE PÁSCOA:/categorias/transfers-e-formas-decoradas-de-pascoa",
-      "link": "https://www.barradoce.com.br/categorias/transfers-e-formas-decoradas-de-pascoa",
-      "title": "Transfers e blisters para Páscoa"
+      "collection_id": "63a9a0934834634f731f34f9:categories:CORTADORES DE PÁSCOA:/categorias/cortadores-de-pascoa",
+      "link": "https://www.barradoce.com.br/categorias/cortadores-de-pascoa",
+      "title": "Cortadores de Páscoa"
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "collection_id": "63a9a0934834634f731f34f9:categories:CORTADORES DE PÁSCOA:/categorias/cortadores-de-pascoa",
-      "link": "https://www.barradoce.com.br/categorias/cortadores-de-pascoa",
-      "title": "Cortadores de Páscoa"
+      "collection_id": "63a9ab6d4834634f731f41df:categories:TRANSFERS E FORMAS DECORADAS DE PÁSCOA:/categorias/transfers-e-formas-decoradas-de-pascoa",
+      "link": "https://www.barradoce.com.br/categorias/transfers-e-formas-decoradas-de-pascoa",
+      "title": "Transfers e blisters para Páscoa"
     },
     {
       "type": "brands-carousel",
