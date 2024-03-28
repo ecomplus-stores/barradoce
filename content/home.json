@@ -19,25 +19,6 @@
     },
     {
       "type": "product-list",
-      "link": "https://www.barradoce.com.br/categorias/papel-embrulho-para-pascoa",
-      "title": "Papel embrulho para Ovos de Páscoa",
-      "products": [
-        "6594ce732cd6b65959f0f9df",
-        "63e63dc4f4167e223c89d365",
-        "63c53fb14834634f73370152",
-        "60eb0e53f8aba90b3a15267e",
-        "63d280b5b9e5be0778470cc9",
-        "63c85d9db9e5be07783da0ce",
-        "61f165287963422eeed4bce4",
-        "6595a52c2cd6b65959f1eb4f",
-        "6595a4fb2cd6b65959f1eb17",
-        "6595a7e02cd6b65959f1f03f",
-        "6595a80e2cd6b65959f1f0a1",
-        "63c55f284834634f73374c2f"
-      ]
-    },
-    {
-      "type": "product-list",
       "title": "Caixas e latas para Páscoa",
       "link": "https://www.barradoce.com.br/categorias/caixas-e-latas-de-pascoa",
       "products": [
@@ -55,6 +36,25 @@
         "65c3e74e87ab487fbfae799e",
         "65c274122cd6b65959255c87",
         "65c3c0d887ab487fbfae359f"
+      ]
+    },
+    {
+      "type": "product-list",
+      "link": "https://www.barradoce.com.br/categorias/papel-embrulho-para-pascoa",
+      "title": "Papel embrulho para Ovos de Páscoa",
+      "products": [
+        "6594ce732cd6b65959f0f9df",
+        "63e63dc4f4167e223c89d365",
+        "63c53fb14834634f73370152",
+        "60eb0e53f8aba90b3a15267e",
+        "63d280b5b9e5be0778470cc9",
+        "63c85d9db9e5be07783da0ce",
+        "61f165287963422eeed4bce4",
+        "6595a52c2cd6b65959f1eb4f",
+        "6595a4fb2cd6b65959f1eb17",
+        "6595a7e02cd6b65959f1f03f",
+        "6595a80e2cd6b65959f1f0a1",
+        "63c55f284834634f73374c2f"
       ]
     },
     {
