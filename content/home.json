@@ -5,15 +5,15 @@
     {
       "type": "banner-slider",
       "autoplay": 9000,
-      "full_width": false,
+      "full_width": true,
       "slides": [
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/promo-pa-sco-80off-desk.webp",
-          "mobile_img": "/img/uploads/promo-pa-sco-80off-mob.webp",
-          "link": "https://www.barradoce.com.br/categorias/pascoa",
-          "alt": "Saldão de produtos para Páscoa, até 40% de desconto. Aproveite!"
+          "img": "/img/uploads/dia-das-ma-es-2024-kit-carimbo-coracoes_desk.jpg",
+          "mobile_img": "/img/uploads/dia-das-ma-es-2024-kit-carimbo-coracoes_mob.jpg",
+          "link": "https://www.barradoce.com.br/produto/kit-carimbos-coracoes-2cm-7pcs-bluestar",
+          "alt": "Dia das Mães | Kit Carimbos Corações 2cm (7pcs) da BlueStar por R$15,80 | BarraDoce"
         }
       ]
     },
