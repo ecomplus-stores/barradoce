@@ -57,7 +57,7 @@ import {
         if (((today === 6) || (today === 0) || ((today === 5 || today === 4) && hour >= 11)) && this.serviceCode && this.serviceCode.includes('avulso')) {
           return 'Receba segunda-feira'
         } else if (((today > 0 && today < 6  && hour < 11)) && this.serviceCode && this.serviceCode.includes('avulso')) {
-          return 'Receba Hoje'
+          return 'Receba Hoje, após as 14'
         } else if (((today > 0 && today < 6  && hour >= 11)) && this.serviceCode && this.serviceCode.includes('avulso')) {
           return 'Receba amanhã'
         }
