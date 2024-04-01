@@ -10,25 +10,115 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/promo-pa-sco-80off-desk.webp",
-          "mobile_img": "/img/uploads/promo-pa-sco-80off-mob.webp",
-          "link": "https://www.barradoce.com.br/categorias/pascoa",
-          "alt": "Saldão de produtos para Páscoa, até 40% de desconto. Aproveite!"
+          "img": "/img/uploads/dia-das-ma-es-2024-kit-carimbo-coracoes_desk.jpg",
+          "mobile_img": "/img/uploads/dia-das-ma-es-2024-kit-carimbo-coracoes_mob.jpg",
+          "link": "https://www.barradoce.com.br/produto/kit-carimbos-coracoes-2cm-7pcs-bluestar",
+          "alt": "Dia das Mães | Kit Carimbos Corações 2cm por R$15,80 | BarraDoce"
         }
       ]
     },
     {
       "type": "product-list",
-      "link": "",
-      "title": "Ingredientes indispensáveis",
+      "title": "Caixas e latas para Páscoa",
+      "link": "https://www.barradoce.com.br/categorias/caixas-e-latas-de-pascoa",
       "products": [
-        "645d506f4bd2e929c1f893da",
-        "6329c1bf73321213f8815a05",
-        "60e88834f8aba90b3a14024f",
-        "60e916c1f8aba90b3a14735e",
-        "60e95281f8aba90b3a147ec9",
-        "60ecbb97f8aba90b3a162a5a"
+        "63c5654e4834634f73375f94",
+        "62eab1aaeb85911216a3bece",
+        "61f165267963422eeed4bcdc",
+        "61f160d67963422eeed4abe8",
+        "63c56cf34834634f7337716e",
+        "60ec8de8f8aba90b3a15f56b",
+        "60ebbc6ef8aba90b3a157c58",
+        "65cf540e87ab487fbfba0ae4",
+        "65cf540d87ab487fbfba0ae2",
+        "61f161037963422eeed4accd",
+        "65c3c0d987ab487fbfae35a3",
+        "65c3e74e87ab487fbfae799e",
+        "65c274122cd6b65959255c87",
+        "65c3c0d887ab487fbfae359f"
       ]
+    },
+    {
+      "type": "product-list",
+      "link": "https://www.barradoce.com.br/categorias/papel-embrulho-para-pascoa",
+      "title": "Papel embrulho para Ovos de Páscoa",
+      "products": [
+        "6594ce732cd6b65959f0f9df",
+        "63e63dc4f4167e223c89d365",
+        "63c53fb14834634f73370152",
+        "60eb0e53f8aba90b3a15267e",
+        "63d280b5b9e5be0778470cc9",
+        "63c85d9db9e5be07783da0ce",
+        "61f165287963422eeed4bce4",
+        "6595a52c2cd6b65959f1eb4f",
+        "6595a4fb2cd6b65959f1eb17",
+        "6595a7e02cd6b65959f1f03f",
+        "6595a80e2cd6b65959f1f0a1",
+        "63c55f284834634f73374c2f"
+      ]
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 5,
+      "page": 1,
+      "collection_id": "63a99cbb4834634f731f2f0d:categories:CONFEITOS E GRANULADOS DE PÁSCOA:/categorias/confeitos-e-granulados-de-pascoa",
+      "title": "Confeitos de açúcar para Páscoa",
+      "link": "https://www.barradoce.com.br/categorias/confeitos-e-granulados-de-pascoa"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "63a996bc4834634f731f27f2:categories:FITAS DECORATIVAS PÁSCOA:/categorias/fitas-decorativas-de-pascoa",
+      "link": "https://www.barradoce.com.br/categorias/fitas-decorativas-de-pascoa",
+      "title": "Fitas decorativas para Páscoa"
+    },
+    {
+      "type": "product-list",
+      "products": [
+        "65a48b8f2cd6b6595901b054",
+        "63a2fbdf4834634f731a180d",
+        "65a4936e2cd6b6595901b739",
+        "63a457b84834634f731ba7cb",
+        "63a44dbb4834634f731b97fb",
+        "63a3028c4834634f731a2776",
+        "63a44cb14834634f731b9614",
+        "63a44eec4834634f731b9985",
+        "63a446a54834634f731b8d2a",
+        "62e520dceb859112169dad75",
+        "60eb53e4f8aba90b3a1551b6",
+        "63a453f34834634f731ba01e",
+        "61f164ae7963422eeed4bb1f",
+        "65a49bc82cd6b6595901be2c",
+        "63a4564c4834634f731ba55e",
+        "65a49be02cd6b6595901be39",
+        "65a9baaa2cd6b65959092c27",
+        "65a43fc82cd6b6595901688a",
+        "62e520b3eb859112169dad36",
+        "60eb28f9f8aba90b3a15363a"
+      ],
+      "link": "https://www.barradoce.com.br/categorias/formas-de-chocolate-para-pascoa",
+      "title": "Formas de chocolate para Páscoa"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "63a9a0934834634f731f34f9:categories:CORTADORES DE PÁSCOA:/categorias/cortadores-de-pascoa",
+      "link": "https://www.barradoce.com.br/categorias/cortadores-de-pascoa",
+      "title": "Cortadores de Páscoa"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "63a9ab6d4834634f731f41df:categories:TRANSFERS E FORMAS DECORADAS DE PÁSCOA:/categorias/transfers-e-formas-decoradas-de-pascoa",
+      "link": "https://www.barradoce.com.br/categorias/transfers-e-formas-decoradas-de-pascoa",
+      "title": "Transfers e blisters para Páscoa"
     },
     {
       "type": "brands-carousel",
