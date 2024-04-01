@@ -47,17 +47,17 @@ import {
         const date = new Date()
         const today = date.getDay()
         const hour = date.getHours()
-        if (((today === 6) || (today === 0) || ((today === 5 || today === 4) && hour >= 11)) && this.serviceCode && this.serviceCode.includes('retire')) {
+        if (((today === 6) || (today === 0) || ((today === 5) && hour >= 11)) && this.serviceCode && this.serviceCode.includes('retire')) {
           return 'Na segunda, após as 14h'
         } else if (((today > 0 && today < 6  && hour < 11)) && this.serviceCode && this.serviceCode.includes('retire')) {
-          return 'Retire Hoje'
+          return 'Retire Hoje, após as 14h'
         } else if (((today > 0 && today < 6  && hour >= 11)) && this.serviceCode && this.serviceCode.includes('retire')) {
           return 'A partir de amanhã, após as 14h'
         }
-        if (((today === 6) || (today === 0) || ((today === 5 || today === 4) && hour >= 11)) && this.serviceCode && this.serviceCode.includes('avulso')) {
+        if (((today === 6) || (today === 0) || ((today === 5) && hour >= 11)) && this.serviceCode && this.serviceCode.includes('avulso')) {
           return 'Receba segunda-feira'
         } else if (((today > 0 && today < 6  && hour < 11)) && this.serviceCode && this.serviceCode.includes('avulso')) {
-          return 'Receba Hoje, após as 14'
+          return 'Receba Hoje, após as 14h'
         } else if (((today > 0 && today < 6  && hour >= 11)) && this.serviceCode && this.serviceCode.includes('avulso')) {
           return 'Receba amanhã'
         }
