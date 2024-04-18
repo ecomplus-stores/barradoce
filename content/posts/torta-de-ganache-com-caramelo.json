@@ -2,6 +2,10 @@
   "date": "2024-04-18T18:04:00.588Z",
   "sections": [
     {
+      "type": "blog-post",
+      "enabled": true
+    },
+    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
